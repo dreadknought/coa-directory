@@ -1,0 +1,77 @@
+<!-- File: public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse Certificates of Analysis by category, product, and lot number." />
+  <title>Certificate of Analysis Portal</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <img
+        src="/logo.svg"
+        alt="Store logo for the Certificate of Analysis portal"
+        class="site-logo"
+      />
+      <h1>Certificate of Analysis Portal</h1>
+      <p class="site-intro">
+        Browse certificates by category, then expand a product and lot number to open the matching COA PDF.
+      </p>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary site navigation">
+    <div class="container">
+      <ul class="nav-list">
+        <li><a href="#main-content">COA Directory</a></li>
+        <li><a href="#help">Help</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-content" class="container main-content" tabindex="-1">
+    <section class="info-panel" aria-labelledby="accessibility-heading">
+      <h2 id="accessibility-heading">Accessibility features</h2>
+      <ul>
+        <li>Keyboard-friendly expand and collapse controls using native details elements.</li>
+        <li>High-contrast text and links.</li>
+        <li>Readable default text size and spacing.</li>
+        <li>Descriptive alternative text for images.</li>
+        <li>ARIA labels for navigation, status messages, and file links.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="directory-heading">
+      <div class="section-header">
+        <h2 id="directory-heading">COA Directory</h2>
+        <button id="expand-all-button" type="button" class="secondary-button">Expand all</button>
+      </div>
+
+      <div id="status-message" class="status-message" aria-live="polite">Loading COA data...</div>
+
+      <div
+        id="coa-tree"
+        class="tree"
+        role="tree"
+        aria-label="Certificate of Analysis directory by category, product, and lot number"
+        hidden
+      ></div>
+    </section>
+
+    <section id="help" class="info-panel" aria-labelledby="help-heading">
+      <h2 id="help-heading">How to use this page</h2>
+      <p>
+        Use the Tab key to move through controls. Press Enter or Space on a category,
+        product, or lot heading to expand or collapse it. Each COA link opens the PDF in a new tab.
+      </p>
+    </section>
+  </main>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

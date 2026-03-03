@@ -1,0 +1,683 @@
+[
+  {
+    "category": "Beverages",
+    "products": [
+      {
+        "product": "Choice Extraction Blood Orange",
+        "lots": [
+          {
+            "lotNumber": "25015688",
+            "sampleNumber": "",
+            "labName": "BADGER LABS",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "BO100coa.pdf",
+                "url": "/coas/beverages/BO100coa.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Choice Extraction Strawberry Lemonade",
+        "lots": [
+          {
+            "lotNumber": "25002796",
+            "sampleNumber": "",
+            "labName": "BADGER LABS",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SL100coa.pdf",
+                "url": "/coas/beverages/SL100coa.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Haze Half n Half Iced Tea",
+        "lots": [
+          {
+            "lotNumber": "HZHH102",
+            "sampleNumber": "",
+            "labName": "Kaycha Labs",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Haze%20COAs.pdf",
+                "url": "/coas/beverages/Haze%20COAs.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Haze Peach Iced Tea",
+        "lots": [
+          {
+            "lotNumber": "HZPE101",
+            "sampleNumber": "",
+            "labName": "Kaycha Labs",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Haze%20COAs.pdf",
+                "url": "/coas/beverages/Haze%20COAs.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Melo Half & Half",
+        "lots": [
+          {
+            "lotNumber": "1335702",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-09-29",
+            "notes": "",
+            "files": [
+              {
+                "name": "melo10.pdf",
+                "url": "/coas/beverages/melo10.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Melo Strawberry Mango",
+        "lots": [
+          {
+            "lotNumber": "1334669",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-09-29",
+            "notes": "",
+            "files": [
+              {
+                "name": "melo10.pdf",
+                "url": "/coas/beverages/melo10.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Melo Wild Berry",
+        "lots": [
+          {
+            "lotNumber": "1334664",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-09-29",
+            "notes": "",
+            "files": [
+              {
+                "name": "melo10.pdf",
+                "url": "/coas/beverages/melo10.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Edibles",
+    "products": [
+      {
+        "product": "CBN THC Liquid",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5885",
+            "sampleNumber": "2510CCH0885.5885",
+            "labName": "",
+            "reportDate": "2025-10-21",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf",
+                "url": "/coas/edibles/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Chocolate Brownie",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5876",
+            "sampleNumber": "2510CCH0885.5876",
+            "labName": "",
+            "reportDate": "2025-10-21",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5876%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Brownie.pdf",
+                "url": "/coas/edibles/2510CCH0885.5876%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Brownie.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Chocolate Chip Cookie",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5879",
+            "sampleNumber": "2510CCH0885.5879",
+            "labName": "",
+            "reportDate": "2025-10-21",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5879%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Chip%20Cookie.pdf",
+                "url": "/coas/edibles/2510CCH0885.5879%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Chip%20Cookie.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Chocolate Supreme Cookie",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5880",
+            "sampleNumber": "2510CCH0885.5880",
+            "labName": "",
+            "reportDate": "2025-10-21",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5880%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Supreme%20Cookie.pdf",
+                "url": "/coas/edibles/2510CCH0885.5880%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Supreme%20Cookie.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Muddy Buddy",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5883",
+            "sampleNumber": "2510CCH0885.5883",
+            "labName": "",
+            "reportDate": "2025-10-21",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5883%20-%20Big%20Box%20Hemp%20Co%20-%20Muddy%20Buddy.pdf",
+                "url": "/coas/edibles/2510CCH0885.5883%20-%20Big%20Box%20Hemp%20Co%20-%20Muddy%20Buddy.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Raspberries & Dark Chocolate W White Chocolate Crunch",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5881",
+            "sampleNumber": "2510CCH0885.5881",
+            "labName": "",
+            "reportDate": "2025-10-21",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5881%20-%20Big%20Box%20Hemp%20Co%20-%20Raspberries%20&%20Dark%20Chocolate%20W_%20White%20Chocolate%20Crunch.pdf",
+                "url": "/coas/edibles/2510CCH0885.5881%20-%20Big%20Box%20Hemp%20Co%20-%20Raspberries%20&%20Dark%20Chocolate%20W_%20White%20Chocolate%20Crunch.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "S'Mores",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5882",
+            "sampleNumber": "2510CCH0885.5882",
+            "labName": "",
+            "reportDate": "2025-10-21",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5882%20-%20Big%20Box%20Hemp%20Co%20-%20S'Mores.pdf",
+                "url": "/coas/edibles/2510CCH0885.5882%20-%20Big%20Box%20Hemp%20Co%20-%20S'Mores.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Strawberry Lemon Drop Cookie",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5878",
+            "sampleNumber": "2510CCH0885.5878",
+            "labName": "",
+            "reportDate": "2025-10-21",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5878%20-%20Big%20Box%20Hemp%20Co%20-%20Strawberry%20Lemon%20Drop%20Cookie.pdf",
+                "url": "/coas/edibles/2510CCH0885.5878%20-%20Big%20Box%20Hemp%20Co%20-%20Strawberry%20Lemon%20Drop%20Cookie.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "THC Liquid",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5884",
+            "sampleNumber": "2510CCH0885.5884",
+            "labName": "",
+            "reportDate": "2025-10-21",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf",
+                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Flower",
+    "products": [
+      {
+        "product": "Canal St Runtz",
+        "lots": [
+          {
+            "lotNumber": "47440122-8",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Canal%20St%20Runtz%2011.5.25%20COA.pdf",
+                "url": "/coas/flower/Canal%20St%20Runtz%2011.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Candy Runtz",
+        "lots": [
+          {
+            "lotNumber": "2503PHS0585.2693",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Candy%20Runtz.pdf",
+                "url": "/coas/flower/Candy%20Runtz.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Cookie Mintz",
+        "lots": [
+          {
+            "lotNumber": "2509CCH0798.4943",
+            "sampleNumber": "2509CCH0798.4943",
+            "labName": "",
+            "reportDate": "2025-09-30",
+            "notes": "",
+            "files": [
+              {
+                "name": "2509CCH0798.4943%20-%20Caroux%20Holdings%20LLC%20-%20Flower%209%20-%20Cookie%20Mintz.pdf",
+                "url": "/coas/flower/2509CCH0798.4943%20-%20Caroux%20Holdings%20LLC%20-%20Flower%209%20-%20Cookie%20Mintz.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Doll Face",
+        "lots": [
+          {
+            "lotNumber": "46840119-17",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-10-19",
+            "notes": "",
+            "files": [
+              {
+                "name": "Doll%20Face%2010.19%20COA.pdf",
+                "url": "/coas/flower/Doll%20Face%2010.19%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Don Mega",
+        "lots": [
+          {
+            "lotNumber": "46840119-18",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-10-19",
+            "notes": "",
+            "files": [
+              {
+                "name": "Don%20Mega%2010.19%20COA.pdf",
+                "url": "/coas/flower/Don%20Mega%2010.19%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Gush Runtz",
+        "lots": [
+          {
+            "lotNumber": "47441121-12",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Gruntz%2011.5.25%20COA.pdf",
+                "url": "/coas/flower/Gruntz%2011.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Halle Berry",
+        "lots": [
+          {
+            "lotNumber": "2503PHS0562.2563",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Halle%20Berry.pdf",
+                "url": "/coas/flower/Halle%20Berry.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "High Octane",
+        "lots": [
+          {
+            "lotNumber": "2503PHS0562.2567",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "High%20Octane.pdf",
+                "url": "/coas/flower/High%20Octane.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hooch",
+        "lots": [
+          {
+            "lotNumber": "2509CCH0798.4942",
+            "sampleNumber": "2509CCH0798.4942",
+            "labName": "",
+            "reportDate": "2025-09-30",
+            "notes": "",
+            "files": [
+              {
+                "name": "2509CCH0798.4942%20-%20Caroux%20Holdings%20LLC%20-%20Flower%208%20-%20Hooch.pdf",
+                "url": "/coas/flower/2509CCH0798.4942%20-%20Caroux%20Holdings%20LLC%20-%20Flower%208%20-%20Hooch.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hood Candy",
+        "lots": [
+          {
+            "lotNumber": "2410PHS1465.6582",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Hood%20Candy.pdf",
+                "url": "/coas/flower/Hood%20Candy.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Icecream Cake",
+        "lots": [
+          {
+            "lotNumber": "46541674-3",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-11-05",
+            "notes": "",
+            "files": [
+              {
+                "name": "ICC%2011.5.25%20COA.pdf",
+                "url": "/coas/flower/ICC%2011.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Lemon Cherry Gelato",
+        "lots": [
+          {
+            "lotNumber": "2508CCH0672.4356",
+            "sampleNumber": "2508CCH0672.4356",
+            "labName": "",
+            "reportDate": "2025-08-30",
+            "notes": "",
+            "files": [
+              {
+                "name": "2508CCH0672.4356%20-%20Caroux%20Holdings%20LLC%20-%20Lemon%20Cherry%20Gelato.pdf",
+                "url": "/coas/flower/2508CCH0672.4356%20-%20Caroux%20Holdings%20LLC%20-%20Lemon%20Cherry%20Gelato.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Lemon Cherry Sherbet",
+        "lots": [
+          {
+            "lotNumber": "6750219-6",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Lemon_Cherry_Sherbet%2011.5.25%20COA.pdf",
+                "url": "/coas/flower/Lemon_Cherry_Sherbet%2011.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Menage",
+        "lots": [
+          {
+            "lotNumber": "2509CCH0798.4941",
+            "sampleNumber": "2509CCH0798.4941",
+            "labName": "",
+            "reportDate": "2025-09-30",
+            "notes": "",
+            "files": [
+              {
+                "name": "2509CCH0798.4941%20-%20Caroux%20Holdings%20LLC%20-%20Flower%207%20-%20Menage.pdf",
+                "url": "/coas/flower/2509CCH0798.4941%20-%20Caroux%20Holdings%20LLC%20-%20Flower%207%20-%20Menage.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Nimbus Snacks",
+        "lots": [
+          {
+            "lotNumber": "46840110-18",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-11-05",
+            "notes": "",
+            "files": [
+              {
+                "name": "Nimbus%20Snacks%2011.5.25%20COA.pdf",
+                "url": "/coas/flower/Nimbus%20Snacks%2011.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Oakland Runtz",
+        "lots": [
+          {
+            "lotNumber": "46840119-20",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-10-19",
+            "notes": "",
+            "files": [
+              {
+                "name": "Oakland%20Runtz%2010.19%20COA.pdf",
+                "url": "/coas/flower/Oakland%20Runtz%2010.19%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Oreoz",
+        "lots": [
+          {
+            "lotNumber": "2509CCH0798.4935",
+            "sampleNumber": "2509CCH0798.4935",
+            "labName": "",
+            "reportDate": "2025-09-30",
+            "notes": "",
+            "files": [
+              {
+                "name": "2509CCH0798.4935%20-%20Caroux%20Holdings%20LLC%20-%20Flower%201%20-%20Oreoz.pdf",
+                "url": "/coas/flower/2509CCH0798.4935%20-%20Caroux%20Holdings%20LLC%20-%20Flower%201%20-%20Oreoz.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Scorpion Tears",
+        "lots": [
+          {
+            "lotNumber": "2509CCH0798.4936",
+            "sampleNumber": "2509CCH0798.4936",
+            "labName": "",
+            "reportDate": "2025-09-30",
+            "notes": "",
+            "files": [
+              {
+                "name": "2509CCH0798.4936%20-%20Caroux%20Holdings%20LLC%20-%20Flower%202%20-%20Scorpion%20Tears.pdf",
+                "url": "/coas/flower/2509CCH0798.4936%20-%20Caroux%20Holdings%20LLC%20-%20Flower%202%20-%20Scorpion%20Tears.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Truth be Toad",
+        "lots": [
+          {
+            "lotNumber": "47440430-21",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-11-05",
+            "notes": "",
+            "files": [
+              {
+                "name": "Truth%20be%20Toad%2011.5.25%20COA.pdf",
+                "url": "/coas/flower/Truth%20be%20Toad%2011.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "White Runtz",
+        "lots": [
+          {
+            "lotNumber": "2412EXL4158.17810",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "White_Runtz_.pdf",
+                "url": "/coas/flower/White_Runtz_.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Zushi",
+        "lots": [
+          {
+            "lotNumber": "46840119-19",
+            "sampleNumber": "",
+            "labName": "",
+            "reportDate": "2025-10-19",
+            "notes": "",
+            "files": [
+              {
+                "name": "Zushi%2010.19%20COA.pdf",
+                "url": "/coas/flower/Zushi%2010.19%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
