@@ -28,7 +28,7 @@
       if (data.length === 0) {
         setStatus("The COA directory is empty.");
       } else {
-        setStatus(`Loaded ${data.length} categor${data.length === 1 ? "y" : "ies"}.`);
+        setStatus(""); //`Loaded ${data.length} categor${data.length === 1 ? "y" : "ies"}.`);
       }
     } catch (error) {
       console.error(error);
