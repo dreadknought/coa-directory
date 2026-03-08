@@ -366,10 +366,18 @@ def git_commit_and_push(repo_root: Path, commit_message: str) -> None:
     run_command(["git", "add", "public/coa-data.json"], cwd=repo_root)
     run_command(["git", "add", "public/coas"], cwd=repo_root)
 
-    status = run_command(["git", "status", "--short"], cwd=repo_root)
-    if not status.stdout.strip():
-        print("No git changes to commit.")
+    diff_result = subprocess.run(
+        ["git", "diff", "--cached", "--quiet"],
+        cwd=str(repo_root),
+        check=False,
+    )
+
+    if diff_result.returncode == 0:
+        print("No staged git changes to commit.")
         return
+
+    if diff_result.returncode != 1:
+        raise RuntimeError("Failed to check staged git changes.")
 
     run_command(["git", "commit", "-m", commit_message], cwd=repo_root)
     run_command(["git", "push", "origin", branch_name], cwd=repo_root)
