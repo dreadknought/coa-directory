@@ -3,13 +3,15 @@
     "category": "Beverages",
     "products": [
       {
-        "product": "Choice Extraction Blood Orange",
+        "product": "100mg Choice Extraction Blood Orange",
+        "sku": "BE-CE-BO",
         "lots": [
           {
             "lotNumber": "25015688",
-            "sampleNumber": "",
-            "labName": "BADGER LABS",
-            "reportDate": "",
+            "sku": "BE-CE-BO",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
             "notes": "",
             "files": [
               {
@@ -21,13 +23,15 @@
         ]
       },
       {
-        "product": "Choice Extraction Strawberry Lemonade",
+        "product": "100mg Choice Extraction Strawberry Lemonade",
+        "sku": "BE-CE-SL",
         "lots": [
           {
             "lotNumber": "25002796",
-            "sampleNumber": "",
-            "labName": "BADGER LABS",
-            "reportDate": "",
+            "sku": "BE-CE-SL",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
             "notes": "",
             "files": [
               {
@@ -39,35 +43,39 @@
         ]
       },
       {
-        "product": "Haze Half n Half Iced Tea",
+        "product": "550mg Choice Extraction Strawberry Lemonade",
+        "sku": "10106",
         "lots": [
           {
-            "lotNumber": "HZHH102",
-            "sampleNumber": "",
-            "labName": "Kaycha Labs",
-            "reportDate": "",
+            "lotNumber": "25002796",
+            "sku": "10106",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Haze%20COAs.pdf",
-                "url": "/coas/beverages/Haze%20COAs.pdf"
+                "name": "SL100coa.pdf",
+                "url": "/coas/beverages/SL100coa.pdf"
               }
             ]
           }
         ]
       },
       {
-        "product": "Haze Peach Iced Tea",
+        "product": "Haze Half & Half",
+        "sku": "BE-HZ-HNH",
         "lots": [
           {
             "lotNumber": "HZPE101",
-            "sampleNumber": "",
-            "labName": "Kaycha Labs",
-            "reportDate": "",
+            "sku": "BE-HZ-HNH",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Haze%20COAs.pdf",
+                "name": "Haze COAs.pdf",
                 "url": "/coas/beverages/Haze%20COAs.pdf"
               }
             ]
@@ -75,13 +83,35 @@
         ]
       },
       {
-        "product": "Melo Half & Half",
+        "product": "Haze Peach Tea",
+        "sku": "BE-HZ-PT",
+        "lots": [
+          {
+            "lotNumber": "HZHH102",
+            "sku": "BE-HZ-PT",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Haze COAs.pdf",
+                "url": "/coas/beverages/Haze%20COAs.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Melo Half and Half",
+        "sku": "BE-ME-HNH",
         "lots": [
           {
             "lotNumber": "1335702",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-09-29",
+            "sku": "BE-ME-HNH",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
             "notes": "",
             "files": [
               {
@@ -94,12 +124,14 @@
       },
       {
         "product": "Melo Strawberry Mango",
+        "sku": "BE-ME-SM",
         "lots": [
           {
             "lotNumber": "1334669",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-09-29",
+            "sku": "BE-ME-SM",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
             "notes": "",
             "files": [
               {
@@ -112,12 +144,14 @@
       },
       {
         "product": "Melo Wild Berry",
+        "sku": "BE-ME-WB",
         "lots": [
           {
             "lotNumber": "1334664",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-09-29",
+            "sku": "BE-ME-WB",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
             "notes": "",
             "files": [
               {
@@ -131,187 +165,22 @@
     ]
   },
   {
-    "category": "Edibles",
-    "products": [
-      {
-        "product": "CBN THC Liquid",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5885",
-            "sampleNumber": "2510CCH0885.5885",
-            "labName": "",
-            "reportDate": "2025-10-21",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf",
-                "url": "/coas/edibles/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Chocolate Brownie",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5876",
-            "sampleNumber": "2510CCH0885.5876",
-            "labName": "",
-            "reportDate": "2025-10-21",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5876%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Brownie.pdf",
-                "url": "/coas/edibles/2510CCH0885.5876%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Brownie.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Chocolate Chip Cookie",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5879",
-            "sampleNumber": "2510CCH0885.5879",
-            "labName": "",
-            "reportDate": "2025-10-21",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5879%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Chip%20Cookie.pdf",
-                "url": "/coas/edibles/2510CCH0885.5879%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Chip%20Cookie.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Chocolate Supreme Cookie",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5880",
-            "sampleNumber": "2510CCH0885.5880",
-            "labName": "",
-            "reportDate": "2025-10-21",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5880%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Supreme%20Cookie.pdf",
-                "url": "/coas/edibles/2510CCH0885.5880%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Supreme%20Cookie.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Muddy Buddy",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5883",
-            "sampleNumber": "2510CCH0885.5883",
-            "labName": "",
-            "reportDate": "2025-10-21",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5883%20-%20Big%20Box%20Hemp%20Co%20-%20Muddy%20Buddy.pdf",
-                "url": "/coas/edibles/2510CCH0885.5883%20-%20Big%20Box%20Hemp%20Co%20-%20Muddy%20Buddy.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Raspberries & Dark Chocolate W White Chocolate Crunch",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5881",
-            "sampleNumber": "2510CCH0885.5881",
-            "labName": "",
-            "reportDate": "2025-10-21",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5881%20-%20Big%20Box%20Hemp%20Co%20-%20Raspberries%20&%20Dark%20Chocolate%20W_%20White%20Chocolate%20Crunch.pdf",
-                "url": "/coas/edibles/2510CCH0885.5881%20-%20Big%20Box%20Hemp%20Co%20-%20Raspberries%20&%20Dark%20Chocolate%20W_%20White%20Chocolate%20Crunch.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "S'Mores",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5882",
-            "sampleNumber": "2510CCH0885.5882",
-            "labName": "",
-            "reportDate": "2025-10-21",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5882%20-%20Big%20Box%20Hemp%20Co%20-%20S'Mores.pdf",
-                "url": "/coas/edibles/2510CCH0885.5882%20-%20Big%20Box%20Hemp%20Co%20-%20S'Mores.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Strawberry Lemon Drop Cookie",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5878",
-            "sampleNumber": "2510CCH0885.5878",
-            "labName": "",
-            "reportDate": "2025-10-21",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5878%20-%20Big%20Box%20Hemp%20Co%20-%20Strawberry%20Lemon%20Drop%20Cookie.pdf",
-                "url": "/coas/edibles/2510CCH0885.5878%20-%20Big%20Box%20Hemp%20Co%20-%20Strawberry%20Lemon%20Drop%20Cookie.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "THC Liquid",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5884",
-            "sampleNumber": "2510CCH0885.5884",
-            "labName": "",
-            "reportDate": "2025-10-21",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf",
-                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "category": "Flower",
     "products": [
       {
-        "product": "Canal St Runtz",
+        "product": "Canal Street Runtz (1/8 oz)",
+        "sku": "FLCANAE",
         "lots": [
           {
             "lotNumber": "47440122-8",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "",
+            "sku": "FLCANAE",
+            "thc": 31.13,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Canal%20St%20Runtz%2011.5.25%20COA.pdf",
+                "name": "Canal St Runtz 11.5.25 COA.pdf",
                 "url": "/coas/flower/Canal%20St%20Runtz%2011.5.25%20COA.pdf"
               }
             ]
@@ -319,17 +188,19 @@
         ]
       },
       {
-        "product": "Candy Runtz",
+        "product": "Candy Runtz (1/8 oz)",
+        "sku": "FLCANDE",
         "lots": [
           {
             "lotNumber": "2503PHS0585.2693",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "",
+            "sku": "FLCANDE",
+            "thc": 27.059,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Candy%20Runtz.pdf",
+                "name": "Candy Runtz.pdf",
                 "url": "/coas/flower/Candy%20Runtz.pdf"
               }
             ]
@@ -337,17 +208,19 @@
         ]
       },
       {
-        "product": "Cookie Mintz",
+        "product": "Cookie Mintz (1/8 oz)",
+        "sku": "FLCOOKE",
         "lots": [
           {
             "lotNumber": "2509CCH0798.4943",
-            "sampleNumber": "2509CCH0798.4943",
-            "labName": "",
-            "reportDate": "2025-09-30",
+            "sku": "FLCOOKE",
+            "thc": 28.09,
+            "netWeight": "3.5g",
+            "coa": "Flower-9",
             "notes": "",
             "files": [
               {
-                "name": "2509CCH0798.4943%20-%20Caroux%20Holdings%20LLC%20-%20Flower%209%20-%20Cookie%20Mintz.pdf",
+                "name": "2509CCH0798.4943 - Caroux Holdings LLC - Flower 9 - Cookie Mintz.pdf",
                 "url": "/coas/flower/2509CCH0798.4943%20-%20Caroux%20Holdings%20LLC%20-%20Flower%209%20-%20Cookie%20Mintz.pdf"
               }
             ]
@@ -355,17 +228,19 @@
         ]
       },
       {
-        "product": "Doll Face",
+        "product": "Doll Face (1/8 oz)",
+        "sku": "FLDOLLE",
         "lots": [
           {
             "lotNumber": "46840119-17",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-10-19",
+            "sku": "FLDOLLE",
+            "thc": 33.46,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Doll%20Face%2010.19%20COA.pdf",
+                "name": "Doll Face 10.19 COA.pdf",
                 "url": "/coas/flower/Doll%20Face%2010.19%20COA.pdf"
               }
             ]
@@ -373,17 +248,19 @@
         ]
       },
       {
-        "product": "Don Mega",
+        "product": "Don Mega (1/8 oz)",
+        "sku": "FLDONME",
         "lots": [
           {
             "lotNumber": "46840119-18",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-10-19",
+            "sku": "FLDONME",
+            "thc": 34.53,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Don%20Mega%2010.19%20COA.pdf",
+                "name": "Don Mega 10.19 COA.pdf",
                 "url": "/coas/flower/Don%20Mega%2010.19%20COA.pdf"
               }
             ]
@@ -391,17 +268,59 @@
         ]
       },
       {
-        "product": "Gush Runtz",
+        "product": "Gas Face (1/8 oz)",
+        "sku": "FLGASFE",
         "lots": [
           {
-            "lotNumber": "47441121-12",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "",
+            "lotNumber": "2503PHS0480.2023",
+            "sku": "FLGASFE",
+            "thc": 28.089,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Gruntz%2011.5.25%20COA.pdf",
+                "name": "gas-face.pdf",
+                "url": "/coas/flower/gas-face.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Gorilla Glue (1/8 oz)",
+        "sku": "FLGORIE",
+        "lots": [
+          {
+            "lotNumber": "2508CCH0656.4261",
+            "sku": "FLGORIE",
+            "thc": 41.492,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "gorilla-glue.pdf",
+                "url": "/coas/flower/gorilla-glue.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Gush Runtz (1/8 oz)",
+        "sku": "FLGRUNE",
+        "lots": [
+          {
+            "lotNumber": "47441121-12",
+            "sku": "FLGRUNE",
+            "thc": 31.61,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Gruntz 11.5.25 COA.pdf",
                 "url": "/coas/flower/Gruntz%2011.5.25%20COA.pdf"
               }
             ]
@@ -409,17 +328,19 @@
         ]
       },
       {
-        "product": "Halle Berry",
+        "product": "Halle Berry (1/8 oz)",
+        "sku": "FLHALLE",
         "lots": [
           {
             "lotNumber": "2503PHS0562.2563",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "",
+            "sku": "FLHALLE",
+            "thc": 31.845,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Halle%20Berry.pdf",
+                "name": "Halle Berry.pdf",
                 "url": "/coas/flower/Halle%20Berry.pdf"
               }
             ]
@@ -427,17 +348,19 @@
         ]
       },
       {
-        "product": "High Octane",
+        "product": "High Octane (1/8 oz)",
+        "sku": "FLHIGHE",
         "lots": [
           {
             "lotNumber": "2503PHS0562.2567",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "",
+            "sku": "FLHIGHE",
+            "thc": 23.94,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "High%20Octane.pdf",
+                "name": "High Octane.pdf",
                 "url": "/coas/flower/High%20Octane.pdf"
               }
             ]
@@ -445,17 +368,19 @@
         ]
       },
       {
-        "product": "Hooch",
+        "product": "Hooch (1/8 oz)",
+        "sku": "FLHOOCE",
         "lots": [
           {
             "lotNumber": "2509CCH0798.4942",
-            "sampleNumber": "2509CCH0798.4942",
-            "labName": "",
-            "reportDate": "2025-09-30",
+            "sku": "FLHOOCE",
+            "thc": 28.496,
+            "netWeight": "3.5g",
+            "coa": "Flower-8",
             "notes": "",
             "files": [
               {
-                "name": "2509CCH0798.4942%20-%20Caroux%20Holdings%20LLC%20-%20Flower%208%20-%20Hooch.pdf",
+                "name": "2509CCH0798.4942 - Caroux Holdings LLC - Flower 8 - Hooch.pdf",
                 "url": "/coas/flower/2509CCH0798.4942%20-%20Caroux%20Holdings%20LLC%20-%20Flower%208%20-%20Hooch.pdf"
               }
             ]
@@ -463,17 +388,19 @@
         ]
       },
       {
-        "product": "Hood Candy",
+        "product": "Hood Candy (1/8 oz)",
+        "sku": "FLHOODE",
         "lots": [
           {
             "lotNumber": "2410PHS1465.6582",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "",
+            "sku": "FLHOODE",
+            "thc": 25.254,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Hood%20Candy.pdf",
+                "name": "Hood Candy.pdf",
                 "url": "/coas/flower/Hood%20Candy.pdf"
               }
             ]
@@ -481,17 +408,19 @@
         ]
       },
       {
-        "product": "Icecream Cake",
+        "product": "Ice Cream Cake (1/8 oz)",
+        "sku": "FLICCE",
         "lots": [
           {
             "lotNumber": "46541674-3",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-11-05",
+            "sku": "FLICCE",
+            "thc": 32.38,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "ICC%2011.5.25%20COA.pdf",
+                "name": "ICC 11.5.25 COA.pdf",
                 "url": "/coas/flower/ICC%2011.5.25%20COA.pdf"
               }
             ]
@@ -499,17 +428,19 @@
         ]
       },
       {
-        "product": "Lemon Cherry Gelato",
+        "product": "Lemon Cherry Gelato (1/8 oz)",
+        "sku": "FLLEMOE",
         "lots": [
           {
             "lotNumber": "2508CCH0672.4356",
-            "sampleNumber": "2508CCH0672.4356",
-            "labName": "",
-            "reportDate": "2025-08-30",
+            "sku": "FLLEMOE",
+            "thc": 26.049,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "2508CCH0672.4356%20-%20Caroux%20Holdings%20LLC%20-%20Lemon%20Cherry%20Gelato.pdf",
+                "name": "2508CCH0672.4356 - Caroux Holdings LLC - Lemon Cherry Gelato.pdf",
                 "url": "/coas/flower/2508CCH0672.4356%20-%20Caroux%20Holdings%20LLC%20-%20Lemon%20Cherry%20Gelato.pdf"
               }
             ]
@@ -517,17 +448,19 @@
         ]
       },
       {
-        "product": "Lemon Cherry Sherbet",
+        "product": "Lemon Cherry Sherbert (1/8 oz)",
+        "sku": "FLSHERE",
         "lots": [
           {
             "lotNumber": "6750219-6",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "",
+            "sku": "FLSHERE",
+            "thc": 29.36,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Lemon_Cherry_Sherbet%2011.5.25%20COA.pdf",
+                "name": "Lemon_Cherry_Sherbet 11.5.25 COA.pdf",
                 "url": "/coas/flower/Lemon_Cherry_Sherbet%2011.5.25%20COA.pdf"
               }
             ]
@@ -535,17 +468,39 @@
         ]
       },
       {
-        "product": "Menage",
+        "product": "Lizard Burger (1/8 oz)",
+        "sku": "FLLIZAE",
         "lots": [
           {
-            "lotNumber": "2509CCH0798.4941",
-            "sampleNumber": "2509CCH0798.4941",
-            "labName": "",
-            "reportDate": "2025-09-30",
+            "lotNumber": "2504CCH0162.1341",
+            "sku": "FLLIZAE",
+            "thc": 23.998,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "2509CCH0798.4941%20-%20Caroux%20Holdings%20LLC%20-%20Flower%207%20-%20Menage.pdf",
+                "name": "lizard-burger.pdf",
+                "url": "/coas/flower/lizard-burger.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Menage (1/8 oz)",
+        "sku": "FLMENAE",
+        "lots": [
+          {
+            "lotNumber": "2509CCH0798.4941",
+            "sku": "FLMENAE",
+            "thc": 30.054,
+            "netWeight": "3.5g",
+            "coa": "Flower-7",
+            "notes": "",
+            "files": [
+              {
+                "name": "2509CCH0798.4941 - Caroux Holdings LLC - Flower 7 - Menage.pdf",
                 "url": "/coas/flower/2509CCH0798.4941%20-%20Caroux%20Holdings%20LLC%20-%20Flower%207%20-%20Menage.pdf"
               }
             ]
@@ -553,17 +508,39 @@
         ]
       },
       {
-        "product": "Nimbus Snacks",
+        "product": "Mule Fuel (1/8 oz)",
+        "sku": "FLMULEE",
         "lots": [
           {
-            "lotNumber": "46840110-18",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-11-05",
+            "lotNumber": "2508CCH0647.4216",
+            "sku": "FLMULEE",
+            "thc": 27.461,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Nimbus%20Snacks%2011.5.25%20COA.pdf",
+                "name": "2508CCH0647.4216 - WNC CBD - Mule Fuel.pdf",
+                "url": "/coas/flower/2508CCH0647.4216%20-%20WNC%20CBD%20-%20Mule%20Fuel.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Nimbus Snacks (1/8 oz)",
+        "sku": "FLNIMBE",
+        "lots": [
+          {
+            "lotNumber": "46840110-18",
+            "sku": "FLNIMBE",
+            "thc": 32.78,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Nimbus Snacks 11.5.25 COA.pdf",
                 "url": "/coas/flower/Nimbus%20Snacks%2011.5.25%20COA.pdf"
               }
             ]
@@ -571,35 +548,63 @@
         ]
       },
       {
-        "product": "Oakland Runtz",
+        "product": "Oakland Runtz (1/8 oz)",
+        "sku": "FLOAKRE",
         "lots": [
           {
             "lotNumber": "46840119-20",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-10-19",
+            "sku": "FLOAKRE",
+            "thc": 35.94,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Oakland%20Runtz%2010.19%20COA.pdf",
+                "name": "Oakland Runtz 10.19 COA.pdf",
                 "url": "/coas/flower/Oakland%20Runtz%2010.19%20COA.pdf"
+              },
+              {
+                "name": "Oakland Runtz 10.19 COA.pdf",
+                "url": "Oakland%20Runtz%2010.19%20COA.pdf"
               }
             ]
           }
         ]
       },
       {
-        "product": "Oreoz",
+        "product": "OMG (1/8 oz)",
+        "sku": "FLOMGE",
         "lots": [
           {
-            "lotNumber": "2509CCH0798.4935",
-            "sampleNumber": "2509CCH0798.4935",
-            "labName": "",
-            "reportDate": "2025-09-30",
+            "lotNumber": "2506CCH0299.2308",
+            "sku": "FLOMGE",
+            "thc": 27.206,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "2509CCH0798.4935%20-%20Caroux%20Holdings%20LLC%20-%20Flower%201%20-%20Oreoz.pdf",
+                "name": "2506CCH0299.2308 - WNC CBD - OMG.pdf",
+                "url": "/coas/flower/2506CCH0299.2308%20-%20WNC%20CBD%20-%20OMG.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Oreoz (1/8 oz)",
+        "sku": "FLOREOE",
+        "lots": [
+          {
+            "lotNumber": "2509CCH0798.4935",
+            "sku": "FLOREOE",
+            "thc": 25.589,
+            "netWeight": "3.5g",
+            "coa": "Flower-1",
+            "notes": "",
+            "files": [
+              {
+                "name": "2509CCH0798.4935 - Caroux Holdings LLC - Flower 1 - Oreoz.pdf",
                 "url": "/coas/flower/2509CCH0798.4935%20-%20Caroux%20Holdings%20LLC%20-%20Flower%201%20-%20Oreoz.pdf"
               }
             ]
@@ -607,17 +612,19 @@
         ]
       },
       {
-        "product": "Scorpion Tears",
+        "product": "Scorpian Tears (1/8 oz)",
+        "sku": "FLSCORE",
         "lots": [
           {
             "lotNumber": "2509CCH0798.4936",
-            "sampleNumber": "2509CCH0798.4936",
-            "labName": "",
-            "reportDate": "2025-09-30",
+            "sku": "FLSCORE",
+            "thc": 25.784,
+            "netWeight": "3.5g",
+            "coa": "Flower-2",
             "notes": "",
             "files": [
               {
-                "name": "2509CCH0798.4936%20-%20Caroux%20Holdings%20LLC%20-%20Flower%202%20-%20Scorpion%20Tears.pdf",
+                "name": "2509CCH0798.4936 - Caroux Holdings LLC - Flower 2 - Scorpion Tears.pdf",
                 "url": "/coas/flower/2509CCH0798.4936%20-%20Caroux%20Holdings%20LLC%20-%20Flower%202%20-%20Scorpion%20Tears.pdf"
               }
             ]
@@ -625,17 +632,59 @@
         ]
       },
       {
-        "product": "Truth be Toad",
+        "product": "Sunset Sherbert (1/8 oz)",
+        "sku": "FLSUNSE",
         "lots": [
           {
-            "lotNumber": "47440430-21",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-11-05",
+            "lotNumber": "26000512",
+            "sku": "FLSUNSE",
+            "thc": 28.475,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Truth%20be%20Toad%2011.5.25%20COA.pdf",
+                "name": "sunset-sherbert.pdf",
+                "url": "/coas/flower/sunset-sherbert.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Superboof (1/8 oz)",
+        "sku": "FLSUPEE",
+        "lots": [
+          {
+            "lotNumber": "2503PHS0626.2976",
+            "sku": "FLSUPEE",
+            "thc": 24.839,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "super-boof.pdf",
+                "url": "/coas/flower/super-boof.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Truth be Toad (1/8 oz)",
+        "sku": "FLTOADE",
+        "lots": [
+          {
+            "lotNumber": "47440430-21",
+            "sku": "FLTOADE",
+            "thc": 35.92,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Truth be Toad 11.5.25 COA.pdf",
                 "url": "/coas/flower/Truth%20be%20Toad%2011.5.25%20COA.pdf"
               }
             ]
@@ -643,13 +692,15 @@
         ]
       },
       {
-        "product": "White Runtz",
+        "product": "White Runtz (1/8 oz)",
+        "sku": "FLWHITE",
         "lots": [
           {
             "lotNumber": "2412EXL4158.17810",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "",
+            "sku": "FLWHITE",
+            "thc": 27.983,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
@@ -661,17 +712,19 @@
         ]
       },
       {
-        "product": "Zushi",
+        "product": "Zushi (1/8 oz)",
+        "sku": "FLZUSHE",
         "lots": [
           {
             "lotNumber": "46840119-19",
-            "sampleNumber": "",
-            "labName": "",
-            "reportDate": "2025-10-19",
+            "sku": "FLZUSHE",
+            "thc": 31.89,
+            "netWeight": "3.5g",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Zushi%2010.19%20COA.pdf",
+                "name": "Zushi 10.19 COA.pdf",
                 "url": "/coas/flower/Zushi%2010.19%20COA.pdf"
               }
             ]
