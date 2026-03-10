@@ -5,13 +5,18 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
-from dataclasses import dataclass
-from pathlib import Path
 import shutil
 import subprocess
+import time
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
-from urllib.parse import unquote
+from urllib.parse import unquote, urljoin
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 
 def log(message: str) -> None:
@@ -33,28 +38,37 @@ class Paths:
     BEVERAGES_SOURCE_DIR: Path
     BEVERAGES_TARGET_DIR: Path
     OUTPUT_JSON_PATH: Path
+    BUILD_INFO_PATH: Path
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 BASE_DIR = SCRIPT_DIR.parent
-COA_SOURCE_DIR = BASE_DIR / "COAs"
-COA_TARGET_DIR = BASE_DIR / "public" / "coas"
+COA_SOURCE_DIR = BASE_DIR / 'COAs'
+COA_TARGET_DIR = BASE_DIR / 'public' / 'coas'
 
 PATHS = Paths(
     SCRIPT_DIR=SCRIPT_DIR,
     BASE_DIR=BASE_DIR,
-    CSV_SOURCE_PATH=BASE_DIR / "skus.csv",
-    CSV_TARGET_PATH=BASE_DIR / "data" / "skus.csv",
+    CSV_SOURCE_PATH=BASE_DIR / 'skus.csv',
+    CSV_TARGET_PATH=BASE_DIR / 'data' / 'skus.csv',
     COA_SOURCE_DIR=COA_SOURCE_DIR,
     COA_TARGET_DIR=COA_TARGET_DIR,
-    FLOWER_SOURCE_DIR=COA_SOURCE_DIR / "flower",
-    FLOWER_TARGET_DIR=COA_TARGET_DIR / "flower",
-    EDIBLES_SOURCE_DIR=COA_SOURCE_DIR / "edibles",
-    EDIBLES_TARGET_DIR=COA_TARGET_DIR / "edibles",
-    BEVERAGES_SOURCE_DIR=COA_SOURCE_DIR / "beverages",
-    BEVERAGES_TARGET_DIR=COA_TARGET_DIR / "beverages",
-    OUTPUT_JSON_PATH=BASE_DIR / "public" / "coa-data.json",
+    FLOWER_SOURCE_DIR=COA_SOURCE_DIR / 'flower',
+    FLOWER_TARGET_DIR=COA_TARGET_DIR / 'flower',
+    EDIBLES_SOURCE_DIR=COA_SOURCE_DIR / 'edibles',
+    EDIBLES_TARGET_DIR=COA_TARGET_DIR / 'edibles',
+    BEVERAGES_SOURCE_DIR=COA_SOURCE_DIR / 'beverages',
+    BEVERAGES_TARGET_DIR=COA_TARGET_DIR / 'beverages',
+    OUTPUT_JSON_PATH=BASE_DIR / 'public' / 'coa-data.json',
+    BUILD_INFO_PATH=BASE_DIR / 'public' / 'build-info.json',
 )
+
+DEFAULT_SITE_BASE_URL = os.environ.get('COA_SITE_BASE_URL', 'https://coa.dthemp.com')
+AUTO_PUSH = True
+VERIFY_DEPLOYMENT = True
+VERIFY_TIMEOUT_SECONDS = 600
+VERIFY_POLL_INTERVAL_SECONDS = 10
+HTTP_TIMEOUT_SECONDS = 20
 
 
 @dataclass(frozen=True)
@@ -86,9 +100,9 @@ def run_command(cmd: list[str], cwd: Path) -> subprocess.CompletedProcess:
         check=False,
     )
     if result.stdout.strip():
-        log(f"stdout:\n{result.stdout.strip()}")
+        log(f'stdout:\n{result.stdout.strip()}')
     if result.stderr.strip():
-        log(f"stderr:\n{result.stderr.strip()}")
+        log(f'stderr:\n{result.stderr.strip()}')
     if result.returncode != 0:
         raise RuntimeError(
             f"Command failed: {' '.join(cmd)}\n"
@@ -100,7 +114,6 @@ def run_command(cmd: list[str], cwd: Path) -> subprocess.CompletedProcess:
 
 def parse_tags(raw_tags: str) -> dict[str, Any]:
     tags_dict: dict[str, Any] = {}
-
     if not raw_tags:
         return tags_dict
 
@@ -108,13 +121,11 @@ def parse_tags(raw_tags: str) -> dict[str, Any]:
         tag = part.strip()
         if not tag:
             continue
-
         if '=' in tag:
             key, value = tag.split('=', 1)
             tags_dict[key.strip()] = value.strip()
         else:
             tags_dict[tag] = True
-
     return tags_dict
 
 
@@ -122,7 +133,6 @@ def parse_thc(tags_dict: dict[str, Any]) -> float:
     raw_value = str(tags_dict.get('thc', '')).strip()
     if not raw_value:
         return 0.0
-
     try:
         return float(raw_value.removesuffix('%').strip())
     except ValueError:
@@ -141,7 +151,6 @@ def _collect_indexed_coa_refs(tags_dict: dict[str, Any]) -> list[CoaRef]:
         match = pattern.match(str(key))
         if not match:
             continue
-
         idx = int(match.group(1))
         field_name = match.group(2)
         grouped.setdefault(idx, {})[field_name] = str(value).strip()
@@ -152,12 +161,9 @@ def _collect_indexed_coa_refs(tags_dict: dict[str, Any]) -> list[CoaRef]:
         lot = item.get('lot', '').strip()
         file_name = _decode_file_name(item.get('file', ''))
         url = item.get('url', '').strip()
-
         if not lot and not file_name and not url:
             continue
-
         refs.append(CoaRef(lot=lot, file=file_name, url=url))
-
     return refs
 
 
@@ -173,19 +179,15 @@ def parse_coa_refs(tags_dict: dict[str, Any], raw_tags: str = '') -> list[CoaRef
             parsed = json.loads(raw_json)
         except json.JSONDecodeError:
             parsed = None
-
         if isinstance(parsed, list):
             for item in parsed:
                 if not isinstance(item, dict):
                     continue
-
                 lot = str(item.get('lot', '')).strip()
                 file_name = _decode_file_name(str(item.get('file', '')))
                 url = str(item.get('url', '')).strip()
-
                 if lot or file_name or url:
                     coa_refs.append(CoaRef(lot=lot, file=file_name, url=url))
-
         if coa_refs:
             return coa_refs
 
@@ -195,9 +197,9 @@ def parse_coa_refs(tags_dict: dict[str, Any], raw_tags: str = '') -> list[CoaRef
     if lot or file_name or url:
         return [CoaRef(lot=lot, file=file_name, url=url)]
 
-    lots = re.findall(r'["\[]?lot["\]]?\s*[:=]\s*"([^"]*)"', raw_tags or '')
-    files = re.findall(r'["\[]?file["\]]?\s*[:=]\s*"([^"]*)"', raw_tags or '')
-    urls = re.findall(r'["\[]?url["\]]?\s*[:=]\s*"([^"]*)"', raw_tags or '')
+    lots = re.findall(r'[^A-Za-z]lot\s*[:=]\s*"?([^";\]\}]*)', f' {raw_tags or ""}')
+    files = re.findall(r'[^A-Za-z]file\s*[:=]\s*"?([^";\]\}]*)', f' {raw_tags or ""}')
+    urls = re.findall(r'[^A-Za-z]url\s*[:=]\s*"?([^";\]\}]*)', f' {raw_tags or ""}')
     n = max(len(lots), len(files), len(urls), 0)
 
     for idx in range(n):
@@ -211,7 +213,6 @@ def parse_coa_refs(tags_dict: dict[str, Any], raw_tags: str = '') -> list[CoaRef
             file_name = file_name.strip()
 
         file_name = _decode_file_name(file_name)
-
         if lot or file_name or url:
             coa_refs.append(CoaRef(lot=lot, file=file_name, url=url))
 
@@ -223,10 +224,8 @@ def extract_product_tags(csv_path: str | Path) -> list[Row]:
     results: list[Row] = []
 
     log(f'Reading CSV: {csv_path}')
-
     with csv_path.open('r', encoding='utf-8-sig', newline='') as f:
         reader = csv.DictReader(f)
-
         for row_index, row in enumerate(reader, start=1):
             product_name = (row.get('product_name') or row.get('name') or '').strip()
             sku = (row.get('sku') or row.get('SKU') or '').strip()
@@ -270,20 +269,17 @@ def normalize_category(product_category: str, coa_refs: list[CoaRef] | None = No
         return 'Edibles'
     if 'beverage' in category or any('/beverages/' in url for url in urls):
         return 'Beverages'
-
     return 'Uncategorized'
 
 
 def get_source_and_target_dirs(row: Row) -> tuple[Path, Path] | None:
     category = normalize_category(row.product_category, row.coa_refs)
-
     if category == 'Flower':
         return PATHS.FLOWER_SOURCE_DIR, PATHS.FLOWER_TARGET_DIR
     if category == 'Edibles':
         return PATHS.EDIBLES_SOURCE_DIR, PATHS.EDIBLES_TARGET_DIR
     if category == 'Beverages':
         return PATHS.BEVERAGES_SOURCE_DIR, PATHS.BEVERAGES_TARGET_DIR
-
     return None
 
 
@@ -295,6 +291,7 @@ def ensure_directories() -> None:
     PATHS.EDIBLES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.BEVERAGES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.OUTPUT_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
+    PATHS.BUILD_INFO_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 
 def copy_supporting_files(rows: list[Row]) -> None:
@@ -314,15 +311,12 @@ def copy_supporting_files(rows: list[Row]) -> None:
             continue
 
         source_dir, target_dir = dirs
-
         for ref in row.coa_refs:
             if not ref.file:
                 log(f'Skipping sku={row.sku or "<no sku>"} lot={ref.lot or "<no lot>"}: no file name present.')
                 continue
-
             src = source_dir / ref.file
             dst = target_dir / ref.file
-
             if src.is_file():
                 shutil.copy2(src, dst)
                 copied_files += 1
@@ -344,26 +338,14 @@ def build_nested_tree(rows: list[Row]) -> list[dict[str, Any]]:
         category = normalize_category(row.product_category, row.coa_refs)
         product_name = row.product_name or 'Unnamed Product'
 
-        category_bucket = categories.setdefault(
-            category,
-            {
-                'category': category,
-                'products': {},
-            },
-        )
-
+        category_bucket = categories.setdefault(category, {'category': category, 'products': {}})
         product_bucket = category_bucket['products'].setdefault(
             product_name,
-            {
-                'product': product_name,
-                'sku': row.sku,
-                'lots': {},
-            },
+            {'product': product_name, 'sku': row.sku, 'lots': {}},
         )
 
         for ref in row.coa_refs:
             lot_key = ref.lot or 'UNSPECIFIED'
-
             lot_bucket = product_bucket['lots'].setdefault(
                 lot_key,
                 {
@@ -377,11 +359,7 @@ def build_nested_tree(rows: list[Row]) -> list[dict[str, Any]]:
                 },
             )
 
-            file_entry = {
-                'name': ref.file or 'COA.pdf',
-                'url': ref.url or '#',
-            }
-
+            file_entry = {'name': ref.file or 'COA.pdf', 'url': ref.url or '#'}
             if file_entry not in lot_bucket['files']:
                 lot_bucket['files'].append(file_entry)
 
@@ -396,49 +374,62 @@ def build_nested_tree(rows: list[Row]) -> list[dict[str, Any]]:
                 lot_bucket['coa'] = row.coa
 
     nested_tree: list[dict[str, Any]] = []
-
     for category_name in sorted(categories.keys(), key=str.casefold):
         category_bucket = categories[category_name]
         products_output: list[dict[str, Any]] = []
-
         for product_name in sorted(category_bucket['products'].keys(), key=str.casefold):
             product_bucket = category_bucket['products'][product_name]
-            lots_output: list[dict[str, Any]] = []
-
-            for lot_key in sorted(product_bucket['lots'].keys(), key=str.casefold):
-                lots_output.append(product_bucket['lots'][lot_key])
-
-            products_output.append(
-                {
-                    'product': product_name,
-                    'sku': product_bucket['sku'],
-                    'lots': lots_output,
-                }
-            )
-
-        nested_tree.append(
-            {
-                'category': category_name,
-                'products': products_output,
-            }
-        )
-
+            lots_output = [product_bucket['lots'][lot_key] for lot_key in sorted(product_bucket['lots'].keys(), key=str.casefold)]
+            products_output.append({'product': product_name, 'sku': product_bucket['sku'], 'lots': lots_output})
+        nested_tree.append({'category': category_name, 'products': products_output})
     return nested_tree
 
 
-def write_json(output_path: Path, payload: list[dict[str, Any]]) -> None:
+def write_json(output_path: Path, payload: Any) -> None:
     log(f'Writing JSON output to {output_path}')
     with output_path.open('w', encoding='utf-8') as output_file:
         json.dump(payload, output_file, indent=2, ensure_ascii=False)
         output_file.write('\n')
 
 
+def generate_build_number() -> str:
+    return datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')
+
+
 def get_current_branch(repo_root: Path) -> str:
-    result = run_command(
-        ['git', 'rev-parse', '--abbrev-ref', 'HEAD'],
-        cwd=repo_root,
-    )
+    result = run_command(['git', 'rev-parse', '--abbrev-ref', 'HEAD'], cwd=repo_root)
     return result.stdout.strip()
+
+
+def get_current_commit(repo_root: Path) -> str:
+    result = run_command(['git', 'rev-parse', '--short', 'HEAD'], cwd=repo_root)
+    return result.stdout.strip()
+
+
+def build_build_info(repo_root: Path, build_number: str, row_count: int, tagged_row_count: int, payload: list[dict[str, Any]]) -> dict[str, Any]:
+    product_count = sum(len(category.get('products', [])) for category in payload)
+    lot_count = sum(len(product.get('lots', [])) for category in payload for product in category.get('products', []))
+    file_count = sum(
+        len(lot.get('files', []))
+        for category in payload
+        for product in category.get('products', [])
+        for lot in product.get('lots', [])
+    )
+    branch = get_current_branch(repo_root)
+    commit = get_current_commit(repo_root)
+    built_at_utc = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
+    return {
+        'buildNumber': build_number,
+        'builtAtUtc': built_at_utc,
+        'branch': branch,
+        'sourceCommit': commit,
+        'rowCount': row_count,
+        'rowsWithCoaRefs': tagged_row_count,
+        'categoryCount': len(payload),
+        'productCount': product_count,
+        'lotCount': lot_count,
+        'fileCount': file_count,
+    }
 
 
 def git_commit_and_push(repo_root: Path, commit_message: str) -> None:
@@ -448,18 +439,13 @@ def git_commit_and_push(repo_root: Path, commit_message: str) -> None:
 
     run_command(['git', 'add', 'data/skus.csv'], cwd=repo_root)
     run_command(['git', 'add', 'public/coa-data.json'], cwd=repo_root)
+    run_command(['git', 'add', 'public/build-info.json'], cwd=repo_root)
     run_command(['git', 'add', 'public/coas'], cwd=repo_root)
 
-    diff_result = subprocess.run(
-        ['git', 'diff', '--cached', '--quiet'],
-        cwd=str(repo_root),
-        check=False,
-    )
-
+    diff_result = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=str(repo_root), check=False)
     if diff_result.returncode == 0:
         log('No staged git changes to commit.')
         return
-
     if diff_result.returncode != 1:
         raise RuntimeError('Failed to check staged git changes.')
 
@@ -467,14 +453,97 @@ def git_commit_and_push(repo_root: Path, commit_message: str) -> None:
     run_command(['git', 'commit', '-m', commit_message], cwd=repo_root)
     log(f'Pushing to origin/{branch_name}')
     run_command(['git', 'push', 'origin', branch_name], cwd=repo_root)
-
     log(f'Committed and pushed to origin/{branch_name}')
 
 
+def http_get_json(url: str) -> dict[str, Any]:
+    request = Request(url, headers={'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'User-Agent': 'coa-build-check/1.0'})
+    with urlopen(request, timeout=HTTP_TIMEOUT_SECONDS) as response:
+        body = response.read().decode('utf-8')
+    return json.loads(body)
+
+
+def http_check_url(url: str) -> tuple[int, str]:
+    request = Request(url, headers={'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'User-Agent': 'coa-build-check/1.0'})
+    try:
+        with urlopen(request, timeout=HTTP_TIMEOUT_SECONDS) as response:
+            return int(getattr(response, 'status', 200) or 200), response.geturl()
+    except HTTPError as exc:
+        return int(exc.code), url
+    except URLError as exc:
+        raise RuntimeError(f'Network error for {url}: {exc}') from exc
+
+
+def collect_unique_coa_urls(rows: list[Row]) -> list[str]:
+    urls: set[str] = set()
+    for row in rows:
+        for ref in row.coa_refs:
+            url = (ref.url or '').strip()
+            if url:
+                urls.add(url)
+    return sorted(urls)
+
+
+def wait_for_deployed_build(site_base_url: str, expected_build_number: str) -> None:
+    build_info_url = urljoin(site_base_url.rstrip('/') + '/', 'build-info.json')
+    deadline = time.time() + VERIFY_TIMEOUT_SECONDS
+    attempt = 0
+
+    while time.time() < deadline:
+        attempt += 1
+        log(f'Verify attempt {attempt}: checking deployed build info at {build_info_url}')
+        try:
+            remote_build_info = http_get_json(build_info_url)
+            remote_build_number = str(remote_build_info.get('buildNumber', '')).strip()
+            log(f'Deployed buildNumber={remote_build_number or "<missing>"}')
+            if remote_build_number == expected_build_number:
+                log(f'Deployed site is on expected buildNumber={expected_build_number}')
+                return
+        except Exception as exc:
+            log(f'Verify attempt {attempt} could not read build info yet: {exc}')
+
+        time.sleep(VERIFY_POLL_INTERVAL_SECONDS)
+
+    raise RuntimeError(
+        f'Deployed site did not update to buildNumber={expected_build_number} '
+        f'within {VERIFY_TIMEOUT_SECONDS} seconds.'
+    )
+
+
+def verify_coa_urls(site_base_url: str, rows: list[Row]) -> None:
+    relative_urls = collect_unique_coa_urls(rows)
+    if not relative_urls:
+        log('No COA URLs found to verify.')
+        return
+
+    log(f'Verifying {len(relative_urls)} unique COA URLs against {site_base_url}')
+    failures: list[tuple[str, int]] = []
+
+    for index, relative_url in enumerate(relative_urls, start=1):
+        absolute_url = urljoin(site_base_url.rstrip('/') + '/', relative_url.lstrip('/'))
+        status_code, final_url = http_check_url(absolute_url)
+        if 200 <= status_code < 400:
+            log(f'URL OK [{index}/{len(relative_urls)}] {status_code} {absolute_url} -> {final_url}')
+        else:
+            log(f'URL FAIL [{index}/{len(relative_urls)}] {status_code} {absolute_url}')
+            failures.append((absolute_url, status_code))
+
+    if failures:
+        failure_lines = '\n'.join(f'  - {status} {url}' for url, status in failures)
+        raise RuntimeError(f'COA URL verification failed for {len(failures)} URL(s):\n{failure_lines}')
+
+    log(f'All {len(relative_urls)} COA URLs returned non-error HTTP status codes.')
+
+
 def main() -> None:
+    site_base_url = DEFAULT_SITE_BASE_URL
+    build_number = generate_build_number()
+
     log('Starting build-coa-json run.')
     log(f'Base dir: {PATHS.BASE_DIR}')
     log(f'CSV source path: {PATHS.CSV_SOURCE_PATH}')
+    log(f'Site base URL: {site_base_url}')
+    log(f'Build number: {build_number}')
 
     if not PATHS.CSV_SOURCE_PATH.is_file():
         raise FileNotFoundError(PATHS.CSV_SOURCE_PATH)
@@ -491,17 +560,26 @@ def main() -> None:
     payload = build_nested_tree(rows)
     write_json(PATHS.OUTPUT_JSON_PATH, payload)
 
+    build_info = build_build_info(
+        repo_root=PATHS.BASE_DIR,
+        build_number=build_number,
+        row_count=len(rows),
+        tagged_row_count=tagged_rows,
+        payload=payload,
+    )
+    write_json(PATHS.BUILD_INFO_PATH, build_info)
+
     log(f'Copied CSV to: {PATHS.CSV_TARGET_PATH}')
     log(f'Wrote JSON to: {PATHS.OUTPUT_JSON_PATH}')
+    log(f'Wrote build info to: {PATHS.BUILD_INFO_PATH}')
     log(f'Built {len(payload)} categories.')
 
-    AUTO_PUSH = True
-
     if AUTO_PUSH:
-        git_commit_and_push(
-            repo_root=PATHS.BASE_DIR,
-            commit_message='Update COA data and assets',
-        )
+        git_commit_and_push(repo_root=PATHS.BASE_DIR, commit_message=f'Update COA data and assets build {build_number}')
+
+    if VERIFY_DEPLOYMENT:
+        wait_for_deployed_build(site_base_url=site_base_url, expected_build_number=build_number)
+        verify_coa_urls(site_base_url=site_base_url, rows=rows)
 
     log('Done.')
 
