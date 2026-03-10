@@ -248,6 +248,26 @@
         ]
       },
       {
+        "product": "Dante's Inferno (1/8 oz)",
+        "sku": "FLDANTE",
+        "lots": [
+          {
+            "lotNumber": "2503PHS0562.2562",
+            "sku": "FLDANTE",
+            "thc": 23.623,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2503PHS0562.2562 - Go North Hemp - Dante's Inferno.pdf",
+                "url": "/coas/flower/2503PHS0562.2562%20-%20Go%20North%20Hemp%20-%20Dante%27s%20Inferno.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Doll Face (1/8 oz)",
         "sku": "FLDOLLE",
         "lots": [
