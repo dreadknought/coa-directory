@@ -5,12 +5,17 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 from dataclasses import dataclass
 from pathlib import Path
 import shutil
 import subprocess
 from typing import Any
 from urllib.parse import unquote
+
+
+def log(message: str) -> None:
+    print(f'[build-coa-json] {message}', flush=True)
 
 
 @dataclass(frozen=True)
@@ -72,6 +77,7 @@ class Row:
 
 
 def run_command(cmd: list[str], cwd: Path) -> subprocess.CompletedProcess:
+    log(f"Running command: {' '.join(cmd)} [cwd={cwd}]")
     result = subprocess.run(
         cmd,
         cwd=str(cwd),
@@ -79,6 +85,10 @@ def run_command(cmd: list[str], cwd: Path) -> subprocess.CompletedProcess:
         capture_output=True,
         check=False,
     )
+    if result.stdout.strip():
+        log(f"stdout:\n{result.stdout.strip()}")
+    if result.stderr.strip():
+        log(f"stderr:\n{result.stderr.strip()}")
     if result.returncode != 0:
         raise RuntimeError(
             f"Command failed: {' '.join(cmd)}\n"
@@ -94,13 +104,13 @@ def parse_tags(raw_tags: str) -> dict[str, Any]:
     if not raw_tags:
         return tags_dict
 
-    for part in raw_tags.split(";"):
+    for part in raw_tags.split(';'):
         tag = part.strip()
         if not tag:
             continue
 
-        if "=" in tag:
-            key, value = tag.split("=", 1)
+        if '=' in tag:
+            key, value = tag.split('=', 1)
             tags_dict[key.strip()] = value.strip()
         else:
             tags_dict[tag] = True
@@ -109,52 +119,101 @@ def parse_tags(raw_tags: str) -> dict[str, Any]:
 
 
 def parse_thc(tags_dict: dict[str, Any]) -> float:
-    raw_value = str(tags_dict.get("thc", "")).strip()
+    raw_value = str(tags_dict.get('thc', '')).strip()
     if not raw_value:
         return 0.0
 
     try:
-        return float(raw_value.removesuffix("%").strip())
+        return float(raw_value.removesuffix('%').strip())
     except ValueError:
         return 0.0
 
 
-def parse_coa_refs(tags_dict: dict[str, Any]) -> list[CoaRef]:
-    coa_refs: list[CoaRef] = []
+def _decode_file_name(value: str) -> str:
+    return unquote((value or '').strip())
 
-    raw_json = str(tags_dict.get("json", "")).strip()
+
+def _collect_indexed_coa_refs(tags_dict: dict[str, Any]) -> list[CoaRef]:
+    grouped: dict[int, dict[str, str]] = {}
+    pattern = re.compile(r'^coa_ref_(\d+)_(lot|file|url)$')
+
+    for key, value in tags_dict.items():
+        match = pattern.match(str(key))
+        if not match:
+            continue
+
+        idx = int(match.group(1))
+        field_name = match.group(2)
+        grouped.setdefault(idx, {})[field_name] = str(value).strip()
+
+    refs: list[CoaRef] = []
+    for idx in sorted(grouped.keys()):
+        item = grouped[idx]
+        lot = item.get('lot', '').strip()
+        file_name = _decode_file_name(item.get('file', ''))
+        url = item.get('url', '').strip()
+
+        if not lot and not file_name and not url:
+            continue
+
+        refs.append(CoaRef(lot=lot, file=file_name, url=url))
+
+    return refs
+
+
+def parse_coa_refs(tags_dict: dict[str, Any], raw_tags: str = '') -> list[CoaRef]:
+    indexed_refs = _collect_indexed_coa_refs(tags_dict)
+    if indexed_refs:
+        return indexed_refs
+
+    coa_refs: list[CoaRef] = []
+    raw_json = str(tags_dict.get('json', '')).strip()
     if raw_json:
         try:
             parsed = json.loads(raw_json)
-        except json.JSONDecodeError as exc:
-            raise ValueError(f"Invalid json tag: {raw_json}") from exc
+        except json.JSONDecodeError:
+            parsed = None
 
-        if not isinstance(parsed, list):
-            raise ValueError(f"json tag must decode to a list, got {type(parsed).__name__}")
+        if isinstance(parsed, list):
+            for item in parsed:
+                if not isinstance(item, dict):
+                    continue
 
-        for item in parsed:
-            if not isinstance(item, dict):
-                continue
+                lot = str(item.get('lot', '')).strip()
+                file_name = _decode_file_name(str(item.get('file', '')))
+                url = str(item.get('url', '')).strip()
 
-            lot = str(item.get("lot", "")).strip()
-            encoded_file = str(item.get("file", "")).strip()
-            file_name = unquote(encoded_file)
-            url = str(item.get("url", "")).strip()
+                if lot or file_name or url:
+                    coa_refs.append(CoaRef(lot=lot, file=file_name, url=url))
 
-            if not lot and not file_name and not url:
-                continue
+        if coa_refs:
+            return coa_refs
 
-            coa_refs.append(CoaRef(lot=lot, file=file_name, url=url))
-
-        return coa_refs
-
-    lot = str(tags_dict.get("lot", "")).strip()
-    encoded_file = str(tags_dict.get("file", "")).strip()
-    file_name = unquote(encoded_file)
-    url = str(tags_dict.get("url", "")).strip()
-
+    lot = str(tags_dict.get('lot', '')).strip()
+    file_name = _decode_file_name(str(tags_dict.get('file', '')))
+    url = str(tags_dict.get('url', '')).strip()
     if lot or file_name or url:
-        coa_refs.append(CoaRef(lot=lot, file=file_name, url=url))
+        return [CoaRef(lot=lot, file=file_name, url=url)]
+
+    lots = re.findall(r'["\[]?lot["\]]?\s*[:=]\s*"([^"]*)"', raw_tags or '')
+    files = re.findall(r'["\[]?file["\]]?\s*[:=]\s*"([^"]*)"', raw_tags or '')
+    urls = re.findall(r'["\[]?url["\]]?\s*[:=]\s*"([^"]*)"', raw_tags or '')
+    n = max(len(lots), len(files), len(urls), 0)
+
+    for idx in range(n):
+        lot = lots[idx].strip() if idx < len(lots) else ''
+        file_name = files[idx].strip() if idx < len(files) else ''
+        url = urls[idx].strip() if idx < len(urls) else ''
+
+        if 'file=' in lot and not file_name:
+            lot, file_name = lot.split('file=', 1)
+            lot = lot.strip()
+            file_name = file_name.strip()
+
+        file_name = _decode_file_name(file_name)
+
+        if lot or file_name or url:
+            coa_refs.append(CoaRef(lot=lot, file=file_name, url=url))
 
     return coa_refs
 
@@ -163,61 +222,73 @@ def extract_product_tags(csv_path: str | Path) -> list[Row]:
     csv_path = Path(csv_path)
     results: list[Row] = []
 
-    with csv_path.open("r", encoding="utf-8-sig", newline="") as f:
+    log(f'Reading CSV: {csv_path}')
+
+    with csv_path.open('r', encoding='utf-8-sig', newline='') as f:
         reader = csv.DictReader(f)
 
-        for row in reader:
-            product_name = (row.get("product_name") or row.get("name") or "").strip()
-            sku = (row.get("sku") or row.get("SKU") or "").strip()
-            raw_tags = (row.get("tags") or "").strip()
-            product_category = (row.get("product_category") or "").strip()
+        for row_index, row in enumerate(reader, start=1):
+            product_name = (row.get('product_name') or row.get('name') or '').strip()
+            sku = (row.get('sku') or row.get('SKU') or '').strip()
+            raw_tags = (row.get('tags') or '').strip()
+            product_category = (row.get('product_category') or '').strip()
 
             tags_dict = parse_tags(raw_tags)
+            coa_refs = parse_coa_refs(tags_dict, raw_tags)
 
-            results.append(
-                Row(
-                    product_name=product_name,
-                    sku=sku,
-                    raw_tags=raw_tags,
-                    product_category=product_category,
-                    thc=parse_thc(tags_dict),
-                    coa=str(tags_dict.get("coa", "")).strip(),
-                    netwt=str(tags_dict.get("netwt", "")).strip(),
-                    coa_refs=parse_coa_refs(tags_dict),
-                )
+            parsed_row = Row(
+                product_name=product_name,
+                sku=sku,
+                raw_tags=raw_tags,
+                product_category=product_category,
+                thc=parse_thc(tags_dict),
+                coa=str(tags_dict.get('coa', '')).strip(),
+                netwt=str(tags_dict.get('netwt', '')).strip(),
+                coa_refs=coa_refs,
             )
+            results.append(parsed_row)
 
+            if row_index <= 5 or coa_refs:
+                log(
+                    f'Row {row_index}: sku={sku or "<no sku>"} '
+                    f'product={product_name or "<unnamed>"} '
+                    f'category={product_category or "<none>"} '
+                    f'coa_refs={len(coa_refs)}'
+                )
+
+    log(f'Finished reading CSV. Parsed {len(results)} rows.')
     return results
 
 
 def normalize_category(product_category: str, coa_refs: list[CoaRef] | None = None) -> str:
-    category = (product_category or "").strip().casefold()
+    category = (product_category or '').strip().casefold()
     urls = [ref.url.casefold() for ref in (coa_refs or []) if ref.url]
 
-    if "flower" in category or any("/flower/" in url for url in urls):
-        return "Flower"
-    if "edible" in category or any("/edibles/" in url for url in urls):
-        return "Edibles"
-    if "beverage" in category or any("/beverages/" in url for url in urls):
-        return "Beverages"
+    if 'flower' in category or any('/flower/' in url for url in urls):
+        return 'Flower'
+    if 'edible' in category or any('/edibles/' in url for url in urls):
+        return 'Edibles'
+    if 'beverage' in category or any('/beverages/' in url for url in urls):
+        return 'Beverages'
 
-    return "Uncategorized"
+    return 'Uncategorized'
 
 
 def get_source_and_target_dirs(row: Row) -> tuple[Path, Path] | None:
     category = normalize_category(row.product_category, row.coa_refs)
 
-    if category == "Flower":
+    if category == 'Flower':
         return PATHS.FLOWER_SOURCE_DIR, PATHS.FLOWER_TARGET_DIR
-    if category == "Edibles":
+    if category == 'Edibles':
         return PATHS.EDIBLES_SOURCE_DIR, PATHS.EDIBLES_TARGET_DIR
-    if category == "Beverages":
+    if category == 'Beverages':
         return PATHS.BEVERAGES_SOURCE_DIR, PATHS.BEVERAGES_TARGET_DIR
 
     return None
 
 
 def ensure_directories() -> None:
+    log('Ensuring output directories exist.')
     PATHS.CSV_TARGET_PATH.parent.mkdir(parents=True, exist_ok=True)
     PATHS.COA_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.FLOWER_TARGET_DIR.mkdir(parents=True, exist_ok=True)
@@ -227,7 +298,11 @@ def ensure_directories() -> None:
 
 
 def copy_supporting_files(rows: list[Row]) -> None:
+    log(f'Copying source CSV to {PATHS.CSV_TARGET_PATH}')
     shutil.copy2(PATHS.CSV_SOURCE_PATH, PATHS.CSV_TARGET_PATH)
+
+    copied_files = 0
+    missing_files = 0
 
     for row in rows:
         if not row.coa_refs:
@@ -235,12 +310,14 @@ def copy_supporting_files(rows: list[Row]) -> None:
 
         dirs = get_source_and_target_dirs(row)
         if dirs is None:
+            log(f'Skipping sku={row.sku or "<no sku>"}: could not determine category from product_category/url.')
             continue
 
         source_dir, target_dir = dirs
 
         for ref in row.coa_refs:
             if not ref.file:
+                log(f'Skipping sku={row.sku or "<no sku>"} lot={ref.lot or "<no lot>"}: no file name present.')
                 continue
 
             src = source_dir / ref.file
@@ -248,8 +325,13 @@ def copy_supporting_files(rows: list[Row]) -> None:
 
             if src.is_file():
                 shutil.copy2(src, dst)
+                copied_files += 1
+                log(f'Copied COA for sku={row.sku or "<no sku>"}: {src} -> {dst}')
             else:
-                print(f"Warning: source COA file not found: {src}")
+                missing_files += 1
+                log(f'Warning: source COA file not found for sku={row.sku or "<no sku>"}: {src}')
+
+    log(f'Finished copying files. copied_files={copied_files} missing_files={missing_files}')
 
 
 def build_nested_tree(rows: list[Row]) -> list[dict[str, Any]]:
@@ -260,59 +342,58 @@ def build_nested_tree(rows: list[Row]) -> list[dict[str, Any]]:
             continue
 
         category = normalize_category(row.product_category, row.coa_refs)
-        product_name = row.product_name or "Unnamed Product"
+        product_name = row.product_name or 'Unnamed Product'
 
         category_bucket = categories.setdefault(
             category,
             {
-                "category": category,
-                "products": {},
+                'category': category,
+                'products': {},
             },
         )
 
-        product_bucket = category_bucket["products"].setdefault(
+        product_bucket = category_bucket['products'].setdefault(
             product_name,
             {
-                "product": product_name,
-                "sku": row.sku,
-                "lots": {},
+                'product': product_name,
+                'sku': row.sku,
+                'lots': {},
             },
         )
 
         for ref in row.coa_refs:
-            lot_key = ref.lot or "UNSPECIFIED"
+            lot_key = ref.lot or 'UNSPECIFIED'
 
-            lot_bucket = product_bucket["lots"].setdefault(
+            lot_bucket = product_bucket['lots'].setdefault(
                 lot_key,
                 {
-                    "lotNumber": ref.lot or "UNSPECIFIED",
-                    "sku": row.sku,
-                    "thc": row.thc,
-                    "netWeight": row.netwt,
-                    "coa": row.coa,
-                    "notes": "",
-                    "files": [],
+                    'lotNumber': ref.lot or 'UNSPECIFIED',
+                    'sku': row.sku,
+                    'thc': row.thc,
+                    'netWeight': row.netwt,
+                    'coa': row.coa,
+                    'notes': '',
+                    'files': [],
                 },
             )
 
             file_entry = {
-                "name": ref.file or "COA.pdf",
-                "url": ref.url or "#",
+                'name': ref.file or 'COA.pdf',
+                'url': ref.url or '#',
             }
 
-            if file_entry not in lot_bucket["files"]:
-                lot_bucket["files"].append(file_entry)
+            if file_entry not in lot_bucket['files']:
+                lot_bucket['files'].append(file_entry)
 
-        # Keep values refreshed at the product/lot level
-        for lot_bucket in product_bucket["lots"].values():
-            if row.sku and not lot_bucket.get("sku"):
-                lot_bucket["sku"] = row.sku
-            if row.thc and not lot_bucket.get("thc"):
-                lot_bucket["thc"] = row.thc
-            if row.netwt and not lot_bucket.get("netWeight"):
-                lot_bucket["netWeight"] = row.netwt
-            if row.coa and not lot_bucket.get("coa"):
-                lot_bucket["coa"] = row.coa
+        for lot_bucket in product_bucket['lots'].values():
+            if row.sku and not lot_bucket.get('sku'):
+                lot_bucket['sku'] = row.sku
+            if row.thc and not lot_bucket.get('thc'):
+                lot_bucket['thc'] = row.thc
+            if row.netwt and not lot_bucket.get('netWeight'):
+                lot_bucket['netWeight'] = row.netwt
+            if row.coa and not lot_bucket.get('coa'):
+                lot_bucket['coa'] = row.coa
 
     nested_tree: list[dict[str, Any]] = []
 
@@ -320,25 +401,25 @@ def build_nested_tree(rows: list[Row]) -> list[dict[str, Any]]:
         category_bucket = categories[category_name]
         products_output: list[dict[str, Any]] = []
 
-        for product_name in sorted(category_bucket["products"].keys(), key=str.casefold):
-            product_bucket = category_bucket["products"][product_name]
+        for product_name in sorted(category_bucket['products'].keys(), key=str.casefold):
+            product_bucket = category_bucket['products'][product_name]
             lots_output: list[dict[str, Any]] = []
 
-            for lot_key in sorted(product_bucket["lots"].keys(), key=str.casefold):
-                lots_output.append(product_bucket["lots"][lot_key])
+            for lot_key in sorted(product_bucket['lots'].keys(), key=str.casefold):
+                lots_output.append(product_bucket['lots'][lot_key])
 
             products_output.append(
                 {
-                    "product": product_name,
-                    "sku": product_bucket["sku"],
-                    "lots": lots_output,
+                    'product': product_name,
+                    'sku': product_bucket['sku'],
+                    'lots': lots_output,
                 }
             )
 
         nested_tree.append(
             {
-                "category": category_name,
-                "products": products_output,
+                'category': category_name,
+                'products': products_output,
             }
         )
 
@@ -346,70 +427,84 @@ def build_nested_tree(rows: list[Row]) -> list[dict[str, Any]]:
 
 
 def write_json(output_path: Path, payload: list[dict[str, Any]]) -> None:
-    with output_path.open("w", encoding="utf-8") as output_file:
+    log(f'Writing JSON output to {output_path}')
+    with output_path.open('w', encoding='utf-8') as output_file:
         json.dump(payload, output_file, indent=2, ensure_ascii=False)
-        output_file.write("\n")
+        output_file.write('\n')
 
 
 def get_current_branch(repo_root: Path) -> str:
     result = run_command(
-        ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+        ['git', 'rev-parse', '--abbrev-ref', 'HEAD'],
         cwd=repo_root,
     )
     return result.stdout.strip()
 
 
 def git_commit_and_push(repo_root: Path, commit_message: str) -> None:
+    log('Preparing git add/commit/push.')
     branch_name = get_current_branch(repo_root)
+    log(f'Current git branch: {branch_name}')
 
-    run_command(["git", "add", "data/skus.csv"], cwd=repo_root)
-    run_command(["git", "add", "public/coa-data.json"], cwd=repo_root)
-    run_command(["git", "add", "public/coas"], cwd=repo_root)
+    run_command(['git', 'add', 'data/skus.csv'], cwd=repo_root)
+    run_command(['git', 'add', 'public/coa-data.json'], cwd=repo_root)
+    run_command(['git', 'add', 'public/coas'], cwd=repo_root)
 
     diff_result = subprocess.run(
-        ["git", "diff", "--cached", "--quiet"],
+        ['git', 'diff', '--cached', '--quiet'],
         cwd=str(repo_root),
         check=False,
     )
 
     if diff_result.returncode == 0:
-        print("No staged git changes to commit.")
+        log('No staged git changes to commit.')
         return
 
     if diff_result.returncode != 1:
-        raise RuntimeError("Failed to check staged git changes.")
+        raise RuntimeError('Failed to check staged git changes.')
 
-    run_command(["git", "commit", "-m", commit_message], cwd=repo_root)
-    run_command(["git", "push", "origin", branch_name], cwd=repo_root)
+    log(f'Creating git commit: {commit_message}')
+    run_command(['git', 'commit', '-m', commit_message], cwd=repo_root)
+    log(f'Pushing to origin/{branch_name}')
+    run_command(['git', 'push', 'origin', branch_name], cwd=repo_root)
 
-    print(f"Committed and pushed to origin/{branch_name}")
+    log(f'Committed and pushed to origin/{branch_name}')
 
 
 def main() -> None:
+    log('Starting build-coa-json run.')
+    log(f'Base dir: {PATHS.BASE_DIR}')
+    log(f'CSV source path: {PATHS.CSV_SOURCE_PATH}')
+
     if not PATHS.CSV_SOURCE_PATH.is_file():
         raise FileNotFoundError(PATHS.CSV_SOURCE_PATH)
 
     ensure_directories()
 
     rows = extract_product_tags(PATHS.CSV_SOURCE_PATH)
+    tagged_rows = sum(1 for row in rows if row.coa_refs)
+    log(f'Rows with COA refs: {tagged_rows}')
+
     copy_supporting_files(rows)
 
+    log('Building nested COA payload.')
     payload = build_nested_tree(rows)
     write_json(PATHS.OUTPUT_JSON_PATH, payload)
 
-    print(f"Copied CSV to: {PATHS.CSV_TARGET_PATH}")
-    print(f"Wrote JSON to: {PATHS.OUTPUT_JSON_PATH}")
-    print(f"Built {len(payload)} categories.")
+    log(f'Copied CSV to: {PATHS.CSV_TARGET_PATH}')
+    log(f'Wrote JSON to: {PATHS.OUTPUT_JSON_PATH}')
+    log(f'Built {len(payload)} categories.')
 
-    # Change this to False if you want to disable auto-push by default.
     AUTO_PUSH = True
 
     if AUTO_PUSH:
         git_commit_and_push(
             repo_root=PATHS.BASE_DIR,
-            commit_message="Update COA data and assets",
+            commit_message='Update COA data and assets',
         )
 
+    log('Done.')
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()
