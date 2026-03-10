@@ -47,7 +47,7 @@
         "sku": "10106",
         "lots": [
           {
-            "lotNumber": "25002796",
+            "lotNumber": "25020478",
             "sku": "10106",
             "thc": 0.0,
             "netWeight": "",
@@ -55,8 +55,8 @@
             "notes": "",
             "files": [
               {
-                "name": "SL100coa.pdf",
-                "url": "/coas/beverages/SL100coa.pdf"
+                "name": "SL550coa.pdf",
+                "url": "/coas/beverages/SL550coa.pdf"
               }
             ]
           }
@@ -157,6 +157,26 @@
               {
                 "name": "melo10.pdf",
                 "url": "/coas/beverages/melo10.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Pink Lemonade Electric Lemonade",
+        "sku": "10092",
+        "lots": [
+          {
+            "lotNumber": "5578",
+            "sku": "10092",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "electric-lemonade.pdf",
+                "url": "/coas/beverages/electric-lemonade.pdf"
               }
             ]
           }
@@ -562,10 +582,6 @@
               {
                 "name": "Oakland Runtz 10.19 COA.pdf",
                 "url": "/coas/flower/Oakland%20Runtz%2010.19%20COA.pdf"
-              },
-              {
-                "name": "Oakland Runtz 10.19 COA.pdf",
-                "url": "Oakland%20Runtz%2010.19%20COA.pdf"
               }
             ]
           }
@@ -604,8 +620,8 @@
             "notes": "",
             "files": [
               {
-                "name": "2509CCH0798.4935 - Caroux Holdings LLC - Flower 1 - Oreoz.pdf",
-                "url": "/coas/flower/2509CCH0798.4935%20-%20Caroux%20Holdings%20LLC%20-%20Flower%201%20-%20Oreoz.pdf"
+                "name": "COA.pdf",
+                "url": "#"
               }
             ]
           }
