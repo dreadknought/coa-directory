@@ -188,6 +188,26 @@
     "category": "Flower",
     "products": [
       {
+        "product": "Cake Mera (1/8 oz)",
+        "sku": "FLCAKME",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1726",
+            "sku": "FLCAKME",
+            "thc": 21.243,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1726 - Vulcan LLC - Cake Mera.pdf",
+                "url": "/coas/flower/2603CCH0347.1726%20-%20Vulcan%20LLC%20-%20Cake%20Mera.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Canal Street Runtz (1/8 oz)",
         "sku": "FLCANAE",
         "lots": [
@@ -302,6 +322,26 @@
               {
                 "name": "Don Mega 10.19 COA.pdf",
                 "url": "/coas/flower/Don%20Mega%2010.19%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Donkey Kong (1/8 oz)",
+        "sku": "FLDONKE",
+        "lots": [
+          {
+            "lotNumber": "UNSPECIFIED",
+            "sku": "FLDONKE",
+            "thc": 22.43,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "donkey-kong.pdf",
+                "url": "/coas/flower/donkey-kong.pdf"
               }
             ]
           }
@@ -628,6 +668,26 @@
         ]
       },
       {
+        "product": "Oreo Blizzard (1/8 oz)",
+        "sku": "FLOREBE",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1729",
+            "sku": "FLOREBE",
+            "thc": 23.131,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1729 - Vulcan LLC - Oreo Blizzard.pdf",
+                "url": "/coas/flower/2603CCH0347.1729%20-%20Vulcan%20LLC%20-%20Oreo%20Blizzard.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Oreoz (1/8 oz)",
         "sku": "FLOREOE",
         "lots": [
@@ -642,6 +702,26 @@
               {
                 "name": "COA.pdf",
                 "url": "#"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Permanent Chimera (1/8 oz)",
+        "sku": "FLPERME",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1723",
+            "sku": "FLPERME",
+            "thc": 34.215,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1723 - Vulcan LLC - Permanent Chimera.pdf",
+                "url": "/coas/flower/2603CCH0347.1723%20-%20Vulcan%20LLC%20-%20Permanent%20Chimera.pdf"
               }
             ]
           }
