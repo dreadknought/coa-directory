@@ -37,6 +37,8 @@ class Paths:
     EDIBLES_TARGET_DIR: Path
     BEVERAGES_SOURCE_DIR: Path
     BEVERAGES_TARGET_DIR: Path
+    VAPES_SOURCE_DIR: Path
+    VAPES_TARGET_DIR: Path
     OUTPUT_JSON_PATH: Path
     BUILD_INFO_PATH: Path
 
@@ -59,6 +61,8 @@ PATHS = Paths(
     EDIBLES_TARGET_DIR=COA_TARGET_DIR / 'edibles',
     BEVERAGES_SOURCE_DIR=COA_SOURCE_DIR / 'beverages',
     BEVERAGES_TARGET_DIR=COA_TARGET_DIR / 'beverages',
+    VAPES_SOURCE_DIR=COA_SOURCE_DIR / 'vapes',
+    VAPES_TARGET_DIR=COA_TARGET_DIR / 'vapes',
     OUTPUT_JSON_PATH=BASE_DIR / 'public' / 'coa-data.json',
     BUILD_INFO_PATH=BASE_DIR / 'public' / 'build-info.json',
 )
@@ -269,6 +273,8 @@ def normalize_category(product_category: str, coa_refs: list[CoaRef] | None = No
         return 'Edibles'
     if 'beverage' in category or any('/beverages/' in url for url in urls):
         return 'Beverages'
+    if 'vape' in category or any('/vapes/' in url for url in urls):
+        return 'Vapes'
     return 'Uncategorized'
 
 
@@ -280,6 +286,8 @@ def get_source_and_target_dirs(row: Row) -> tuple[Path, Path] | None:
         return PATHS.EDIBLES_SOURCE_DIR, PATHS.EDIBLES_TARGET_DIR
     if category == 'Beverages':
         return PATHS.BEVERAGES_SOURCE_DIR, PATHS.BEVERAGES_TARGET_DIR
+    if category == 'Vapes':
+        return PATHS.VAPES_SOURCE_DIR, PATHS.VAPES_TARGET_DIR
     return None
 
 
@@ -290,6 +298,7 @@ def ensure_directories() -> None:
     PATHS.FLOWER_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.EDIBLES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.BEVERAGES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
+    PATHS.VAPES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.OUTPUT_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
     PATHS.BUILD_INFO_PATH.parent.mkdir(parents=True, exist_ok=True)
 
