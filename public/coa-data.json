@@ -848,5 +848,30 @@
         ]
       }
     ]
+  },
+  {
+    "category": "Vapes",
+    "products": [
+      {
+        "product": "Modified Grapes Vape Cartridge",
+        "sku": "10134",
+        "lots": [
+          {
+            "lotNumber": "210CCH0885.5885",
+            "sku": "10134",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5885 - Big Box Hemp Co - CBN_THC Liquid.pdf",
+                "url": "/coas/vapes/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
