@@ -185,6 +185,171 @@
     ]
   },
   {
+    "category": "Edibles",
+    "products": [
+      {
+        "product": "4* Bubble Hash",
+        "sku": "10150",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5884",
+            "sku": "10150",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5884 - Big Box Hemp Co - THC Liquid.pdf",
+                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Cereal Milk Live Resin",
+        "sku": "10140",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5884",
+            "sku": "10140",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5884 - Big Box Hemp Co - THC Liquid.pdf",
+                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Chocolate Brownie",
+        "sku": "10148",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5876",
+            "sku": "10148",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5876 - Big Box Hemp Co - Chocolate Brownie.pdf",
+                "url": "/coas/edibles/2510CCH0885.5876%20-%20Big%20Box%20Hemp%20Co%20-%20Chocolate%20Brownie.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Citrus Uplift Tincture",
+        "sku": "14093",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5885",
+            "sku": "14093",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5885 - Big Box Hemp Co - CBN_THC Liquid.pdf",
+                "url": "/coas/edibles/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Grape Gas Live Rosin",
+        "sku": "10151",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5884",
+            "sku": "10151",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5884 - Big Box Hemp Co - THC Liquid.pdf",
+                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Peppermint Focus Tincture",
+        "sku": "14027",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5885",
+            "sku": "14027",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5885 - Big Box Hemp Co - CBN_THC Liquid.pdf",
+                "url": "/coas/edibles/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "S'mores Milk Chocolate Bar",
+        "sku": "10145",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5882",
+            "sku": "10145",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5882 - Big Box Hemp Co - S'Mores.pdf",
+                "url": "/coas/edibles/2510CCH0885.5882%20-%20Big%20Box%20Hemp%20Co%20-%20S'Mores.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Temple Ball",
+        "sku": "10147",
+        "lots": [
+          {
+            "lotNumber": "2510CCH0885.5884",
+            "sku": "10147",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5884 - Big Box Hemp Co - THC Liquid.pdf",
+                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "category": "Flower",
     "products": [
       {
