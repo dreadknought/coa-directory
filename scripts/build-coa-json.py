@@ -269,14 +269,17 @@ def normalize_category(product_category: str, coa_refs: list[CoaRef] | None = No
 
     if 'flower' in category or any('/flower/' in url for url in urls):
         return 'Flower'
-    if 'edible' in category or any('/edibles/' in url for url in urls):
+    if (
+        'edible' in category
+        or 'concentrate' in category
+        or any('/edibles/' in url for url in urls)
+    ):
         return 'Edibles'
     if 'beverage' in category or any('/beverages/' in url for url in urls):
         return 'Beverages'
     if 'vape' in category or any('/vapes/' in url for url in urls):
         return 'Vapes'
     return 'Uncategorized'
-
 
 def get_source_and_target_dirs(row: Row) -> tuple[Path, Path] | None:
     category = normalize_category(row.product_category, row.coa_refs)
