@@ -473,6 +473,26 @@
         ]
       },
       {
+        "product": "Gelato #41",
+        "sku": "FLGELATOE",
+        "lots": [
+          {
+            "lotNumber": "25003924",
+            "sku": "FLGELATOE",
+            "thc": 29.86,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Gelato41 9.13 COA.pdf",
+                "url": "/coas/flower/Gelato41%209.13%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Gorilla Glue",
         "sku": "FLGORIE",
         "lots": [
@@ -747,6 +767,26 @@
               {
                 "name": "Nimbus Snacks 11.5.25 COA.pdf",
                 "url": "/coas/flower/Nimbus%20Snacks%2011.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Oakland Lemon Cherry Gelato",
+        "sku": "FLOAKLANE",
+        "lots": [
+          {
+            "lotNumber": "6741205-2",
+            "sku": "FLOAKLANE",
+            "thc": 28.89,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Oakland LCG 11.5.25 COA.pdf",
+                "url": "/coas/flower/Oakland%20LCG%2011.5.25%20COA.pdf"
               }
             ]
           }
