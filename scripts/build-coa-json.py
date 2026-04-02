@@ -72,7 +72,7 @@ AUTO_PUSH = True
 VERIFY_DEPLOYMENT = True
 VERIFY_TIMEOUT_SECONDS = 600
 VERIFY_POLL_INTERVAL_SECONDS = 10
-HTTP_TIMEOUT_SECONDS = 20
+HTTP_TIMEOUT_SECONDS = 30
 
 
 @dataclass(frozen=True)
@@ -281,6 +281,16 @@ def normalize_category(product_category: str, coa_refs: list[CoaRef] | None = No
         return 'Vapes'
     return 'Uncategorized'
 
+
+def normalize_product_name(row: Row) -> str:
+    product_name = (row.product_name or '').strip()
+    category = normalize_category(row.product_category, row.coa_refs)
+
+    if category == 'Flower':
+        product_name = re.sub(r'\s*\((?:1/8|1/4|1)\s*oz\)\s*$', '', product_name, flags=re.IGNORECASE)
+
+    return product_name or 'Unnamed Product'
+
 def get_source_and_target_dirs(row: Row) -> tuple[Path, Path] | None:
     category = normalize_category(row.product_category, row.coa_refs)
     if category == 'Flower':
@@ -348,7 +358,7 @@ def build_nested_tree(rows: list[Row]) -> list[dict[str, Any]]:
             continue
 
         category = normalize_category(row.product_category, row.coa_refs)
-        product_name = row.product_name or 'Unnamed Product'
+        product_name = normalize_product_name(row)
 
         category_bucket = categories.setdefault(category, {'category': category, 'products': {}})
         product_bucket = category_bucket['products'].setdefault(
@@ -476,15 +486,29 @@ def http_get_json(url: str) -> dict[str, Any]:
 
 
 def http_check_url(url: str) -> tuple[int, str]:
-    request = Request(url, headers={'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'User-Agent': 'coa-build-check/1.0'})
-    try:
-        with urlopen(request, timeout=HTTP_TIMEOUT_SECONDS) as response:
-            return int(getattr(response, 'status', 200) or 200), response.geturl()
-    except HTTPError as exc:
-        return int(exc.code), url
-    except URLError as exc:
-        raise RuntimeError(f'Network error for {url}: {exc}') from exc
+    request = Request(
+        url,
+        headers={
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache',
+            'User-Agent': 'coa-build-check/1.0',
+        },
+    )
 
+    attempts = 2
+    for attempt in range(1, attempts + 1):
+        try:
+            with urlopen(request, timeout=HTTP_TIMEOUT_SECONDS) as response:
+                return int(getattr(response, 'status', 200) or 200), response.geturl()
+        except HTTPError as exc:
+            return int(exc.code), url
+        except TimeoutError:
+            if attempt == attempts:
+                return 599, url
+        except URLError as exc:
+            raise RuntimeError(f'Network error for {url}: {exc}') from exc
+
+    return 599, url
 
 def collect_unique_coa_urls(rows: list[Row]) -> list[str]:
     urls: set[str] = set()
