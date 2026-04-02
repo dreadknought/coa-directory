@@ -188,46 +188,6 @@
     "category": "Edibles",
     "products": [
       {
-        "product": "4* Bubble Hash",
-        "sku": "10150",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5884",
-            "sku": "10150",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5884 - Big Box Hemp Co - THC Liquid.pdf",
-                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Cereal Milk Live Resin",
-        "sku": "10140",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5884",
-            "sku": "10140",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5884 - Big Box Hemp Co - THC Liquid.pdf",
-                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Chocolate Brownie",
         "sku": "10148",
         "lots": [
@@ -262,26 +222,6 @@
               {
                 "name": "2510CCH0885.5885 - Big Box Hemp Co - CBN_THC Liquid.pdf",
                 "url": "/coas/edibles/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Grape Gas Live Rosin",
-        "sku": "10151",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5884",
-            "sku": "10151",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5884 - Big Box Hemp Co - THC Liquid.pdf",
-                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
               }
             ]
           }
@@ -326,26 +266,6 @@
             ]
           }
         ]
-      },
-      {
-        "product": "Temple Ball",
-        "sku": "10147",
-        "lots": [
-          {
-            "lotNumber": "2510CCH0885.5884",
-            "sku": "10147",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5884 - Big Box Hemp Co - THC Liquid.pdf",
-                "url": "/coas/edibles/2510CCH0885.5884%20-%20Big%20Box%20Hemp%20Co%20-%20THC%20Liquid.pdf"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
@@ -353,7 +273,27 @@
     "category": "Flower",
     "products": [
       {
-        "product": "Cake Mera (1/8 oz)",
+        "product": "Blizzard King",
+        "sku": "FLBLIZZAE",
+        "lots": [
+          {
+            "lotNumber": "25008294",
+            "sku": "FLBLIZZAE",
+            "thc": 35.721,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Blizzard King COA.pdf",
+                "url": "/coas/flower/Blizzard%20King%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Cake Mera",
         "sku": "FLCAKME",
         "lots": [
           {
@@ -373,7 +313,7 @@
         ]
       },
       {
-        "product": "Canal Street Runtz (1/8 oz)",
+        "product": "Canal Street Runtz",
         "sku": "FLCANAE",
         "lots": [
           {
@@ -393,7 +333,7 @@
         ]
       },
       {
-        "product": "Candy Runtz (1/8 oz)",
+        "product": "Candy Runtz",
         "sku": "FLCANDE",
         "lots": [
           {
@@ -413,7 +353,7 @@
         ]
       },
       {
-        "product": "Cookie Mintz (1/8 oz)",
+        "product": "Cookie Mintz",
         "sku": "FLCOOKE",
         "lots": [
           {
@@ -433,7 +373,7 @@
         ]
       },
       {
-        "product": "Dante's Inferno (1/8 oz)",
+        "product": "Dante's Inferno",
         "sku": "FLDANTE",
         "lots": [
           {
@@ -453,7 +393,7 @@
         ]
       },
       {
-        "product": "Doll Face (1/8 oz)",
+        "product": "Doll Face",
         "sku": "FLDOLLE",
         "lots": [
           {
@@ -473,7 +413,7 @@
         ]
       },
       {
-        "product": "Don Mega (1/8 oz)",
+        "product": "Don Mega",
         "sku": "FLDONME",
         "lots": [
           {
@@ -493,7 +433,7 @@
         ]
       },
       {
-        "product": "Donkey Kong (1/8 oz)",
+        "product": "Donkey Kong",
         "sku": "FLDONKE",
         "lots": [
           {
@@ -513,7 +453,7 @@
         ]
       },
       {
-        "product": "Gas Face (1/8 oz)",
+        "product": "Gas Face",
         "sku": "FLGASFE",
         "lots": [
           {
@@ -533,7 +473,7 @@
         ]
       },
       {
-        "product": "Gorilla Glue (1/8 oz)",
+        "product": "Gorilla Glue",
         "sku": "FLGORIE",
         "lots": [
           {
@@ -553,7 +493,7 @@
         ]
       },
       {
-        "product": "Gush Runtz (1/8 oz)",
+        "product": "Gush Runtz",
         "sku": "FLGRUNE",
         "lots": [
           {
@@ -573,7 +513,7 @@
         ]
       },
       {
-        "product": "Halle Berry (1/8 oz)",
+        "product": "Halle Berry",
         "sku": "FLHALLE",
         "lots": [
           {
@@ -593,7 +533,7 @@
         ]
       },
       {
-        "product": "High Octane (1/8 oz)",
+        "product": "High Octane",
         "sku": "FLHIGHE",
         "lots": [
           {
@@ -613,7 +553,7 @@
         ]
       },
       {
-        "product": "Hooch (1/8 oz)",
+        "product": "Hooch",
         "sku": "FLHOOCE",
         "lots": [
           {
@@ -633,7 +573,7 @@
         ]
       },
       {
-        "product": "Hood Candy (1/8 oz)",
+        "product": "Hood Candy",
         "sku": "FLHOODE",
         "lots": [
           {
@@ -653,7 +593,7 @@
         ]
       },
       {
-        "product": "Ice Cream Cake (1/8 oz)",
+        "product": "Ice Cream Cake",
         "sku": "FLICCE",
         "lots": [
           {
@@ -673,7 +613,27 @@
         ]
       },
       {
-        "product": "Lemon Cherry Gelato (1/8 oz)",
+        "product": "Ice Cream Cake x Jealousy",
+        "sku": "FLICECREE",
+        "lots": [
+          {
+            "lotNumber": "25017688",
+            "sku": "FLICECREE",
+            "thc": 32.25,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "ICC x J COA.pdf",
+                "url": "/coas/flower/ICC%20x%20J%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Lemon Cherry Gelato",
         "sku": "FLLEMOE",
         "lots": [
           {
@@ -693,7 +653,7 @@
         ]
       },
       {
-        "product": "Lemon Cherry Sherbert (1/8 oz)",
+        "product": "Lemon Cherry Sherbert",
         "sku": "FLSHERE",
         "lots": [
           {
@@ -713,7 +673,7 @@
         ]
       },
       {
-        "product": "Lizard Burger (1/8 oz)",
+        "product": "Lizard Burger",
         "sku": "FLLIZAE",
         "lots": [
           {
@@ -733,7 +693,7 @@
         ]
       },
       {
-        "product": "Menage (1/8 oz)",
+        "product": "Menage",
         "sku": "FLMENAE",
         "lots": [
           {
@@ -753,7 +713,7 @@
         ]
       },
       {
-        "product": "Mule Fuel (1/8 oz)",
+        "product": "Mule Fuel",
         "sku": "FLMULEE",
         "lots": [
           {
@@ -773,7 +733,7 @@
         ]
       },
       {
-        "product": "Nimbus Snacks (1/8 oz)",
+        "product": "Nimbus Snacks",
         "sku": "FLNIMBE",
         "lots": [
           {
@@ -793,7 +753,7 @@
         ]
       },
       {
-        "product": "Oakland Runtz (1/8 oz)",
+        "product": "Oakland Runtz",
         "sku": "FLOAKRE",
         "lots": [
           {
@@ -813,7 +773,7 @@
         ]
       },
       {
-        "product": "OMG (1/8 oz)",
+        "product": "OMG",
         "sku": "FLOMGE",
         "lots": [
           {
@@ -833,7 +793,7 @@
         ]
       },
       {
-        "product": "Oreo Blizzard (1/8 oz)",
+        "product": "Oreo Blizzard",
         "sku": "FLOREBE",
         "lots": [
           {
@@ -853,7 +813,7 @@
         ]
       },
       {
-        "product": "Oreoz (1/8 oz)",
+        "product": "Oreoz",
         "sku": "FLOREOE",
         "lots": [
           {
@@ -873,7 +833,7 @@
         ]
       },
       {
-        "product": "Permanent Chimera (1/8 oz)",
+        "product": "Permanent Chimera",
         "sku": "FLPERME",
         "lots": [
           {
@@ -893,7 +853,7 @@
         ]
       },
       {
-        "product": "Scorpian Tears (1/8 oz)",
+        "product": "Scorpian Tears",
         "sku": "FLSCORE",
         "lots": [
           {
@@ -913,7 +873,7 @@
         ]
       },
       {
-        "product": "Sunset Sherbert (1/8 oz)",
+        "product": "Sunset Sherbert",
         "sku": "FLSUNSE",
         "lots": [
           {
@@ -933,7 +893,7 @@
         ]
       },
       {
-        "product": "Superboof (1/8 oz)",
+        "product": "Superboof",
         "sku": "FLSUPEE",
         "lots": [
           {
@@ -953,7 +913,27 @@
         ]
       },
       {
-        "product": "Truth be Toad (1/8 oz)",
+        "product": "Trapzilla",
+        "sku": "FLTRAPZIE",
+        "lots": [
+          {
+            "lotNumber": "25008292",
+            "sku": "FLTRAPZIE",
+            "thc": 28.5,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Trapzilla COA.pdf",
+                "url": "/coas/flower/Trapzilla%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Truth be Toad",
         "sku": "FLTOADE",
         "lots": [
           {
@@ -973,7 +953,7 @@
         ]
       },
       {
-        "product": "White Runtz (1/8 oz)",
+        "product": "White Runtz",
         "sku": "FLWHITE",
         "lots": [
           {
@@ -993,7 +973,7 @@
         ]
       },
       {
-        "product": "Zushi (1/8 oz)",
+        "product": "Zushi",
         "sku": "FLZUSHE",
         "lots": [
           {
