@@ -893,6 +893,26 @@
         ]
       },
       {
+        "product": "Punch Breath",
+        "sku": "FLPUNCE",
+        "lots": [
+          {
+            "lotNumber": "26000512",
+            "sku": "FLPUNCE",
+            "thc": 27.567,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "punch-breath.pdf",
+                "url": "/coas/flower/punch-breath.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Scorpian Tears",
         "sku": "FLSCORE",
         "lots": [
