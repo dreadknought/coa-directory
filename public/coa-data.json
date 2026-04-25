@@ -163,6 +163,26 @@
         ]
       },
       {
+        "product": "Original Lemonade Electric Lemonade",
+        "sku": "10093",
+        "lots": [
+          {
+            "lotNumber": "HIG251027-030001",
+            "sku": "10093",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "electric-lemonade.pdf",
+                "url": "/coas/beverages/electric-lemonade.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Pink Lemonade Electric Lemonade",
         "sku": "10092",
         "lots": [
@@ -175,8 +195,8 @@
             "notes": "",
             "files": [
               {
-                "name": "electric-lemonade.pdf",
-                "url": "/coas/beverages/electric-lemonade.pdf"
+                "name": "electric-pink-lemonade.pdf",
+                "url": "/coas/beverages/electric-pink-lemonade.pdf"
               }
             ]
           }
@@ -887,26 +907,6 @@
               {
                 "name": "2603CCH0347.1723 - Vulcan LLC - Permanent Chimera.pdf",
                 "url": "/coas/flower/2603CCH0347.1723%20-%20Vulcan%20LLC%20-%20Permanent%20Chimera.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Punch Breath",
-        "sku": "FLPUNCE",
-        "lots": [
-          {
-            "lotNumber": "26000512",
-            "sku": "FLPUNCE",
-            "thc": 27.567,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "punch-breath.pdf",
-                "url": "/coas/flower/punch-breath.pdf"
               }
             ]
           }
