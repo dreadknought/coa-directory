@@ -293,6 +293,46 @@
     "category": "Flower",
     "products": [
       {
+        "product": "Black Lavender",
+        "sku": "FLBLACKLE",
+        "lots": [
+          {
+            "lotNumber": "26005065",
+            "sku": "FLBLACKLE",
+            "thc": 28.486,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Black Lavender 2.20.pdf",
+                "url": "/coas/flower/Black%20Lavender%202.20.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Black Runtz",
+        "sku": "FLBLACKRE",
+        "lots": [
+          {
+            "lotNumber": "6750218-3",
+            "sku": "FLBLACKRE",
+            "thc": 32.66,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Black Runtz 11.5.pdf",
+                "url": "/coas/flower/Black%20Runtz%2011.5.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Blizzard King",
         "sku": "FLBLIZZAE",
         "lots": [
@@ -373,20 +413,20 @@
         ]
       },
       {
-        "product": "Cookie Mintz",
-        "sku": "FLCOOKE",
+        "product": "Caramel Candy",
+        "sku": "FLCARAMEE",
         "lots": [
           {
-            "lotNumber": "2509CCH0798.4943",
-            "sku": "FLCOOKE",
-            "thc": 28.09,
+            "lotNumber": "6750428-2",
+            "sku": "FLCARAMEE",
+            "thc": 33.26,
             "netWeight": "3.5g",
-            "coa": "Flower-9",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "2509CCH0798.4943 - Caroux Holdings LLC - Flower 9 - Cookie Mintz.pdf",
-                "url": "/coas/flower/2509CCH0798.4943%20-%20Caroux%20Holdings%20LLC%20-%20Flower%209%20-%20Cookie%20Mintz.pdf"
+                "name": "Caramel Candy 11.5 COA.pdf",
+                "url": "/coas/flower/Caramel%20Candy%2011.5%20COA.pdf"
               }
             ]
           }
@@ -407,46 +447,6 @@
               {
                 "name": "2503PHS0562.2562 - Go North Hemp - Dante's Inferno.pdf",
                 "url": "/coas/flower/2503PHS0562.2562%20-%20Go%20North%20Hemp%20-%20Dante%27s%20Inferno.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Doll Face",
-        "sku": "FLDOLLE",
-        "lots": [
-          {
-            "lotNumber": "46840119-17",
-            "sku": "FLDOLLE",
-            "thc": 33.46,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Doll Face 10.19 COA.pdf",
-                "url": "/coas/flower/Doll%20Face%2010.19%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Don Mega",
-        "sku": "FLDONME",
-        "lots": [
-          {
-            "lotNumber": "46840119-18",
-            "sku": "FLDONME",
-            "thc": 34.53,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Don Mega 10.19 COA.pdf",
-                "url": "/coas/flower/Don%20Mega%2010.19%20COA.pdf"
               }
             ]
           }
@@ -493,26 +493,6 @@
         ]
       },
       {
-        "product": "Gelato #41",
-        "sku": "FLGELATOE",
-        "lots": [
-          {
-            "lotNumber": "25003924",
-            "sku": "FLGELATOE",
-            "thc": 29.86,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Gelato41 9.13 COA.pdf",
-                "url": "/coas/flower/Gelato41%209.13%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Gorilla Glue",
         "sku": "FLGORIE",
         "lots": [
@@ -533,26 +513,6 @@
         ]
       },
       {
-        "product": "Gush Runtz",
-        "sku": "FLGRUNE",
-        "lots": [
-          {
-            "lotNumber": "47441121-12",
-            "sku": "FLGRUNE",
-            "thc": 31.61,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Gruntz 11.5.25 COA.pdf",
-                "url": "/coas/flower/Gruntz%2011.5.25%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Halle Berry",
         "sku": "FLHALLE",
         "lots": [
@@ -567,26 +527,6 @@
               {
                 "name": "Halle Berry.pdf",
                 "url": "/coas/flower/Halle%20Berry.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "High Octane",
-        "sku": "FLHIGHE",
-        "lots": [
-          {
-            "lotNumber": "2503PHS0562.2567",
-            "sku": "FLHIGHE",
-            "thc": 23.94,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "High Octane.pdf",
-                "url": "/coas/flower/High%20Octane.pdf"
               }
             ]
           }
@@ -673,40 +613,20 @@
         ]
       },
       {
-        "product": "Lemon Cherry Gelato",
-        "sku": "FLLEMOE",
+        "product": "LA Runtz",
+        "sku": "FLLARUNTE",
         "lots": [
           {
-            "lotNumber": "2508CCH0672.4356",
-            "sku": "FLLEMOE",
-            "thc": 26.049,
+            "lotNumber": "25009363-55023503",
+            "sku": "FLLARUNTE",
+            "thc": 30.4,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "2508CCH0672.4356 - Caroux Holdings LLC - Lemon Cherry Gelato.pdf",
-                "url": "/coas/flower/2508CCH0672.4356%20-%20Caroux%20Holdings%20LLC%20-%20Lemon%20Cherry%20Gelato.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Lemon Cherry Sherbert",
-        "sku": "FLSHERE",
-        "lots": [
-          {
-            "lotNumber": "6750219-6",
-            "sku": "FLSHERE",
-            "thc": 29.36,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Lemon_Cherry_Sherbet 11.5.25 COA.pdf",
-                "url": "/coas/flower/Lemon_Cherry_Sherbet%2011.5.25%20COA.pdf"
+                "name": "LA Runtz 5.9.pdf",
+                "url": "/coas/flower/LA%20Runtz%205.9.pdf"
               }
             ]
           }
@@ -733,26 +653,6 @@
         ]
       },
       {
-        "product": "Menage",
-        "sku": "FLMENAE",
-        "lots": [
-          {
-            "lotNumber": "2509CCH0798.4941",
-            "sku": "FLMENAE",
-            "thc": 30.054,
-            "netWeight": "3.5g",
-            "coa": "Flower-7",
-            "notes": "",
-            "files": [
-              {
-                "name": "2509CCH0798.4941 - Caroux Holdings LLC - Flower 7 - Menage.pdf",
-                "url": "/coas/flower/2509CCH0798.4941%20-%20Caroux%20Holdings%20LLC%20-%20Flower%207%20-%20Menage.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Mule Fuel",
         "sku": "FLMULEE",
         "lots": [
@@ -767,86 +667,6 @@
               {
                 "name": "2508CCH0647.4216 - WNC CBD - Mule Fuel.pdf",
                 "url": "/coas/flower/2508CCH0647.4216%20-%20WNC%20CBD%20-%20Mule%20Fuel.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Nimbus Snacks",
-        "sku": "FLNIMBE",
-        "lots": [
-          {
-            "lotNumber": "46840110-18",
-            "sku": "FLNIMBE",
-            "thc": 32.78,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Nimbus Snacks 11.5.25 COA.pdf",
-                "url": "/coas/flower/Nimbus%20Snacks%2011.5.25%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Oakland Lemon Cherry Gelato",
-        "sku": "FLOAKLANE",
-        "lots": [
-          {
-            "lotNumber": "6741205-2",
-            "sku": "FLOAKLANE",
-            "thc": 28.89,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Oakland LCG 11.5.25 COA.pdf",
-                "url": "/coas/flower/Oakland%20LCG%2011.5.25%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Oakland Runtz",
-        "sku": "FLOAKRE",
-        "lots": [
-          {
-            "lotNumber": "46840119-20",
-            "sku": "FLOAKRE",
-            "thc": 35.94,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Oakland Runtz 10.19 COA.pdf",
-                "url": "/coas/flower/Oakland%20Runtz%2010.19%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "OMG",
-        "sku": "FLOMGE",
-        "lots": [
-          {
-            "lotNumber": "2506CCH0299.2308",
-            "sku": "FLOMGE",
-            "thc": 27.206,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "2506CCH0299.2308 - WNC CBD - OMG.pdf",
-                "url": "/coas/flower/2506CCH0299.2308%20-%20WNC%20CBD%20-%20OMG.pdf"
               }
             ]
           }
@@ -873,40 +693,60 @@
         ]
       },
       {
-        "product": "Oreoz",
-        "sku": "FLOREOE",
+        "product": "Peak 112",
+        "sku": "FLPEAK11E",
         "lots": [
           {
-            "lotNumber": "2509CCH0798.4935",
-            "sku": "FLOREOE",
-            "thc": 25.589,
+            "lotNumber": "56850903-1",
+            "sku": "FLPEAK11E",
+            "thc": 32.83,
             "netWeight": "3.5g",
-            "coa": "Flower-1",
+            "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "COA.pdf",
-                "url": "#"
+                "name": "Peak 112 10.19.25.pdf",
+                "url": "/coas/flower/Peak%20112%2010.19.25.pdf"
               }
             ]
           }
         ]
       },
       {
-        "product": "Permanent Chimera",
-        "sku": "FLPERME",
+        "product": "Platinum LCG",
+        "sku": "FLPLATINE",
         "lots": [
           {
-            "lotNumber": "2603CCH0347.1723",
-            "sku": "FLPERME",
-            "thc": 34.215,
+            "lotNumber": "26005064",
+            "sku": "FLPLATINE",
+            "thc": 27.424,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "2603CCH0347.1723 - Vulcan LLC - Permanent Chimera.pdf",
-                "url": "/coas/flower/2603CCH0347.1723%20-%20Vulcan%20LLC%20-%20Permanent%20Chimera.pdf"
+                "name": "Platinum LCG 2.20.pdf",
+                "url": "/coas/flower/Platinum%20LCG%202.20.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Purple Porcelain",
+        "sku": "FLPURPLEE",
+        "lots": [
+          {
+            "lotNumber": "2603CH0579.2644",
+            "sku": "FLPURPLEE",
+            "thc": 32.56,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CH0579.2644 - High Tops Inc. - Purple Porcelain.pdf",
+                "url": "/coas/flower/2603CH0579.2644%20-%20High%20Tops%20Inc.%20-%20Purple%20Porcelain.pdf"
               }
             ]
           }
@@ -927,26 +767,6 @@
               {
                 "name": "2509CCH0798.4936 - Caroux Holdings LLC - Flower 2 - Scorpion Tears.pdf",
                 "url": "/coas/flower/2509CCH0798.4936%20-%20Caroux%20Holdings%20LLC%20-%20Flower%202%20-%20Scorpion%20Tears.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Sunset Sherbert",
-        "sku": "FLSUNSE",
-        "lots": [
-          {
-            "lotNumber": "26000512",
-            "sku": "FLSUNSE",
-            "thc": 28.475,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "sunset-sherbert.pdf",
-                "url": "/coas/flower/sunset-sherbert.pdf"
               }
             ]
           }
@@ -1013,6 +833,26 @@
         ]
       },
       {
+        "product": "White Chocolate Chip",
+        "sku": "FLWHITECE",
+        "lots": [
+          {
+            "lotNumber": "25008294",
+            "sku": "FLWHITECE",
+            "thc": 34.957,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "White Chocolate Chip COA.pdf",
+                "url": "/coas/flower/White%20Chocolate%20Chip%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "White Runtz",
         "sku": "FLWHITE",
         "lots": [
@@ -1029,24 +869,18 @@
                 "url": "/coas/flower/White_Runtz_.pdf"
               }
             ]
-          }
-        ]
-      },
-      {
-        "product": "Zushi",
-        "sku": "FLZUSHE",
-        "lots": [
+          },
           {
-            "lotNumber": "46840119-19",
-            "sku": "FLZUSHE",
-            "thc": 31.89,
+            "lotNumber": "25017327-54042256",
+            "sku": "FLWHITE",
+            "thc": 27.983,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Zushi 10.19 COA.pdf",
-                "url": "/coas/flower/Zushi%2010.19%20COA.pdf"
+                "name": "White Runtz 10.13.pdf",
+                "url": "/coas/flower/White%20Runtz%2010.13.pdf"
               }
             ]
           }
