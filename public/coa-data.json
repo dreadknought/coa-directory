@@ -433,6 +433,26 @@
         ]
       },
       {
+        "product": "Cookie Mintz",
+        "sku": "FLCOOKE",
+        "lots": [
+          {
+            "lotNumber": "2509CCH0798.4943",
+            "sku": "FLCOOKE",
+            "thc": 28.09,
+            "netWeight": "3.5g",
+            "coa": "Flower-9",
+            "notes": "",
+            "files": [
+              {
+                "name": "2509CCH0798.4943 - Caroux Holdings LLC - Flower 9 - Cookie Mintz.pdf",
+                "url": "/coas/flower/2509CCH0798.4943%20-%20Caroux%20Holdings%20LLC%20-%20Flower%209%20-%20Cookie%20Mintz.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Dante's Inferno",
         "sku": "FLDANTE",
         "lots": [
@@ -653,6 +673,26 @@
         ]
       },
       {
+        "product": "Menage",
+        "sku": "FLMENAE",
+        "lots": [
+          {
+            "lotNumber": "2509CCH0798.4941",
+            "sku": "FLMENAE",
+            "thc": 30.054,
+            "netWeight": "3.5g",
+            "coa": "Flower-7",
+            "notes": "",
+            "files": [
+              {
+                "name": "2509CCH0798.4941 - Caroux Holdings LLC - Flower 7 - Menage.pdf",
+                "url": "/coas/flower/2509CCH0798.4941%20-%20Caroux%20Holdings%20LLC%20-%20Flower%207%20-%20Menage.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Mule Fuel",
         "sku": "FLMULEE",
         "lots": [
@@ -673,13 +713,33 @@
         ]
       },
       {
+        "product": "Oakland Runtz",
+        "sku": "FLOAKRE",
+        "lots": [
+          {
+            "lotNumber": "46840119-20",
+            "sku": "FLOAKRE",
+            "thc": 35.94,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Oakland Runtz 10.19 COA.pdf",
+                "url": "/coas/flower/Oakland%20Runtz%2010.19%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Oreo Blizzard",
         "sku": "FLOREBE",
         "lots": [
           {
             "lotNumber": "2603CCH0347.1729",
             "sku": "FLOREBE",
-            "thc": 23.131,
+            "thc": 34.39,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
@@ -689,16 +749,30 @@
                 "url": "/coas/flower/2603CCH0347.1729%20-%20Vulcan%20LLC%20-%20Oreo%20Blizzard.pdf"
               }
             ]
+          },
+          {
+            "lotNumber": "28022131-56013078",
+            "sku": "FLOREBE",
+            "thc": 34.39,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Oreo Blizzard 3.23.pdf",
+                "url": "/coas/flower/Oreo%20Blizzard%203.23.pdf"
+              }
+            ]
           }
         ]
       },
       {
         "product": "Peak 112",
-        "sku": "FLPEAK11E",
+        "sku": "FLPEAKE",
         "lots": [
           {
             "lotNumber": "56850903-1",
-            "sku": "FLPEAK11E",
+            "sku": "FLPEAKE",
             "thc": 32.83,
             "netWeight": "3.5g",
             "coa": "",
@@ -859,7 +933,7 @@
           {
             "lotNumber": "2412EXL4158.17810",
             "sku": "FLWHITE",
-            "thc": 27.983,
+            "thc": 31.66,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
@@ -873,7 +947,7 @@
           {
             "lotNumber": "25017327-54042256",
             "sku": "FLWHITE",
-            "thc": 27.983,
+            "thc": 31.66,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
@@ -885,12 +959,52 @@
             ]
           }
         ]
+      },
+      {
+        "product": "Zushi",
+        "sku": "FLZUSHE",
+        "lots": [
+          {
+            "lotNumber": "46840119-19",
+            "sku": "FLZUSHE",
+            "thc": 31.89,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Zushi 10.19 COA.pdf",
+                "url": "/coas/flower/Zushi%2010.19%20COA.pdf"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
     "category": "Vapes",
     "products": [
+      {
+        "product": "Hidden Hills Bloo Dream 2g Vape",
+        "sku": "10283",
+        "lots": [
+          {
+            "lotNumber": "SA-250804-66447",
+            "sku": "10283",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SA-250804-66447-WherezHemp-2G-HEADY-BLEND-DISPOSABLES-BLOO-DREAM-1-CT.pdf",
+                "url": "/coas/vapes/SA-250804-66447-WherezHemp-2G-HEADY-BLEND-DISPOSABLES-BLOO-DREAM-1-CT.pdf"
+              }
+            ]
+          }
+        ]
+      },
       {
         "product": "Modified Grapes Vape Cartridge",
         "sku": "10134",
