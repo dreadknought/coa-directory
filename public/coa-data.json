@@ -657,9 +657,23 @@
         "sku": "FLLIZAE",
         "lots": [
           {
+            "lotNumber": "25017687-54042241",
+            "sku": "FLLIZAE",
+            "thc": 31.56,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Lizard Burger COA.pdf",
+                "url": "/coas/flower/Lizard%20Burger%20COA.pdf"
+              }
+            ]
+          },
+          {
             "lotNumber": "2504CCH0162.1341",
             "sku": "FLLIZAE",
-            "thc": 23.998,
+            "thc": 31.56,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
