@@ -134,7 +134,18 @@ def parse_tags(raw_tags: str) -> dict[str, Any]:
 
 
 def parse_thc(tags_dict: dict[str, Any]) -> float:
-    raw_value = str(tags_dict.get('thc', '')).strip()
+    indexed_values: list[tuple[int, str]] = []
+
+    for key, value in tags_dict.items():
+        match = re.fullmatch(r'coa_ref_(\d+)_thc', str(key))
+        if match:
+            indexed_values.append((int(match.group(1)), str(value).strip()))
+
+    if indexed_values:
+        raw_value = sorted(indexed_values, key=lambda item: item[0])[-1][1]
+    else:
+        raw_value = str(tags_dict.get('thc', '')).strip()
+
     if not raw_value:
         return 0.0
     try:
@@ -287,7 +298,21 @@ def normalize_product_name(row: Row) -> str:
     category = normalize_category(row.product_category, row.coa_refs)
 
     if category == 'Flower':
-        product_name = re.sub(r'\s*\((?:1/8|1/4|1)\s*oz\)\s*$', '', product_name, flags=re.IGNORECASE)
+        # Normal flower uses eighth/quarter/ounce suffixes. B-buds add half-ounce,
+        # quarter-pound, and pound sellable sizes; normalize all of them so the
+        # COA directory groups the same strain instead of showing one entry per size.
+        product_name = re.sub(
+            r'\s*\((?:1/16|1/8|1/4|1/2|1)\s*oz\)\s*$',
+            '',
+            product_name,
+            flags=re.IGNORECASE,
+        )
+        product_name = re.sub(
+            r'\s*\((?:1/4|1/2|1)\s*lb\)\s*$',
+            '',
+            product_name,
+            flags=re.IGNORECASE,
+        )
 
     return product_name or 'Unnamed Product'
 
