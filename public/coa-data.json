@@ -205,6 +205,51 @@
     ]
   },
   {
+    "category": "Concentrates",
+    "products": [
+      {
+        "product": "Hidden Hills Zatics Diamonds Apples & Bananas",
+        "sku": "10329",
+        "lots": [
+          {
+            "lotNumber": "2501HKH0068.0194",
+            "sku": "10329",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "1_4922634920444036475_72bc1bc5-ef09-46c1-a4f0-daa397f58219.pdf",
+                "url": "/coas/edibles/1_4922634920444036475_72bc1bc5-ef09-46c1-a4f0-daa397f58219.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Zatics Pressed Blueberry",
+        "sku": "10328",
+        "lots": [
+          {
+            "lotNumber": "2501HKH0068.0192",
+            "sku": "10328",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2501HKH0068.0192_-_Hidden_Hills_Club_-_Hidden_Hills_-_Pressed_Blueberries_-_THCa_Diamonds_-_3g_ac65da81-9fbc-4232-9c24-71c51957b3a5.pdf",
+                "url": "/coas/edibles/2501HKH0068.0192_-_Hidden_Hills_Club_-_Hidden_Hills_-_Pressed_Blueberries_-_THCa_Diamonds_-_3g_ac65da81-9fbc-4232-9c24-71c51957b3a5.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "category": "Edibles",
     "products": [
       {
@@ -292,6 +337,26 @@
   {
     "category": "Flower",
     "products": [
+      {
+        "product": "After Dark B-Buds",
+        "sku": "BB-AFTE-LB",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1724",
+            "sku": "BB-AFTE-LB",
+            "thc": 22.356,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1724 - Vulcan LLC - After Dark.pdf",
+                "url": "/coas/flower/2603CCH0347.1724%20-%20Vulcan%20LLC%20-%20After%20Dark.pdf"
+              }
+            ]
+          }
+        ]
+      },
       {
         "product": "Black Lavender",
         "sku": "FLBLACKLE",
@@ -473,46 +538,6 @@
         ]
       },
       {
-        "product": "Doll Face",
-        "sku": "FLDOLLE",
-        "lots": [
-          {
-            "lotNumber": "46840119-17",
-            "sku": "FLDOLLE",
-            "thc": 33.46,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Doll Face 10.19 COA.pdf",
-                "url": "/coas/flower/Doll%20Face%2010.19%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Don Mega",
-        "sku": "FLDONME",
-        "lots": [
-          {
-            "lotNumber": "46840119-18",
-            "sku": "FLDONME",
-            "thc": 34.53,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Don Mega 10.19 COA.pdf",
-                "url": "/coas/flower/Don%20Mega%2010.19%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Donkey Kong",
         "sku": "FLDONKE",
         "lots": [
@@ -527,6 +552,26 @@
               {
                 "name": "donkey-kong.pdf",
                 "url": "/coas/flower/donkey-kong.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Donkey Kong B-Buds",
+        "sku": "BB-DONK-LB",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1731",
+            "sku": "BB-DONK-LB",
+            "thc": 22.43,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1731 - Vulcan LLC - Donkey Kong.pdf",
+                "url": "/coas/flower/2603CCH0347.1731%20-%20Vulcan%20LLC%20-%20Donkey%20Kong.pdf"
               }
             ]
           }
@@ -593,26 +638,6 @@
         ]
       },
       {
-        "product": "Gush Runtz",
-        "sku": "FLGRUNE",
-        "lots": [
-          {
-            "lotNumber": "47441121-12",
-            "sku": "FLGRUNE",
-            "thc": 31.61,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Gruntz 11.5.25 COA.pdf",
-                "url": "/coas/flower/Gruntz%2011.5.25%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Halle Berry",
         "sku": "FLHALLE",
         "lots": [
@@ -627,26 +652,6 @@
               {
                 "name": "Halle Berry.pdf",
                 "url": "/coas/flower/Halle%20Berry.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "High Octane",
-        "sku": "FLHIGHE",
-        "lots": [
-          {
-            "lotNumber": "2503PHS0562.2567",
-            "sku": "FLHIGHE",
-            "thc": 23.94,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "High Octane.pdf",
-                "url": "/coas/flower/High%20Octane.pdf"
               }
             ]
           }
@@ -753,46 +758,6 @@
         ]
       },
       {
-        "product": "Lemon Cherry Gelato",
-        "sku": "FLLEMOE",
-        "lots": [
-          {
-            "lotNumber": "2508CCH0672.4356",
-            "sku": "FLLEMOE",
-            "thc": 26.049,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "2508CCH0672.4356 - Caroux Holdings LLC - Lemon Cherry Gelato.pdf",
-                "url": "/coas/flower/2508CCH0672.4356%20-%20Caroux%20Holdings%20LLC%20-%20Lemon%20Cherry%20Gelato.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Lemon Cherry Sherbert",
-        "sku": "FLSHERE",
-        "lots": [
-          {
-            "lotNumber": "6750219-6",
-            "sku": "FLSHERE",
-            "thc": 29.36,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Lemon_Cherry_Sherbet 11.5.25 COA.pdf",
-                "url": "/coas/flower/Lemon_Cherry_Sherbet%2011.5.25%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Lizard Burger",
         "sku": "FLLIZAE",
         "lots": [
@@ -867,40 +832,20 @@
         ]
       },
       {
-        "product": "Nimbus Snacks",
-        "sku": "FLNIMBE",
+        "product": "Mule Fuel B-Buds",
+        "sku": "BB-MULE-LB",
         "lots": [
           {
-            "lotNumber": "46840110-18",
-            "sku": "FLNIMBE",
-            "thc": 32.78,
-            "netWeight": "3.5g",
+            "lotNumber": "2508CCH0647.4216",
+            "sku": "BB-MULE-LB",
+            "thc": 27.461,
+            "netWeight": "14g",
             "coa": "",
             "notes": "",
             "files": [
               {
-                "name": "Nimbus Snacks 11.5.25 COA.pdf",
-                "url": "/coas/flower/Nimbus%20Snacks%2011.5.25%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Oakland Lemon Cherry Gelato",
-        "sku": "FLOAKLANE",
-        "lots": [
-          {
-            "lotNumber": "6741205-2",
-            "sku": "FLOAKLANE",
-            "thc": 28.89,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "Oakland LCG 11.5.25 COA.pdf",
-                "url": "/coas/flower/Oakland%20LCG%2011.5.25%20COA.pdf"
+                "name": "2508CCH0647.4216 - WNC CBD - Mule Fuel.pdf",
+                "url": "/coas/flower/2508CCH0647.4216%20-%20WNC%20CBD%20-%20Mule%20Fuel.pdf"
               }
             ]
           }
@@ -921,26 +866,6 @@
               {
                 "name": "Oakland Runtz 10.19 COA.pdf",
                 "url": "/coas/flower/Oakland%20Runtz%2010.19%20COA.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "OMG",
-        "sku": "FLOMGE",
-        "lots": [
-          {
-            "lotNumber": "2506CCH0299.2308",
-            "sku": "FLOMGE",
-            "thc": 27.206,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "2506CCH0299.2308 - WNC CBD - OMG.pdf",
-                "url": "/coas/flower/2506CCH0299.2308%20-%20WNC%20CBD%20-%20OMG.pdf"
               }
             ]
           }
@@ -975,26 +900,6 @@
               {
                 "name": "Oreo Blizzard 3.23.pdf",
                 "url": "/coas/flower/Oreo%20Blizzard%203.23.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Oreoz",
-        "sku": "FLOREOE",
-        "lots": [
-          {
-            "lotNumber": "2509CCH0798.4935",
-            "sku": "FLOREOE",
-            "thc": 25.589,
-            "netWeight": "3.5g",
-            "coa": "Flower-1",
-            "notes": "",
-            "files": [
-              {
-                "name": "COA.pdf",
-                "url": "#"
               }
             ]
           }
@@ -1041,6 +946,26 @@
         ]
       },
       {
+        "product": "Permanent Chimera B-Buds",
+        "sku": "BB-PERM-LB",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1723",
+            "sku": "BB-PERM-LB",
+            "thc": 34.215,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1723 - Vulcan LLC - Permanent Chimera.pdf",
+                "url": "/coas/flower/2603CCH0347.1723%20-%20Vulcan%20LLC%20-%20Permanent%20Chimera.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Platinum LCG",
         "sku": "FLPLATINE",
         "lots": [
@@ -1055,6 +980,26 @@
               {
                 "name": "Platinum LCG 2.20.pdf",
                 "url": "/coas/flower/Platinum%20LCG%202.20.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Punch Breath B-Buds",
+        "sku": "BB-PUNC-LB",
+        "lots": [
+          {
+            "lotNumber": "26000512-56001305",
+            "sku": "BB-PUNC-LB",
+            "thc": 27.567,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "punch-breath.pdf",
+                "url": "/coas/flower/punch-breath.pdf"
               }
             ]
           }
@@ -1081,6 +1026,26 @@
         ]
       },
       {
+        "product": "Purple Porcelain B-Buds",
+        "sku": "BB-PURP-LB",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1733",
+            "sku": "BB-PURP-LB",
+            "thc": 23.776,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1733 - Vulcan LLC - Purple Porcelain.pdf",
+                "url": "/coas/flower/2603CCH0347.1733%20-%20Vulcan%20LLC%20-%20Purple%20Porcelain.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Scorpian Tears",
         "sku": "FLSCORE",
         "lots": [
@@ -1095,26 +1060,6 @@
               {
                 "name": "2509CCH0798.4936 - Caroux Holdings LLC - Flower 2 - Scorpion Tears.pdf",
                 "url": "/coas/flower/2509CCH0798.4936%20-%20Caroux%20Holdings%20LLC%20-%20Flower%202%20-%20Scorpion%20Tears.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Sunset Sherbert",
-        "sku": "FLSUNSE",
-        "lots": [
-          {
-            "lotNumber": "26000512",
-            "sku": "FLSUNSE",
-            "thc": 28.475,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "sunset-sherbert.pdf",
-                "url": "/coas/flower/sunset-sherbert.pdf"
               }
             ]
           }
@@ -1189,6 +1134,26 @@
             "sku": "FLWHITECE",
             "thc": 34.957,
             "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "White Chocolate Chip COA.pdf",
+                "url": "/coas/flower/White%20Chocolate%20Chip%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "White Chocolate Chip B-Buds",
+        "sku": "BB-WHIT-LB",
+        "lots": [
+          {
+            "lotNumber": "25008294-55020624",
+            "sku": "BB-WHIT-LB",
+            "thc": 35.721,
+            "netWeight": "14g",
             "coa": "",
             "notes": "",
             "files": [
@@ -1360,6 +1325,26 @@
         ]
       },
       {
+        "product": "Hidden Hills Royal Glue",
+        "sku": "10369",
+        "lots": [
+          {
+            "lotNumber": "SA-250804-66450",
+            "sku": "10369",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G-HEADY-BLEND-DISPOSABLES-ROYAL-GLUE-1-CT.pdf",
+                "url": "/coas/vapes/2G-HEADY-BLEND-DISPOSABLES-ROYAL-GLUE-1-CT.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Surprise Zurpe 1g Vape",
         "sku": "10280",
         "lots": [
@@ -1394,6 +1379,26 @@
               {
                 "name": "SA-250804-66451-WherezHemp-2G-HEADY-BLEND-DISPOSABLES-THE-BUBBA-MAN-1-CT.pdf",
                 "url": "/coas/vapes/SA-250804-66451-WherezHemp-2G-HEADY-BLEND-DISPOSABLES-THE-BUBBA-MAN-1-CT.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills White Gummy Ztarburst 2g Vape",
+        "sku": "10372",
+        "lots": [
+          {
+            "lotNumber": "SA-240905-48022",
+            "sku": "10372",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SA-240905-48022-WherezHemp-2g-Hidden-Hills-Night-Night-Blend-Disposables-White-Gummy-Ztarburst-Hyb.pdf",
+                "url": "/coas/vapes/SA-240905-48022-WherezHemp-2g-Hidden-Hills-Night-Night-Blend-Disposables-White-Gummy-Ztarburst-Hyb.pdf"
               }
             ]
           }
