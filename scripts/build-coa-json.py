@@ -39,6 +39,8 @@ class Paths:
     BEVERAGES_TARGET_DIR: Path
     VAPES_SOURCE_DIR: Path
     VAPES_TARGET_DIR: Path
+    CONCENTRATES_SOURCE_DIR: Path
+    CONCENTRATES_TARGET_DIR: Path
     OUTPUT_JSON_PATH: Path
     BUILD_INFO_PATH: Path
 
@@ -63,6 +65,8 @@ PATHS = Paths(
     BEVERAGES_TARGET_DIR=COA_TARGET_DIR / 'beverages',
     VAPES_SOURCE_DIR=COA_SOURCE_DIR / 'vapes',
     VAPES_TARGET_DIR=COA_TARGET_DIR / 'vapes',
+    CONCENTRATES_SOURCE_DIR=COA_SOURCE_DIR / 'concentrates',
+    CONCENTRATES_TARGET_DIR=COA_TARGET_DIR / 'concentrates',
     OUTPUT_JSON_PATH=BASE_DIR / 'public' / 'coa-data.json',
     BUILD_INFO_PATH=BASE_DIR / 'public' / 'build-info.json',
 )
@@ -280,11 +284,9 @@ def normalize_category(product_category: str, coa_refs: list[CoaRef] | None = No
 
     if 'flower' in category or any('/flower/' in url for url in urls):
         return 'Flower'
-    if (
-        'edible' in category
-        or 'concentrate' in category
-        or any('/edibles/' in url for url in urls)
-    ):
+    if 'concentrate' in category or any('/concentrates/' in url for url in urls):
+        return 'Concentrates'
+    if 'edible' in category or any('/edibles/' in url for url in urls):
         return 'Edibles'
     if 'beverage' in category or any('/beverages/' in url for url in urls):
         return 'Beverages'
@@ -316,6 +318,7 @@ def normalize_product_name(row: Row) -> str:
 
     return product_name or 'Unnamed Product'
 
+
 def get_source_and_target_dirs(row: Row) -> tuple[Path, Path] | None:
     category = normalize_category(row.product_category, row.coa_refs)
     if category == 'Flower':
@@ -326,6 +329,8 @@ def get_source_and_target_dirs(row: Row) -> tuple[Path, Path] | None:
         return PATHS.BEVERAGES_SOURCE_DIR, PATHS.BEVERAGES_TARGET_DIR
     if category == 'Vapes':
         return PATHS.VAPES_SOURCE_DIR, PATHS.VAPES_TARGET_DIR
+    if category == 'Concentrates':
+        return PATHS.CONCENTRATES_SOURCE_DIR, PATHS.CONCENTRATES_TARGET_DIR
     return None
 
 
@@ -337,6 +342,7 @@ def ensure_directories() -> None:
     PATHS.EDIBLES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.BEVERAGES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.VAPES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
+    PATHS.CONCENTRATES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.OUTPUT_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
     PATHS.BUILD_INFO_PATH.parent.mkdir(parents=True, exist_ok=True)
 
@@ -426,7 +432,10 @@ def build_nested_tree(rows: list[Row]) -> list[dict[str, Any]]:
         products_output: list[dict[str, Any]] = []
         for product_name in sorted(category_bucket['products'].keys(), key=str.casefold):
             product_bucket = category_bucket['products'][product_name]
-            lots_output = [product_bucket['lots'][lot_key] for lot_key in sorted(product_bucket['lots'].keys(), key=str.casefold)]
+            lots_output = [
+                product_bucket['lots'][lot_key]
+                for lot_key in sorted(product_bucket['lots'].keys(), key=str.casefold)
+            ]
             products_output.append({'product': product_name, 'sku': product_bucket['sku'], 'lots': lots_output})
         nested_tree.append({'category': category_name, 'products': products_output})
     return nested_tree
@@ -453,7 +462,13 @@ def get_current_commit(repo_root: Path) -> str:
     return result.stdout.strip()
 
 
-def build_build_info(repo_root: Path, build_number: str, row_count: int, tagged_row_count: int, payload: list[dict[str, Any]]) -> dict[str, Any]:
+def build_build_info(
+    repo_root: Path,
+    build_number: str,
+    row_count: int,
+    tagged_row_count: int,
+    payload: list[dict[str, Any]],
+) -> dict[str, Any]:
     product_count = sum(len(category.get('products', [])) for category in payload)
     lot_count = sum(len(product.get('lots', [])) for category in payload for product in category.get('products', []))
     file_count = sum(
@@ -504,7 +519,14 @@ def git_commit_and_push(repo_root: Path, commit_message: str) -> None:
 
 
 def http_get_json(url: str) -> dict[str, Any]:
-    request = Request(url, headers={'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'User-Agent': 'coa-build-check/1.0'})
+    request = Request(
+        url,
+        headers={
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache',
+            'User-Agent': 'coa-build-check/1.0',
+        },
+    )
     with urlopen(request, timeout=HTTP_TIMEOUT_SECONDS) as response:
         body = response.read().decode('utf-8')
     return json.loads(body)
@@ -534,6 +556,7 @@ def http_check_url(url: str) -> tuple[int, str]:
             raise RuntimeError(f'Network error for {url}: {exc}') from exc
 
     return 599, url
+
 
 def collect_unique_coa_urls(rows: list[Row]) -> list[str]:
     urls: set[str] = set()
@@ -647,3 +670,4 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+    
