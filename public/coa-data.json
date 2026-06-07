@@ -313,6 +313,26 @@
         ]
       },
       {
+        "product": "Bananaconda",
+        "sku": "FLBANANAE",
+        "lots": [
+          {
+            "lotNumber": "25016306-54042235",
+            "sku": "FLBANANAE",
+            "thc": 31.66,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Bananaconda_THCA_Flower_COA.pdf",
+                "url": "/coas/flower/Bananaconda_THCA_Flower_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Black Lavender",
         "sku": "FLBLACKLE",
         "lots": [
@@ -367,6 +387,26 @@
               {
                 "name": "Blizzard King COA.pdf",
                 "url": "/coas/flower/Blizzard%20King%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Blueberry Muffin",
+        "sku": "FLBLUEBEE",
+        "lots": [
+          {
+            "lotNumber": "25016304-55041077",
+            "sku": "FLBLUEBEE",
+            "thc": 30.907,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Blueberry Muffin COA.pdf",
+                "url": "/coas/flower/Blueberry%20Muffin%20COA.pdf"
               }
             ]
           }
@@ -773,6 +813,26 @@
         ]
       },
       {
+        "product": "Huckleberry Cake",
+        "sku": "FLHUCKLEE",
+        "lots": [
+          {
+            "lotNumber": "25018977-54046647",
+            "sku": "FLHUCKLEE",
+            "thc": 32.25,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Huckleberry COA.pdf",
+                "url": "/coas/flower/Huckleberry%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "ICC x Animal Mintz",
         "sku": "FLICCXANE",
         "lots": [
@@ -827,6 +887,46 @@
               {
                 "name": "ICC x J COA.pdf",
                 "url": "/coas/flower/ICC%20x%20J%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Interstellar",
+        "sku": "FLINTERSE",
+        "lots": [
+          {
+            "lotNumber": "25016305-54052471",
+            "sku": "FLINTERSE",
+            "thc": 34.68,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Intersteller.pdf",
+                "url": "/coas/flower/Intersteller.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "King Louie",
+        "sku": "FLKINGLOE",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1732",
+            "sku": "FLKINGLOE",
+            "thc": 24.678,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1732 - Vulcan LLC - King Louie.pdf",
+                "url": "/coas/flower/2603CCH0347.1732%20-%20Vulcan%20LLC%20-%20King%20Louie.pdf"
               }
             ]
           }
@@ -967,6 +1067,26 @@
         ]
       },
       {
+        "product": "Menage B-Buds",
+        "sku": "BB-MENA-LB",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1727",
+            "sku": "BB-MENA-LB",
+            "thc": 19.936,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1727 - Vulcan LLC - Menage.pdf",
+                "url": "/coas/flower/2603CCH0347.1727%20-%20Vulcan%20LLC%20-%20Menage.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Mule Fuel",
         "sku": "FLMULEE",
         "lots": [
@@ -1087,6 +1207,26 @@
         ]
       },
       {
+        "product": "OMG B-Buds",
+        "sku": "BB-OMGX-LB",
+        "lots": [
+          {
+            "lotNumber": "2506CCH0299.2308",
+            "sku": "BB-OMGX-LB",
+            "thc": 27.206,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "OMG_Coa_26.854_6.5.2026__69665.jpg",
+                "url": "/coas/flower/OMG_Coa_26.854_6.5.2026__69665.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Oreo Blizzard",
         "sku": "FLOREBE",
         "lots": [
@@ -1195,6 +1335,26 @@
               {
                 "name": "2603CCH0347.1723 - Vulcan LLC - Permanent Chimera.pdf",
                 "url": "/coas/flower/2603CCH0347.1723%20-%20Vulcan%20LLC%20-%20Permanent%20Chimera.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Pink Runtz",
+        "sku": "FLPINKRUE",
+        "lots": [
+          {
+            "lotNumber": "74060310-23",
+            "sku": "FLPINKRUE",
+            "thc": 30.73,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Pink Runtz 3.18.26.pdf",
+                "url": "/coas/flower/Pink%20Runtz%203.18.26.pdf"
               }
             ]
           }
@@ -1341,6 +1501,26 @@
         ]
       },
       {
+        "product": "Trap Fuel",
+        "sku": "FLTRAPFUE",
+        "lots": [
+          {
+            "lotNumber": "UNSPECIFIED",
+            "sku": "FLTRAPFUE",
+            "thc": 27.77,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Trap Fuel 3.22 COA.pdf",
+                "url": "/coas/flower/Trap%20Fuel%203.22%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Trapzilla",
         "sku": "FLTRAPZIE",
         "lots": [
@@ -1355,6 +1535,26 @@
               {
                 "name": "Trapzilla COA.pdf",
                 "url": "/coas/flower/Trapzilla%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Tree Flip B-Buds",
+        "sku": "BB-TREE-LB",
+        "lots": [
+          {
+            "lotNumber": "24013623-54031901",
+            "sku": "BB-TREE-LB",
+            "thc": 27.77,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Trap Fuel 3.22 COA.pdf",
+                "url": "/coas/flower/Trap%20Fuel%203.22%20COA.pdf"
               }
             ]
           }
