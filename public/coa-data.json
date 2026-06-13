@@ -3,72 +3,12 @@
     "category": "Beverages",
     "products": [
       {
-        "product": "100mg Choice Extraction Blood Orange",
-        "sku": "BE-CE-BO",
-        "lots": [
-          {
-            "lotNumber": "25015688",
-            "sku": "BE-CE-BO",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "BO100coa.pdf",
-                "url": "/coas/beverages/BO100coa.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "100mg Choice Extraction Strawberry Lemonade",
-        "sku": "BE-CE-SL",
-        "lots": [
-          {
-            "lotNumber": "25002796",
-            "sku": "BE-CE-SL",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "SL100coa.pdf",
-                "url": "/coas/beverages/SL100coa.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "550mg Choice Extraction Strawberry Lemonade",
-        "sku": "10106",
-        "lots": [
-          {
-            "lotNumber": "25020478",
-            "sku": "10106",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "SL550coa.pdf",
-                "url": "/coas/beverages/SL550coa.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Haze Half & Half",
-        "sku": "BE-HZ-HNH",
+        "sku": "613527386313",
         "lots": [
           {
             "lotNumber": "HZPE101",
-            "sku": "BE-HZ-HNH",
+            "sku": "613527386313",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -84,11 +24,11 @@
       },
       {
         "product": "Haze Peach Tea",
-        "sku": "BE-HZ-PT",
+        "sku": "613527379490",
         "lots": [
           {
             "lotNumber": "HZHH102",
-            "sku": "BE-HZ-PT",
+            "sku": "613527379490",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -104,11 +44,11 @@
       },
       {
         "product": "Melo Half and Half",
-        "sku": "BE-ME-HNH",
+        "sku": "659657026125",
         "lots": [
           {
             "lotNumber": "1335702",
-            "sku": "BE-ME-HNH",
+            "sku": "659657026125",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -124,11 +64,11 @@
       },
       {
         "product": "Melo Strawberry Mango",
-        "sku": "BE-ME-SM",
+        "sku": "659657409836",
         "lots": [
           {
             "lotNumber": "1334669",
-            "sku": "BE-ME-SM",
+            "sku": "659657409836",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -144,11 +84,11 @@
       },
       {
         "product": "Melo Wild Berry",
-        "sku": "BE-ME-WB",
+        "sku": "659657450128",
         "lots": [
           {
             "lotNumber": "1334664",
-            "sku": "BE-ME-WB",
+            "sku": "659657450128",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -164,11 +104,11 @@
       },
       {
         "product": "Original Lemonade Electric Lemonade",
-        "sku": "10093",
+        "sku": "735380622404",
         "lots": [
           {
             "lotNumber": "HIG251027-030001",
-            "sku": "10093",
+            "sku": "735380622404",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -184,11 +124,11 @@
       },
       {
         "product": "Pink Lemonade Electric Lemonade",
-        "sku": "10092",
+        "sku": "735380879433",
         "lots": [
           {
             "lotNumber": "HIG250813-020001",
-            "sku": "10092",
+            "sku": "735380879433",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -242,6 +182,126 @@
               {
                 "name": "2510CCH0885.5885 - Big Box Hemp Co - CBN_THC Liquid.pdf",
                 "url": "/coas/edibles/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Diamond Boyz Lychee Coconut Gummies",
+        "sku": "721750153180",
+        "lots": [
+          {
+            "lotNumber": "2508ENC9606_9007",
+            "sku": "721750153180",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Hidden-Hills-Lychee-Coconut-COA.pdf",
+                "url": "/coas/edibles/Hidden-Hills-Lychee-Coconut-COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Diamond Boyz Passion Orange Guava Gummies",
+        "sku": "721750237804",
+        "lots": [
+          {
+            "lotNumber": "2508ENC0432_1532",
+            "sku": "721750237804",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2508ENC0432_1532-Gummy-Dojo-1-Hidden-Hills-Passion-Orange-Guava-None.pdf",
+                "url": "/coas/edibles/2508ENC0432_1532-Gummy-Dojo-1-Hidden-Hills-Passion-Orange-Guava-None.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Diamond Boyz Peach Gummies",
+        "sku": "721750042668",
+        "lots": [
+          {
+            "lotNumber": "2508ENC9844_9728",
+            "sku": "721750042668",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2508ENC9844_9728_-_Gummy_Dojo_1_-_Hidden_Hills_-_None_1.pdf",
+                "url": "/coas/edibles/2508ENC9844_9728_-_Gummy_Dojo_1_-_Hidden_Hills_-_None_1.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Sour Mango 1000mg Gummy",
+        "sku": "643781571019",
+        "lots": [
+          {
+            "lotNumber": "SA-240613-42311",
+            "sku": "643781571019",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Sour-Mango.pdf",
+                "url": "/coas/edibles/Sour-Mango.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Strawberry Lime 1000mg Gummy",
+        "sku": "643781961834",
+        "lots": [
+          {
+            "lotNumber": "SA-240613-42314",
+            "sku": "643781961834",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SA-240613-42314-Nectris-Hidden-Hills-Club-Strawberry-Lime-Fresh-Frozen-Edibles-1.pdf",
+                "url": "/coas/edibles/SA-240613-42314-Nectris-Hidden-Hills-Club-Strawberry-Lime-Fresh-Frozen-Edibles-1.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills White Grape 1000mg Gummy",
+        "sku": "643781916308",
+        "lots": [
+          {
+            "lotNumber": "F408214",
+            "sku": "643781916308",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "COA-NO4096-White-Grape-F408214.pdf",
+                "url": "/coas/edibles/COA-NO4096-White-Grape-F408214.pdf"
               }
             ]
           }
@@ -1694,12 +1754,32 @@
     "category": "Vapes",
     "products": [
       {
+        "product": "Concrete Jungle Vape Cartridge",
+        "sku": "10134",
+        "lots": [
+          {
+            "lotNumber": "210CCH0885.5885",
+            "sku": "10134",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2510CCH0885.5885 - Big Box Hemp Co - CBN_THC Liquid.pdf",
+                "url": "/coas/vapes/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Bloo Dream 2g Vape",
-        "sku": "10283",
+        "sku": "643781782057",
         "lots": [
           {
             "lotNumber": "SA-250804-66447",
-            "sku": "10283",
+            "sku": "643781782057",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -1715,11 +1795,11 @@
       },
       {
         "product": "Hidden Hills Blue Lambo Latto 1g Vape",
-        "sku": "10281",
+        "sku": "643781953174",
         "lots": [
           {
             "lotNumber": "SA-240910-48294",
-            "sku": "10281",
+            "sku": "643781953174",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -1735,11 +1815,11 @@
       },
       {
         "product": "Hidden Hills Lemon Cherry Zkittlez 2g Vape",
-        "sku": "10285",
+        "sku": "685457727139",
         "lots": [
           {
             "lotNumber": "SA-240905-48019",
-            "sku": "10285",
+            "sku": "685457727139",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -1754,12 +1834,152 @@
         ]
       },
       {
+        "product": "Hidden Hills Mini Mart Bar Bang Pop OG 1g Vape",
+        "sku": "643781712931",
+        "lots": [
+          {
+            "lotNumber": "SA-240910-48291",
+            "sku": "643781712931",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SA-240910-48291-WherezHemp-1g-Mini-Mart-Blend-Disposables-Bang-Pop-OG.pdf",
+                "url": "/coas/vapes/SA-240910-48291-WherezHemp-1g-Mini-Mart-Blend-Disposables-Bang-Pop-OG.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Mini mart Bar Birthday Bash 1g Vape",
+        "sku": "643781807262",
+        "lots": [
+          {
+            "lotNumber": "SA-241001-49409",
+            "sku": "643781807262",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "1g-Mini-Mart-Blend-Disposables-Birthday-Bash-2024.10.11-SA-241001-49409.pdf",
+                "url": "/coas/vapes/1g-Mini-Mart-Blend-Disposables-Birthday-Bash-2024.10.11-SA-241001-49409.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Mini Mart Bar Hubba Bubba 1g Vape",
+        "sku": "643781530924",
+        "lots": [
+          {
+            "lotNumber": "SA-240910-48295",
+            "sku": "643781530924",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SA-240910-48295-WherezHemp-1g-Mini-Mart-Blend-Disposables-Hubba-Bubba.pdf",
+                "url": "/coas/vapes/SA-240910-48295-WherezHemp-1g-Mini-Mart-Blend-Disposables-Hubba-Bubba.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Mini Mart Bar Lemon Octane Punch 1g Vape",
+        "sku": "643781692165",
+        "lots": [
+          {
+            "lotNumber": "SA-240910-48296",
+            "sku": "643781692165",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SA-240910-48296-WherezHemp-1g-Mini-Mart-Blend-Disposables-Lemon-Octane-Punch.pdf",
+                "url": "/coas/vapes/SA-240910-48296-WherezHemp-1g-Mini-Mart-Blend-Disposables-Lemon-Octane-Punch.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Mini Mart Bar Sugar Pine Ringz 1g Vape",
+        "sku": "643781860779",
+        "lots": [
+          {
+            "lotNumber": "SA-241001-49410",
+            "sku": "643781860779",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "1g-Mini-Mart-Blend-Disposables-Sugar-Pine-Ringz-2024.10.11-SA-241001-49410.pdf",
+                "url": "/coas/vapes/1g-Mini-Mart-Blend-Disposables-Sugar-Pine-Ringz-2024.10.11-SA-241001-49410.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Mini Mart Bar Surprise Zurpe 1g Vape",
+        "sku": "643781707425",
+        "lots": [
+          {
+            "lotNumber": "SA-240910-48298",
+            "sku": "643781707425",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SA-240910-48298-WherezHemp-1g-Mini-Mart-Blend-Disposables-Surprise-Zurpe.pdf",
+                "url": "/coas/vapes/SA-240910-48298-WherezHemp-1g-Mini-Mart-Blend-Disposables-Surprise-Zurpe.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Mini Mart Bar Tropical Storm 1g Disposable Vape",
+        "sku": "643781725061",
+        "lots": [
+          {
+            "lotNumber": "SA-241001-49412",
+            "sku": "643781725061",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "1g-Mini-Mart-Blend-Disposables-Tropical-Storm-2024.10.11-SA-241001-49412.pdf",
+                "url": "/coas/vapes/1g-Mini-Mart-Blend-Disposables-Tropical-Storm-2024.10.11-SA-241001-49412.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Pluto Purp Latto 1g Vape",
-        "sku": "10284",
+        "sku": "721750043900",
         "lots": [
           {
             "lotNumber": "SA-250404-59762",
-            "sku": "10284",
+            "sku": "721750043900",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -1775,11 +1995,11 @@
       },
       {
         "product": "Hidden Hills Purplato Zyrup 2g Vape",
-        "sku": "10286",
+        "sku": "685457595691",
         "lots": [
           {
             "lotNumber": "SA-240905-48021",
-            "sku": "10286",
+            "sku": "685457595691",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -1794,32 +2014,12 @@
         ]
       },
       {
-        "product": "Hidden Hills Surprise Zurpe 1g Vape",
-        "sku": "10280",
-        "lots": [
-          {
-            "lotNumber": "SA-240910-48298",
-            "sku": "10280",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "SA-240910-48298-WherezHemp-1g-Mini-Mart-Blend-Disposables-Surprise-Zurpe.pdf",
-                "url": "/coas/vapes/SA-240910-48298-WherezHemp-1g-Mini-Mart-Blend-Disposables-Surprise-Zurpe.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Hidden Hills The Bubba Man 2g Vape",
-        "sku": "10282",
+        "sku": "643781864173",
         "lots": [
           {
             "lotNumber": "SA-250804-66451",
-            "sku": "10282",
+            "sku": "643781864173",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -1828,26 +2028,6 @@
               {
                 "name": "SA-250804-66451-WherezHemp-2G-HEADY-BLEND-DISPOSABLES-THE-BUBBA-MAN-1-CT.pdf",
                 "url": "/coas/vapes/SA-250804-66451-WherezHemp-2G-HEADY-BLEND-DISPOSABLES-THE-BUBBA-MAN-1-CT.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Modified Grapes Vape Cartridge",
-        "sku": "10134",
-        "lots": [
-          {
-            "lotNumber": "210CCH0885.5885",
-            "sku": "10134",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "2510CCH0885.5885 - Big Box Hemp Co - CBN_THC Liquid.pdf",
-                "url": "/coas/vapes/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
               }
             ]
           }
