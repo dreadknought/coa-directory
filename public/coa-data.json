@@ -145,6 +145,51 @@
     ]
   },
   {
+    "category": "Concentrates",
+    "products": [
+      {
+        "product": "Hidden Hills Zatics Diamonds Apples & Bananas",
+        "sku": "10329",
+        "lots": [
+          {
+            "lotNumber": "2501HKH0068.0194",
+            "sku": "10329",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "1_4922634920444036475_72bc1bc5-ef09-46c1-a4f0-daa397f58219.pdf",
+                "url": "/coas/concentrates/1_4922634920444036475_72bc1bc5-ef09-46c1-a4f0-daa397f58219.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Zatics Pressed Blueberry",
+        "sku": "10328",
+        "lots": [
+          {
+            "lotNumber": "2501HKH0068.0192",
+            "sku": "10328",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2501HKH0068.0192_-_Hidden_Hills_Club_-_Hidden_Hills_-_Pressed_Blueberries_-_THCa_Diamonds_-_3g_ac65da81-9fbc-4232-9c24-71c51957b3a5.pdf",
+                "url": "/coas/concentrates/2501HKH0068.0192_-_Hidden_Hills_Club_-_Hidden_Hills_-_Pressed_Blueberries_-_THCa_Diamonds_-_3g_ac65da81-9fbc-4232-9c24-71c51957b3a5.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "category": "Edibles",
     "products": [
       {
