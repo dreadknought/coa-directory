@@ -1796,6 +1796,271 @@
     ]
   },
   {
+    "category": "Prerolls",
+    "products": [
+      {
+        "product": "Hidden Hills Apple Banana Diamond Donut Preroll",
+        "sku": "721750354471",
+        "lots": [
+          {
+            "lotNumber": "SD250217-027 (107509)",
+            "sku": "721750354471",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Apple_Banana.pdf",
+                "url": "/coas/prerolls/Apple_Banana.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Blue Dream Mini Mart Preroll",
+        "sku": "721750492357",
+        "lots": [
+          {
+            "lotNumber": "rC-H-302-F1443",
+            "sku": "721750492357",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "MM-Preroll-Blue-Dream.pdf",
+                "url": "/coas/prerolls/MM-Preroll-Blue-Dream.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Blue Dreamz Diamond Donut Preroll",
+        "sku": "721750087140",
+        "lots": [
+          {
+            "lotNumber": "rC-H-637-F2557",
+            "sku": "721750087140",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "C-637-Jonny-Dang-Blue-Dreamz-F2557.pdf",
+                "url": "/coas/prerolls/C-637-Jonny-Dang-Blue-Dreamz-F2557.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Bubblegum Gelato Mini Mart Preroll",
+        "sku": "721750413369",
+        "lots": [
+          {
+            "lotNumber": "rC-H-302-F1444",
+            "sku": "721750413369",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "MM-Preroll-Bubble-Gum-Gelato.pdf",
+                "url": "/coas/prerolls/MM-Preroll-Bubble-Gum-Gelato.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Gelato Crush Diamond Donut Preroll",
+        "sku": "721750216120",
+        "lots": [
+          {
+            "lotNumber": "rC-H-637-F2558",
+            "sku": "721750216120",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "C-637-Jonny-Dang-Gelato-Crush-F2558.pdf",
+                "url": "/coas/prerolls/C-637-Jonny-Dang-Gelato-Crush-F2558.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Lemon Slushie Diamond Donut Preroll",
+        "sku": "721750194725",
+        "lots": [
+          {
+            "lotNumber": "SD250217-029 (107511)",
+            "sku": "721750194725",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "LEMON-SLUSHIE.pdf",
+                "url": "/coas/prerolls/LEMON-SLUSHIE.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Miracle Alien Cookies Diamond Donut Preroll",
+        "sku": "721750019110",
+        "lots": [
+          {
+            "lotNumber": "rC-H-637-F2559",
+            "sku": "721750019110",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "C-637-Jonny-Dang-Miracle-Alien-Cookie-F2559.pdf",
+                "url": "/coas/prerolls/C-637-Jonny-Dang-Miracle-Alien-Cookie-F2559.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Purple Octane Mini Mart Preroll",
+        "sku": "721750374059",
+        "lots": [
+          {
+            "lotNumber": "rC-H-302-F1445",
+            "sku": "721750374059",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "MM-Preroll-Purple-Octane.pdf",
+                "url": "/coas/prerolls/MM-Preroll-Purple-Octane.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Purple OG Diamond Donut Preroll",
+        "sku": "721750218612",
+        "lots": [
+          {
+            "lotNumber": "SD250217-025 (107507)",
+            "sku": "721750218612",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Purple_OG.pdf",
+                "url": "/coas/prerolls/Purple_OG.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Raspberry Cough Mini Mart Preroll",
+        "sku": "721750495686",
+        "lots": [
+          {
+            "lotNumber": "rC-H-302-F1446",
+            "sku": "721750495686",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "MM-Preroll-Raspberry-Cough.pdf",
+                "url": "/coas/prerolls/MM-Preroll-Raspberry-Cough.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Strawberry Shortcake Diamond Donut Preroll",
+        "sku": "721750398734",
+        "lots": [
+          {
+            "lotNumber": "SD250217-026 (107508)",
+            "sku": "721750398734",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Strawberry_Shortcake-1.pdf",
+                "url": "/coas/prerolls/Strawberry_Shortcake-1.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Watermelon Bubblegum Diamond Donut Preroll",
+        "sku": "721750146090",
+        "lots": [
+          {
+            "lotNumber": "SD250217-028 (107510)",
+            "sku": "721750146090",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Watermelon_Bubblegum.pdf",
+                "url": "/coas/prerolls/Watermelon_Bubblegum.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills White Wedding Cake Diamond Donut Preroll",
+        "sku": "721750347374",
+        "lots": [
+          {
+            "lotNumber": "rC-H-637-F2561",
+            "sku": "721750347374",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "C-637-Jonny-Dang-White-Wedding-Cake-F2561.pdf",
+                "url": "/coas/prerolls/C-637-Jonny-Dang-White-Wedding-Cake-F2561.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "category": "Vapes",
     "products": [
       {
@@ -1859,6 +2124,46 @@
         ]
       },
       {
+        "product": "Hidden Hills Blue Push Pop SeshKit",
+        "sku": "721750457059",
+        "lots": [
+          {
+            "lotNumber": "SSK-2601-V",
+            "sku": "721750457059",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_BLUE_PUSH_POP.pdf",
+                "url": "/coas/vapes/HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_BLUE_PUSH_POP.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Italian Ice SeshKit",
+        "sku": "721750041982",
+        "lots": [
+          {
+            "lotNumber": "SSK-2602-V",
+            "sku": "721750041982",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_ITALIAN_ICE.pdf",
+                "url": "/coas/vapes/HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_ITALIAN_ICE.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Lemon Cherry Zkittlez 2g Vape",
         "sku": "685457727139",
         "lots": [
@@ -1893,26 +2198,6 @@
               {
                 "name": "SA-240910-48291-WherezHemp-1g-Mini-Mart-Blend-Disposables-Bang-Pop-OG.pdf",
                 "url": "/coas/vapes/SA-240910-48291-WherezHemp-1g-Mini-Mart-Blend-Disposables-Bang-Pop-OG.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Hidden Hills Mini Mart Bar Berry Blizzard 1g Vape",
-        "sku": "643781978344",
-        "lots": [
-          {
-            "lotNumber": "SA-240910-48292",
-            "sku": "643781978344",
-            "thc": 0.0,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "SA-240910-48292 WherezHemp  1g Mini  Mart Blend Disposables Berry Blizzard.pdf",
-                "url": "/coas/vapes/SA-240910-48292%20WherezHemp%20%201g%20Mini%20%20Mart%20Blend%20Disposables%20Berry%20Blizzard.pdf"
               }
             ]
           }
@@ -2039,6 +2324,26 @@
         ]
       },
       {
+        "product": "Hidden Hills Pink Haze SeshKit",
+        "sku": "721750427199",
+        "lots": [
+          {
+            "lotNumber": "SSK-2603-V",
+            "sku": "721750427199",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_PINK_HAZE.pdf",
+                "url": "/coas/vapes/HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_PINK_HAZE.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Pluto Purp Latto 1g Vape",
         "sku": "721750043900",
         "lots": [
@@ -2073,6 +2378,66 @@
               {
                 "name": "SA-240905-48021-WherezHemp-2g-Hidden-Hills-Night-Night-Blend-Disposables-Purplato-Zyrup-Indica.pdf",
                 "url": "/coas/vapes/SA-240905-48021-WherezHemp-2g-Hidden-Hills-Night-Night-Blend-Disposables-Purplato-Zyrup-Indica.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Purple Cherry Gelato",
+        "sku": "721750492715",
+        "lots": [
+          {
+            "lotNumber": "SSK-2604-V",
+            "sku": "721750492715",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-PURPLE_CHERRY_GELATO.pdf",
+                "url": "/coas/vapes/HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-PURPLE_CHERRY_GELATO.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills RS11 SeshKit",
+        "sku": "721750110244",
+        "lots": [
+          {
+            "lotNumber": "SSK-2605-V",
+            "sku": "721750110244",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_RS_11.pdf",
+                "url": "/coas/vapes/HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_RS_11.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Strawberry Taffy SeshKit",
+        "sku": "721750401502",
+        "lots": [
+          {
+            "lotNumber": "SSK-2606-V",
+            "sku": "721750401502",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_STRAWBERRY_TAFFY.pdf",
+                "url": "/coas/vapes/HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_STRAWBERRY_TAFFY.pdf"
               }
             ]
           }
