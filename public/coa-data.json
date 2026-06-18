@@ -123,6 +123,66 @@
         ]
       },
       {
+        "product": "Phuk'd Up Cherry Cola",
+        "sku": "793269427410",
+        "lots": [
+          {
+            "lotNumber": "26008056-56020557",
+            "sku": "793269427410",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "PU-Cherry-Cola-04072026.pdf",
+                "url": "/coas/beverages/PU-Cherry-Cola-04072026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Phuk'd Up Pina Colada",
+        "sku": "793269426505",
+        "lots": [
+          {
+            "lotNumber": "26008056-56020556",
+            "sku": "793269426505",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "PU-Pina-Colada-04072026.pdf",
+                "url": "/coas/beverages/PU-Pina-Colada-04072026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Phuk'd Up Strawberry Lemonade",
+        "sku": "793269426512",
+        "lots": [
+          {
+            "lotNumber": "26008056-56020555",
+            "sku": "793269426512",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "PU-Strawberry-Lemonade-04072026.pdf",
+                "url": "/coas/beverages/PU-Strawberry-Lemonade-04072026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Pink Lemonade Electric Lemonade",
         "sku": "735380879433",
         "lots": [
@@ -137,6 +197,26 @@
               {
                 "name": "electric-pink-lemonade.pdf",
                 "url": "/coas/beverages/electric-pink-lemonade.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Southern High Boost Wild Cherry",
+        "sku": "793269427403",
+        "lots": [
+          {
+            "lotNumber": "26008056-56020552",
+            "sku": "793269427403",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SH-Berry-Blast-04072026.pdf",
+                "url": "/coas/beverages/SH-Berry-Blast-04072026.pdf"
               }
             ]
           }
