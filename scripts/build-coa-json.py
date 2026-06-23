@@ -41,6 +41,8 @@ class Paths:
     VAPES_TARGET_DIR: Path
     CONCENTRATES_SOURCE_DIR: Path
     CONCENTRATES_TARGET_DIR: Path
+    PREROLLS_SOURCE_DIR: Path
+    PREROLLS_TARGET_DIR: Path
     OUTPUT_JSON_PATH: Path
     BUILD_INFO_PATH: Path
 
@@ -67,6 +69,8 @@ PATHS = Paths(
     VAPES_TARGET_DIR=COA_TARGET_DIR / 'vapes',
     CONCENTRATES_SOURCE_DIR=COA_SOURCE_DIR / 'concentrates',
     CONCENTRATES_TARGET_DIR=COA_TARGET_DIR / 'concentrates',
+    PREROLLS_SOURCE_DIR=COA_SOURCE_DIR / 'prerolls',
+    PREROLLS_TARGET_DIR=COA_TARGET_DIR / 'prerolls',
     OUTPUT_JSON_PATH=BASE_DIR / 'public' / 'coa-data.json',
     BUILD_INFO_PATH=BASE_DIR / 'public' / 'build-info.json',
 )
@@ -284,6 +288,13 @@ def normalize_category(product_category: str, coa_refs: list[CoaRef] | None = No
 
     if 'flower' in category or any('/flower/' in url for url in urls):
         return 'Flower'
+    if (
+        'preroll' in category
+        or 'pre-roll' in category
+        or any('/prerolls/' in url for url in urls)
+        or any('/pre-rolls/' in url for url in urls)
+    ):
+        return 'Prerolls'
     if 'concentrate' in category or any('/concentrates/' in url for url in urls):
         return 'Concentrates'
     if 'edible' in category or any('/edibles/' in url for url in urls):
@@ -331,6 +342,8 @@ def get_source_and_target_dirs(row: Row) -> tuple[Path, Path] | None:
         return PATHS.VAPES_SOURCE_DIR, PATHS.VAPES_TARGET_DIR
     if category == 'Concentrates':
         return PATHS.CONCENTRATES_SOURCE_DIR, PATHS.CONCENTRATES_TARGET_DIR
+    if category == 'Prerolls':
+        return PATHS.PREROLLS_SOURCE_DIR, PATHS.PREROLLS_TARGET_DIR
     return None
 
 
@@ -343,6 +356,7 @@ def ensure_directories() -> None:
     PATHS.BEVERAGES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.VAPES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.CONCENTRATES_TARGET_DIR.mkdir(parents=True, exist_ok=True)
+    PATHS.PREROLLS_TARGET_DIR.mkdir(parents=True, exist_ok=True)
     PATHS.OUTPUT_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
     PATHS.BUILD_INFO_PATH.parent.mkdir(parents=True, exist_ok=True)
 
@@ -670,4 +684,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-    
