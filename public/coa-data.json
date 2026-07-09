@@ -473,6 +473,126 @@
         ]
       },
       {
+        "product": "Lifted Lollies Cherry",
+        "sku": "678822160778",
+        "lots": [
+          {
+            "lotNumber": "LL5275-3",
+            "sku": "678822160778",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "LL5275-3-Cherry.pdf",
+                "url": "/coas/edibles/LL5275-3-Cherry.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Lifted Lollies Grape",
+        "sku": "678822160815",
+        "lots": [
+          {
+            "lotNumber": "LL5274-1",
+            "sku": "678822160815",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "LL5274-1-Grape.pdf",
+                "url": "/coas/edibles/LL5274-1-Grape.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Lifted Lollies Mango",
+        "sku": "678822160792",
+        "lots": [
+          {
+            "lotNumber": "LL5106-1",
+            "sku": "678822160792",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "LL5106-1-Mango.pdf",
+                "url": "/coas/edibles/LL5106-1-Mango.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Lifted Lollies Pineapple",
+        "sku": "678822160808",
+        "lots": [
+          {
+            "lotNumber": "LL5276-3",
+            "sku": "678822160808",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "LL5276-3-Pineapple.pdf",
+                "url": "/coas/edibles/LL5276-3-Pineapple.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Lifted Lollies Tangie",
+        "sku": "678822160822",
+        "lots": [
+          {
+            "lotNumber": "LL5099-1",
+            "sku": "678822160822",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "LL5099-1-Tangie.pdf",
+                "url": "/coas/edibles/LL5099-1-Tangie.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Lifted Lollies Watermelon",
+        "sku": "678822160785",
+        "lots": [
+          {
+            "lotNumber": "LL5275-1",
+            "sku": "678822160785",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "LL5275-1-Watermelon.pdf",
+                "url": "/coas/edibles/LL5275-1-Watermelon.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Peppermint Focus Tincture",
         "sku": "14027",
         "lots": [
@@ -532,6 +652,26 @@
               {
                 "name": "2603CCH0347.1724 - Vulcan LLC - After Dark.pdf",
                 "url": "/coas/flower/2603CCH0347.1724%20-%20Vulcan%20LLC%20-%20After%20Dark.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Applescotti",
+        "sku": "FLAPPLESE",
+        "lots": [
+          {
+            "lotNumber": "876-072325-028",
+            "sku": "FLAPPLESE",
+            "thc": 23.29,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Applescotti 7.30 COA.pdf",
+                "url": "/coas/flower/Applescotti%207.30%20COA.pdf"
               }
             ]
           }
@@ -738,6 +878,26 @@
         ]
       },
       {
+        "product": "Cherry Mac",
+        "sku": "FLCHERRYE",
+        "lots": [
+          {
+            "lotNumber": "2604PHS0562.2566",
+            "sku": "FLCHERRYE",
+            "thc": 27.059,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Cherry Mac coa.pdf",
+                "url": "/coas/flower/Cherry%20Mac%20coa.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Cookie Mintz",
         "sku": "FLCOOKE",
         "lots": [
@@ -852,6 +1012,26 @@
               {
                 "name": "2603CCH0347.1731 - Vulcan LLC - Donkey Kong.pdf",
                 "url": "/coas/flower/2603CCH0347.1731%20-%20Vulcan%20LLC%20-%20Donkey%20Kong.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Galaxy Pop",
+        "sku": "FLGALAXYE",
+        "lots": [
+          {
+            "lotNumber": "61654033-1",
+            "sku": "FLGALAXYE",
+            "thc": 43.09,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Galaxy Pop 2.13 COA.pdf",
+                "url": "/coas/flower/Galaxy%20Pop%202.13%20COA.pdf"
               }
             ]
           }
@@ -1018,7 +1198,7 @@
         ]
       },
       {
-        "product": "Hashburger BBuds B-Buds",
+        "product": "Hashburger B-Buds",
         "sku": "BB-HASH-LB",
         "lots": [
           {
@@ -1492,6 +1672,26 @@
         ]
       },
       {
+        "product": "Obama Runtz",
+        "sku": "FLOBAMARE",
+        "lots": [
+          {
+            "lotNumber": "2604PHS0480.2033",
+            "sku": "FLOBAMARE",
+            "thc": 27.059,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Obama Runt coa.pdf",
+                "url": "/coas/flower/Obama%20Runt%20coa.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "OMG",
         "sku": "FLOMGE",
         "lots": [
@@ -1680,6 +1880,26 @@
               {
                 "name": "Platinum LCG 2.20.pdf",
                 "url": "/coas/flower/Platinum%20LCG%202.20.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Punch Breath",
+        "sku": "FLPUNCE",
+        "lots": [
+          {
+            "lotNumber": "26000512-56001305",
+            "sku": "FLPUNCE",
+            "thc": 27.567,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Punch Breath COA.pdf",
+                "url": "/coas/flower/Punch%20Breath%20COA.pdf"
               }
             ]
           }
@@ -1880,6 +2100,26 @@
               {
                 "name": "Truth be Toad 11.5.25 COA.pdf",
                 "url": "/coas/flower/Truth%20be%20Toad%2011.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Unicorn Poop",
+        "sku": "FLUNICORE",
+        "lots": [
+          {
+            "lotNumber": "61654034-1",
+            "sku": "FLUNICORE",
+            "thc": 35.29,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Unicorn Poop 2.13 COA.pdf",
+                "url": "/coas/flower/Unicorn%20Poop%202.13%20COA.pdf"
               }
             ]
           }
@@ -2139,6 +2379,26 @@
         ]
       },
       {
+        "product": "Hidden Hills Pink Runtz Dimaond Donut Preroll",
+        "sku": "721750183934",
+        "lots": [
+          {
+            "lotNumber": "rC-H-637-F2560",
+            "sku": "721750183934",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "C-637-Jonny-Dang-Pink-Runtz-F2560.pdf",
+                "url": "/coas/prerolls/C-637-Jonny-Dang-Pink-Runtz-F2560.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Purple Octane Mini Mart Preroll",
         "sku": "721750374059",
         "lots": [
@@ -2199,6 +2459,26 @@
         ]
       },
       {
+        "product": "Hidden Hills Sour Diesel Hash Hole",
+        "sku": "721750051042",
+        "lots": [
+          {
+            "lotNumber": "SD251006-049 (124570",
+            "sku": "721750051042",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "hidden-hills-2g-thca-nc-hh-sour-diesel-COA.pdf",
+                "url": "/coas/prerolls/hidden-hills-2g-thca-nc-hh-sour-diesel-COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Strawberry Shortcake Diamond Donut Preroll",
         "sku": "721750398734",
         "lots": [
@@ -2225,6 +2505,26 @@
           {
             "lotNumber": "SD250217-028 (107510)",
             "sku": "721750146090",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Watermelon_Bubblegum.pdf",
+                "url": "/coas/prerolls/Watermelon_Bubblegum.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Watermelon Bubblegum OG Diamond Donut Preroll",
+        "sku": "721750155078",
+        "lots": [
+          {
+            "lotNumber": "SD250217-028 (107510)",
+            "sku": "721750155078",
             "thc": 0.0,
             "netWeight": "",
             "coa": "",
@@ -2504,6 +2804,26 @@
         ]
       },
       {
+        "product": "Hidden Hills Mini mart Bar Triple Mintz & Dip 1g Vape",
+        "sku": "643781737712",
+        "lots": [
+          {
+            "lotNumber": "SA-241001-49411",
+            "sku": "643781737712",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "1g-Mini-Mart-Blend-Disposables-Triple-Mintz-2024.10.11-SA-241001-49411.pdf",
+                "url": "/coas/vapes/1g-Mini-Mart-Blend-Disposables-Triple-Mintz-2024.10.11-SA-241001-49411.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Mini Mart Bar Tropical Storm 1g Disposable Vape",
         "sku": "643781725061",
         "lots": [
@@ -2604,6 +2924,26 @@
         ]
       },
       {
+        "product": "Hidden Hills Royal Glue",
+        "sku": "643781601938",
+        "lots": [
+          {
+            "lotNumber": "SA-250804-66450",
+            "sku": "643781601938",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G-HEADY-BLEND-DISPOSABLES-ROYAL-GLUE-1-CT.pdf",
+                "url": "/coas/vapes/2G-HEADY-BLEND-DISPOSABLES-ROYAL-GLUE-1-CT.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills RS11 SeshKit",
         "sku": "721750110244",
         "lots": [
@@ -2658,6 +2998,26 @@
               {
                 "name": "SA-250804-66451-WherezHemp-2G-HEADY-BLEND-DISPOSABLES-THE-BUBBA-MAN-1-CT.pdf",
                 "url": "/coas/vapes/SA-250804-66451-WherezHemp-2G-HEADY-BLEND-DISPOSABLES-THE-BUBBA-MAN-1-CT.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills White Gummy Ztarburst 2g Vape",
+        "sku": "685457512230",
+        "lots": [
+          {
+            "lotNumber": "SA-240905-48022",
+            "sku": "685457512230",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SA-240905-48022-WherezHemp-2g-Hidden-Hills-Night-Night-Blend-Disposables-White-Gummy-Ztarburst-Hyb.pdf",
+                "url": "/coas/vapes/SA-240905-48022-WherezHemp-2g-Hidden-Hills-Night-Night-Blend-Disposables-White-Gummy-Ztarburst-Hyb.pdf"
               }
             ]
           }
