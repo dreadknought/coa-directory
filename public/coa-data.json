@@ -1018,6 +1018,46 @@
         ]
       },
       {
+        "product": "Flex Panther",
+        "sku": "FLFLEXPAE",
+        "lots": [
+          {
+            "lotNumber": "UNSPECIFIED",
+            "sku": "FLFLEXPAE",
+            "thc": 33.364,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Flex_Panther_COA_31.232_12.22.26_.182__21513.jpg",
+                "url": "/coas/flower/Flex_Panther_COA_31.232_12.22.26_.182__21513.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Fresh Powder",
+        "sku": "FLFRESHPE",
+        "lots": [
+          {
+            "lotNumber": "UNSPECIFIED",
+            "sku": "FLFRESHPE",
+            "thc": 31.68,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Fresh Powder COA.pdf",
+                "url": "/coas/flower/Fresh%20Powder%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Galaxy Pop",
         "sku": "FLGALAXYE",
         "lots": [
@@ -1780,6 +1820,26 @@
               {
                 "name": "COA.pdf",
                 "url": "#"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Pablo's Revenge",
+        "sku": "FLPABLOSE",
+        "lots": [
+          {
+            "lotNumber": "UNSPECIFIED",
+            "sku": "FLPABLOSE",
+            "thc": 33.0,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Pablo's Revenge COA.pdf",
+                "url": "/coas/flower/Pablo's%20Revenge%20COA.pdf"
               }
             ]
           }
