@@ -878,6 +878,26 @@
         ]
       },
       {
+        "product": "Cheetah Piss",
+        "sku": "FLCHEETAE",
+        "lots": [
+          {
+            "lotNumber": "74060310-15",
+            "sku": "FLCHEETAE",
+            "thc": 32.4,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Cheetah Piss 3.18.26 COA.pdf",
+                "url": "/coas/flower/Cheetah%20Piss%203.18.26%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Cherry Mac",
         "sku": "FLCHERRYE",
         "lots": [
@@ -1572,6 +1592,26 @@
         ]
       },
       {
+        "product": "LSD",
+        "sku": "FLLSDXXXE",
+        "lots": [
+          {
+            "lotNumber": "74060203-22",
+            "sku": "FLLSDXXXE",
+            "thc": 30.69,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "LSD 2.10.26 COA.pdf",
+                "url": "/coas/flower/LSD%202.10.26%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Menage",
         "sku": "FLMENAE",
         "lots": [
@@ -2020,6 +2060,26 @@
               {
                 "name": "2603CCH0347.1733 - Vulcan LLC - Purple Porcelain.pdf",
                 "url": "/coas/flower/2603CCH0347.1733%20-%20Vulcan%20LLC%20-%20Purple%20Porcelain.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Satsuma",
+        "sku": "FLSATSUME",
+        "lots": [
+          {
+            "lotNumber": "25022427-54053667",
+            "sku": "FLSATSUME",
+            "thc": 37.35,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Satsuma 9.5.25 COA.pdf",
+                "url": "/coas/flower/Satsuma%209.5.25%20COA.pdf"
               }
             ]
           }

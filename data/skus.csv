@@ -82,6 +82,8 @@ ddd9322c-2062-4c56-81c0-430ab1315ae0,base-cookie-mintz,FL-COOK,,,,BASE – BASE 
 e26cb6e4-6026-413c-9d32-2e2a0bce75e5,base-don-mega-18-oz,FL-DONM,,,,BASE – BASE – Don Mega (1/8),,Flower / Eighth / Budget,,,,,,,,4.69,14.95,,,,,,1,Default Tax,Default Tax
 645979c0-a6c9-4941-ad21-59a12cb5720d,base-donkey-kong,FL-DONK,,,,BASE – BASE – Donkey Kong (1/8),<p>Donkey Kong Flower</p>,Flower / Eighth / In-House,,,,,,,,7.81,20.00,,,Various,,,1,Default Tax,Default Tax
 fbce712f-33c4-4651-998a-f9fe0f69d45e,base-donkey-kong-bbuds,BB-DONK-B,,,,BASE – BASE – Donkey Kong B-Buds (1/2 oz),<p>Donkey Kong B-Buds Flower</p>,Flower / B-Buds / Base,,,,,,,,14.85,40.00,,,Various,,,1,Default Tax,Default Tax
+eb77ad6c-85ff-43ef-bde0-4450092bd40f,base-flex-panther,FL-FLEX,,,,BASE – BASE – Flex Panther (1/8),<p>Flex Panther Flower</p>,Flower / Eighth / Top Shelf,,,,,,,,9.77,25.00,,,Various,,,1,Default Tax,Default Tax
+e2e4d50c-f284-4f47-a211-aa7fb1970296,base-fresh-powder,FL-FRES,,,,BASE – BASE – Fresh Powder (1/8),<p>Fresh Powder Flower</p>,Flower / Eighth / In-House,,,,,,,,7.81,20.00,,,Various,,,1,Default Tax,Default Tax
 bf5d4ad9-8b44-40af-b0e5-8bea78e5a9f6,base-galaxy-pop,FL-GALA,,,,BASE – BASE – Galaxy Pop (1/8),<p>Galaxy Pop Flower</p>,Flower / Eighth / Premium,,,,,,,,9.77,30.00,,,Various,,,1,Default Tax,Default Tax
 f0fd72a1-41bc-4e13-8178-4fffc52c095d,base-gas-face,FL-GASF,,,,BASE – BASE – Gas Face (1/8),<p>Gas Face Flower</p>,Flower / Eighth / In-House,,,,,,,,7.81,20.00,,,Various,,,1,Default Tax,Default Tax
 c50ec5cb-12be-4737-a818-c2b05c91f0b1,base-gelato-41,FL-GELA,,,,BASE – BASE – Gelato #41 (1/8),<p>Gelato #41 Flower</p>,Flower / Eighth / Budget,,,,,,,,4.69,14.95,,,Various,,,1,Default Tax,Default Tax
@@ -116,10 +118,11 @@ e820475e-d597-4f0a-8413-b49f2b161c68,base-lemon-cherry-gelato,FL-LEMO,,,,BASE �
 5cc14fa0-0084-474e-8c1b-3500867cf7e1,base-oakland-lemon-cherry-gelato,FL-OAKL,,,,BASE – BASE – Oakland Lemon Cherry Gelato (1/8),<p>Oakland Lemon Cherry Gelato Flower</p>,Flower / Eighth / Budget,,,,,,,,4.69,14.95,,,Various,,,1,Default Tax,Default Tax
 dde74227-685a-4d61-8a5e-346abcf1ec7c,base-oakland-runtz-18-oz,FL-OAKR,,,,BASE – BASE – Oakland Runtz (1/8),,Flower / Eighth / Budget,,,,,,,,4.69,14.95,,,,,,1,Default Tax,Default Tax
 b5660700-34e6-4e94-9cba-21e83c0bbdc0,base-obama-runtz,FL-OBAM,,,,BASE – BASE – Obama Runtz (1/8),<p>Obama Runtz Flower</p>,Flower / Eighth / Top Shelf,,,,,,,,9.77,25.00,,,Various,,,1,Default Tax,Default Tax
-794976b1-8dab-4001-99d3-399efe0f12dd,base-omg,FL-OMG,,,,BASE – BASE – OMG (1/8),<p>OMG Flower</p>,Flower / Eighth / In-House,,,,,,,,7.81,20.00,,,Various,,,1,Default Tax,Default Tax
+794976b1-8dab-4001-99d3-399efe0f12dd,base-omg,FL-OMG,,,,BASE – BASE – OMG (1/8),<p>OMG Flower</p>,Flower / Eighth / In-House,,,,,,,,7.81,20.00,,,Various,Robert Lee,,1,Default Tax,Default Tax
 3fb3bb0e-768f-46c5-82d4-c65b2e30148e,base-omg-bbuds,BB-OMGX-B,,,,BASE – BASE – OMG B-Buds (1/2 oz),<p>OMG B-Buds Flower</p>,Flower / B-Buds / Base,,,,,,,,14.85,40.00,,,Various,,,1,Default Tax,Default Tax
 b8a8ed15-2239-461b-ba17-ed650c7f32f1,base-oreo-blizzard,FL-OREB,,,,BASE – BASE – Oreo Blizzard (1/8),<p>Oreo Blizzard Flower</p>,Flower / Eighth / Organic,,,,,,,,7.81,20.00,,,Various,,,1,Default Tax,Default Tax
 5edf6c7c-f686-4a18-b415-ab0b2e34d553,base-oreoz,FL-OREO,,,,BASE – BASE – Oreoz (1/8),<p>Oreoz Flower</p>,Flower / Eighth / Budget,,,,,,,coa=Flower-1,4.69,14.95,,,Various,,,1,Default Tax,Default Tax
+e05e63ca-a1b3-4b91-83a6-938705dba239,base-pablos-revenge,FL-PABL,,,,BASE – BASE – Pablo's Revenge (1/8),<p>Pablo's Revenge Flower</p>,Flower / Eighth / Top Shelf,,,,,,,,9.77,25.00,,,Various,,,1,Default Tax,Default Tax
 df14613c-f486-4047-9738-8afe87c06cea,base-peak-112,FL-PEAK,,,,BASE – BASE – Peak 112 (1/8),<p>Peak 112 Flower</p>,Flower / Eighth / Budget,,,,,,,,4.69,14.95,,,Various,,,1,Default Tax,Default Tax
 d9b0ae3e-2aaf-4702-b2ee-3d6e39f263f2,base-permanent-chimera,FL-PERM,,,,BASE – BASE – Permanent Chimera (1/8),<p>Permanent Chimera</p>,Flower / Eighth / Top Shelf,,,,,,,,9.77,25.00,,,Various,,,1,Default Tax,Default Tax
 c50889c2-fc8e-4492-8e7d-f3631a36f18c,base-permanent-chimera-bbuds,BB-PERM-B,,,,BASE – BASE – Permanent Chimera B-Buds (1/2 oz),<p>Permanent Chimera B-Buds Flower</p>,Flower / B-Buds / Base,,,,,,,,14.85,40.00,,,Various,,,1,Default Tax,Default Tax
@@ -312,8 +315,8 @@ e405334f-eda8-45d9-9f22-03300d6fbbd2,dutch-masters-palma,071610499508,,,,Dutch M
 7efb255b-6096-43b8-a363-b4a27ddcb13d,dutch-masters-sunset-dream,071610203853,,,,Dutch Masters Sunset Dream,,Tobacco / Wraps,,,,,,,,0.84,1.29,,,Dutch Masters,Eclipse,,1,Default Tax,Default Tax
 8450217f-1b48-4f26-b259-ab0884238dd4,dutch-masters-vanilla,071610212442,,,,Dutch Masters Vanilla,,Tobacco / Wraps,,,,,,,,1.65,1.99,,,Dutch Masters,Eclipse,17736,1,Default Tax,Default Tax
 e7b81ed4-fd59-4c35-a518-930fdcfbf1c5,e-z-wider-1-12-rolling-papers,07446748,,,,e-z wider 1-1/2 Rolling Papers,,Other / Wrap Products,,,,,,,,1.73,2.30,,,e-z wider,Eclipse,,1,Default Tax,Default Tax
-009da828-3d9a-47e0-ac71-c170073e2ecd,eagle-torch-gun,853195010503,,,,Eagle Torch Gun,,Accessories / Lighters,,,,,,,,2.67,4.99,,,Eagle,Eclipse,,1,Default Tax,Default Tax
-8de567e4-fd91-404a-89bc-fe570c149b4c,eagle-torch-mini-angle-torch,853195000467,,,,Eagle Torch Mini-Angle Torch,,Accessories / Lighters,,,,,,,,1.5,1.99,,,Eagle,Eclipse,,1,Default Tax,Default Tax
+009da828-3d9a-47e0-ac71-c170073e2ecd,eagle-torch-gun,853195010503,,,,Eagle Torch Gun,,Accessories / Lighters,,,,,,,,2.67,5.99,,,Eagle,Eclipse,,1,Default Tax,Default Tax
+8de567e4-fd91-404a-89bc-fe570c149b4c,eagle-torch-mini-angle-torch,853195000467,,,,Eagle Torch Mini-Angle Torch,,Accessories / Lighters,,,,,,,,1.5,3.99,,,Eagle,Eclipse,,1,Default Tax,Default Tax
 6165bf90-6c96-4148-a782-5177dd2bf507,eclipse-gum,02231905,,,,Eclipse Gum,,Snacks / Misc.,,,,,,,,3.57,4.64,,,Eclipse,Eclipse,,1,No Tax,No Tax
 17d3f1eb-877d-4f8d-962a-261bb836f906,elements-green-papers,716165301523,,,,Elements Green Papers,,Other / Wrap Products,,,,,,,,0.6,0.99,,,Elements,Eclipse,,1,Default Tax,Default Tax
 95354d0d-737b-4585-9386-80ae721c8259,elements-pink-papers,716165301486,,,,Elements Pink Papers,,Other / Wrap Products,,,,,,,,0.6,0.99,,,Elements,Eclipse,,1,Default Tax,Default Tax
@@ -335,6 +338,18 @@ a4f0a6bf-fd97-499e-9bd6-4f240dec7084,everfresh-peach-pear-plum,076737123602,,,,E
 1c314124-7191-4ee1-b9f5-ce8824b08120,evrfresh-tropical-fruit-punch,076737122360,,,,Everfresh Tropical Fruit Punch,,Beverages / Regular,,,,,,,,1.38,1.99,,,Everfresh,Eclipse,,1,Default Tax,Default Tax
 467af1d2-7018-4175-ad02-d6235629f0f1,ez-splitz,874863008943,,,,EZ Splitz,,Accessories / Rolling Equipment,,,,,,,,0.59,0.99,,,,Eclipse,5560,1,Default Tax,Default Tax
 5074b9dd-fbae-4b26-a6ac-63b1df958857,flair-dubai-chocolate,6291100609994,,,,Flair Dubai Chocolate,,Snacks / Misc.,,,,,,,,3.6,5.99,,,Flair,Eclipse,,1,No Tax,No Tax
+6f937810-3540-4ca2-a811-57e200cd282f,flex-panther-ounce,FLFLEXPAOZ,,,,Flex Panther (1 oz),<p>Flex Panther Flower</p>,Flower / Ounce / Top Shelf,,,,,,,,78.16,150.00,,,Various,,,1,Default Tax,Default Tax
+6f937810-3540-4ca2-a811-57e200cd282f,,FLFLEXPAOZ,BASE – BASE – Flex Panther (1/8),FL-FLEX,8,Flex Panther (1 oz),,,,,,,,,,,,,,,,,,,
+d2d01e15-9d8c-4e36-972b-97419ce63215,flex-panther-quarter,FLFLEXPAQ,,,,Flex Panther (1/4 oz),<p>Flex Panther Flower</p>,Flower / Quarter / Top Shelf,,,,,,,promo_quarter_topshelf,19.54,45.00,,,Various,,,1,Default Tax,Default Tax
+d2d01e15-9d8c-4e36-972b-97419ce63215,,FLFLEXPAQ,BASE – BASE – Flex Panther (1/8),FL-FLEX,2,Flex Panther (1/4 oz),,,,,,,,,,,,,,,,,,,
+0eba7282-8c3c-4093-9d2c-aafae6a150ca,flex-panther,FLFLEXPAE,,,,Flex Panther (1/8 oz),<p>Flex Panther Flower</p>,Flower / Eighth / Top Shelf,,,,,,,usecoa=1;sellable_composite=1;netwt=3.5g;coa_ref_0_file=Flex_Panther_COA_31.232_12.22.26_.182__21513.jpg;promo_eighth_topshelf;coa_ref_0_url=/coas/flower/Flex_Panther_COA_31.232_12.22.26_.182__21513.jpg;coa_ref_0_thc=33.364,9.77,25.00,,,Various,,,1,Default Tax,Default Tax
+0eba7282-8c3c-4093-9d2c-aafae6a150ca,,FLFLEXPAE,BASE – BASE – Flex Panther (1/8),FL-FLEX,1,Flex Panther (1/8 oz),,,,,,,,,,,,,,,,,,,
+46a908e2-2500-49ab-a2dc-5d8d3797e69c,fresh-powder-ounce,FLFRESHPOZ,,,,Fresh Powder (1 oz),<p>Fresh Powder Flower</p>,Flower / Ounce / In-House,,,,,,,,62.48,130.00,,,Various,,,1,Default Tax,Default Tax
+46a908e2-2500-49ab-a2dc-5d8d3797e69c,,FLFRESHPOZ,BASE – BASE – Fresh Powder (1/8),FL-FRES,8,Fresh Powder (1 oz),,,,,,,,,,,,,,,,,,,
+284dff93-fb80-46ad-b076-c9aa1f02970c,fresh-powder-quarter,FLFRESHPQ,,,,Fresh Powder (1/4 oz),<p>Fresh Powder Flower</p>,Flower / Quarter / In-House,,,,,,,promo_quarter_inhouse,15.62,35.00,,,Various,,,1,Default Tax,Default Tax
+284dff93-fb80-46ad-b076-c9aa1f02970c,,FLFRESHPQ,BASE – BASE – Fresh Powder (1/8),FL-FRES,2,Fresh Powder (1/4 oz),,,,,,,,,,,,,,,,,,,
+62b72ae6-0634-481e-851e-132b03d299f6,fresh-powder,FLFRESHPE,,,,Fresh Powder (1/8 oz),<p>Fresh Powder Flower</p>,Flower / Eighth / In-House,,,,,,,promo_eighth_inhouse;coa_ref_0_thc=31.68;usecoa=1;coa_ref_0_url=/coas/flower/Fresh%20Powder%20COA.pdf;sellable_composite=1;netwt=3.5g;coa_ref_0_file=Fresh%20Powder%20COA.pdf,7.81,20.00,,,Various,,,1,Default Tax,Default Tax
+62b72ae6-0634-481e-851e-132b03d299f6,,FLFRESHPE,BASE – BASE – Fresh Powder (1/8),FL-FRES,1,Fresh Powder (1/8 oz),,,,,,,,,,,,,,,,,,,
 a36e84ee-bbfa-4002-90a4-9c03db54a41d,fronto-leaf-master-black,796258973783,,,,Fronto Leaf Master Black,,Tobacco / Wraps,,,,,,,,2.6,4.99,,,Fronto Leaf Master,Eclipse,,1,Default Tax,Default Tax
 ab593497-c13e-4b8a-acc0-30a48d53a50f,fronto-leaf-master-blue,076625919270,,,,Fronto Leaf Master Blue,,Tobacco / Wraps,,,,,,,,2.29,3.99,,,Fronto Leaf Master,Eclipse,,1,Default Tax,Default Tax
 114fdb34-8a0a-40a2-b49c-674514aa5425,fronto-leaf-master-natural,645189835038,,,,Fronto Leaf Master Natural,,Tobacco / Wraps,,,,,,,,2.3,3.99,,,Fronto Leaf Master,Eclipse,,1,Default Tax,Default Tax
@@ -710,6 +725,12 @@ bbd80680-b7b0-4b0f-991d-fd81fcc1cd8e,,FLOREOOZ,BASE – BASE – Oreoz (1/8),FL-
 a02bf341-a435-4196-a1dd-2015c59c5239,oreoz-quarter,FLOREOQ,,,,Oreoz - Quarter (1/4 oz),<p>Oreoz Flower</p>,Flower / Quarter / Budget,,,,,,,promo_quarter_budget,9.38,25.00,,,Various,,,1,Default Tax,Default Tax
 a02bf341-a435-4196-a1dd-2015c59c5239,,FLOREOQ,BASE – BASE – Oreoz (1/8),FL-OREO,2,Oreoz - Quarter (1/4 oz),,,,,,,,,,,,,,,,,,,
 09c8dd5b-c58f-4ee2-9267-0e96d2eb3dbc,original-lemonade,735380622404,,,,Original Lemonade Electric Lemonade,,Beverages / Infused,,,,,,,coa_ref_0_lot=HIG251027-030001;coa_ref_0_file=electric-lemonade.pdf;coa_ref_0_url=/coas/beverages/electric-lemonade.pdf,7.25,12.00,,,Shady Acres,Xperience,,1,Default Tax,Default Tax
+8eb60c74-8770-4407-9e3d-21b49cc7b0a4,pablos-revenge-ounce,FLPABLOSOZ,,,,Pablo's Revenge (1 oz),<p>Pablo's Revenge Flower</p>,Flower / Ounce / Top Shelf,,,,,,,,78.16,150.00,,,Various,,,1,Default Tax,Default Tax
+8eb60c74-8770-4407-9e3d-21b49cc7b0a4,,FLPABLOSOZ,BASE – BASE – Pablo's Revenge (1/8),FL-PABL,8,Pablo's Revenge (1 oz),,,,,,,,,,,,,,,,,,,
+ef8e1476-a532-4ae4-abeb-c497d7c8078b,pablos-revenge-quarter,FLPABLOSQ,,,,Pablo's Revenge (1/4 oz),<p>Pablo's Revenge Flower</p>,Flower / Quarter / Top Shelf,,,,,,,promo_quarter_topshelf,19.54,45.00,,,Various,,,1,Default Tax,Default Tax
+ef8e1476-a532-4ae4-abeb-c497d7c8078b,,FLPABLOSQ,BASE – BASE – Pablo's Revenge (1/8),FL-PABL,2,Pablo's Revenge (1/4 oz),,,,,,,,,,,,,,,,,,,
+2323c491-ad2e-48cf-b909-f15c1007b5ec,pablos-revenge,FLPABLOSE,,,,Pablo's Revenge (1/8 oz),<p>Pablo's Revenge Flower</p>,Flower / Eighth / Top Shelf,,,,,,,coa_ref_0_thc=33.00;coa_ref_0_url=/coas/flower/Pablo's%20Revenge%20COA.pdf;usecoa=1;coa_ref_0_file=Pablo's%20Revenge%20COA.pdf;sellable_composite=1;netwt=3.5g;promo_eighth_topshelf,9.77,25.00,,,Various,,,1,Default Tax,Default Tax
+2323c491-ad2e-48cf-b909-f15c1007b5ec,,FLPABLOSE,BASE – BASE – Pablo's Revenge (1/8),FL-PABL,1,Pablo's Revenge (1/8 oz),,,,,,,,,,,,,,,,,,,
 e5f73b81-a80e-423b-8f68-a77b0c68d303,peak-112-ounce,FLPEAK11OZ,,,,Peak 112 (1 oz),<p>Peak 112 Flower</p>,Flower / Ounce / Budget,,,,,,,,37.52,90.00,,,Various,,,1,Default Tax,Default Tax
 e5f73b81-a80e-423b-8f68-a77b0c68d303,,FLPEAK11OZ,BASE – BASE – Peak 112 (1/8),FL-PEAK,8,Peak 112 (1 oz),,,,,,,,,,,,,,,,,,,
 dcc6a8cd-1596-4e97-a716-baa4a32e77d6,peak-112-quarter,FLPEAKQ,,,,Peak 112 (1/4 oz),<p>Peak 112 Flower</p>,Flower / Quarter / Budget,,,,,,,promo_quarter_budget,9.38,25.00,,,Various,,,1,Default Tax,Default Tax
@@ -790,7 +811,7 @@ cf1ee431-f7d5-4796-9853-acc2ca7000f8,rap-snacks-cheddar--sour-cream-1,7812310040
 fadccf6f-8b66-4397-9079-3d6b1946a735,rap-snacks-strawberry-honey-bun,781231003748,,,,Rap Snacks Strawberry Honey Bun,,Snacks / Misc.,,,,,,,,1.38,1.99,,,Rap Snacks,Eclipse,,1,No Tax,No Tax
 6e12f168-ae3a-450a-af66-225dc57ab18a,rasberries--dark-chocolate-bar,10144,,,,Raspberries & Dark Chocolate Bar,,Edibles / Confectionary / Chocolate Bars,,,,,,,,9,14.95,,,Hapy Kitchen,Robert Lee,,1,Default Tax,Default Tax
 6a18312e-a768-4ace-a38d-6380e84e68fd,raw-1-12-vegan-gum-classic,716165178422,,,,"RAW 1-1/2"" Vegan Gum Classic",,Other / Wrap Products,,,,,,,,0.92,1.50,,,Raw,Eclipse,3122,1,Default Tax,Default Tax
-27da6454-ef31-400a-9d7e-32329dd69fc8,raw-black,716165284888,,,,RAW Black,,Other / Wrap Products,,,,,,,,1,1.33,,,Raw,Eclipse,,1,Default Tax,Default Tax
+27da6454-ef31-400a-9d7e-32329dd69fc8,raw-black,716165284888,,,,RAW Black,,Other / Wrap Products,,,,,,,,1,2.99,,,Raw,Eclipse,,1,Default Tax,Default Tax
 0b0c407b-6ead-4c4a-98bc-4afaaba0c84c,raw-black-cones-king-size,716165297307,,,,RAW Black Cones King Size,,Other / Wrap Products,,,,,,,,4.34,5.99,,,Raw,Eclipse,16997,1,Default Tax,Default Tax
 aee4dff4-a907-4db9-843b-a8727d6df491,raw-cone-8-pack,716165305224,,,,RAW Cone 8 pack,,Other / Wrap Products,,,,,,,,0.94,3.99,,,Raw,Eclipse,,1,Default Tax,Default Tax
 554628b7-08b4-4b34-aace-0e7085b56eed,raw-ethereal-1-14,716165303862,,,,RAW Ethereal 1-1/4,,Other / Wrap Products,,,,,,,,0.94,1.25,,,Raw,Eclipse,,1,Default Tax,Default Tax
@@ -833,7 +854,7 @@ d14b5fcd-12c5-4b22-bce0-140611b7e51f,,FLSCORE,BASE – BASE – Scorpian Tears (
 b219b32d-2821-41d8-8060-d0202e75ab24,show-white-grape,858765005705,,,,Show White Grape,,Tobacco / Wraps,,,,,,,,0.6,1.00,,,Show,Eclipse,4357,1,Default Tax,Default Tax
 cf772ed3-1a5d-4d55-bfd2-1470d450341f,show-z-palma,858765004050,,,,Show Z Palma,,Tobacco / Wraps,,,,,,,,0.57,0.99,,,Show,Eclipse,,1,Default Tax,Default Tax
 cba89572-261a-4c07-a2e1-e13ad98a90b7,silver-rillo-zig-zag,784762077400,,,,Silver 'Rillo Zig-Zag,,Tobacco / Wraps,,,,,,,,0.75,1.00,,,Zig-Zag,Tobacco Stock Wholesale,,1,Default Tax,Default Tax
-2707db18-95e3-4ac4-a452-1c9d83916065,slaps-cartridge-,10495,,,,Slaps cartridge ,,,,,,,,,,0,20.00,,,,,,1,Default Tax,Default Tax
+2707db18-95e3-4ac4-a452-1c9d83916065,slaps-cartridge-,10495,,,,Slaps cartridge,,,,,,,,,,0,20.00,,,,,,1,Default Tax,Default Tax
 6a1a7e8a-af40-4c84-8283-97682d294ed3,slapwoods-russian-cream,796559466502,,,,Slapwoods Russian Cream,,Tobacco / Wraps,,,,,,,,0.78,0.99,,,Slapwoods,Eclipse,,1,Default Tax,Default Tax
 090c264f-1431-4934-b88c-fb4f69a97ae3,slapwoods-singles-cotton-candy,784668243121,,,,Slapwoods Singles Cotton Candy,,Tobacco / Wraps,,,,,,,,0.78,0.99,,,Slapwoods,Eclipse,,1,Default Tax,Default Tax
 3df20b85-715b-49e4-8cee-c7bb5d26786c,slapwoods-singles-natural,796559466472,,,,Slapwoods Singles Natural,,Tobacco / Wraps,,,,,,,,0.78,0.99,,,Slapwoods,Eclipse,,1,Default Tax,Default Tax
@@ -1004,24 +1025,24 @@ ec06104f-3415-4fb7-be72-4560173e4f6b,zigzag-wraps-oange,784762070708,,,,ZigZag W
 0d4f7cb8-d42c-4e71-a411-aafdae6ea08c,,FLZUSHOZ,BASE – BASE – Zushi (1/8),FL-ZUSH,8,Zushi - Ounce (1 oz),,,,,,,,,,,,,,,,,,,
 837f3b70-9076-461f-8dc4-e56780c10d3d,zushi---quarter-14-oz,FLZUSHQ,,,,Zushi - Quarter (1/4 oz),,Flower / Quarter / Budget,,,,,,,promo_quarter_budget,9.38,25.00,,,,,,1,Default Tax,Default Tax
 837f3b70-9076-461f-8dc4-e56780c10d3d,,FLZUSHQ,BASE – BASE – Zushi (1/8),FL-ZUSH,2,Zushi - Quarter (1/4 oz),,,,,,,,,,,,,,,,,,,
-,base-flex-panther,FL-FLEX,,,,BASE – BASE – Flex Panther (1/8),<p>Flex Panther Flower</p>,Flower / Eighth / Top Shelf,,,,,,,,9.77,25,,,Various,,,1,Default Tax,
-,flex-panther,FLFLEXPAE,,,,Flex Panther (1/8 oz),<p>Flex Panther Flower</p>,Flower / Eighth / Top Shelf,,,,,,,coa_ref_0_file=Flex_Panther_COA_31.232_12.22.26_.182__21513.jpg;coa_ref_0_url=/coas/flower/Flex_Panther_COA_31.232_12.22.26_.182__21513.jpg;coa_ref_0_thc=33.364;usecoa=1;sellable_composite=1;netwt=3.5g;promo_eighth_topshelf,9.77,25,,,Various,,,1,Default Tax,
-,,FLFLEXPAE,BASE – BASE – Flex Panther (1/8),FL-FLEX,1,Flex Panther (1/8 oz),,,,,,,,,,,,,,,,,,,
-,flex-panther-quarter,FLFLEXPAQ,,,,Flex Panther (1/4 oz),<p>Flex Panther Flower</p>,Flower / Quarter / Top Shelf,,,,,,,promo_quarter_topshelf,9.77,45,,,Various,,,1,Default Tax,
-,,FLFLEXPAQ,BASE – BASE – Flex Panther (1/8),FL-FLEX,2,Flex Panther (1/4 oz),,,,,,,,,,,,,,,,,,,
-,flex-panther-ounce,FLFLEXPAOZ,,,,Flex Panther (1 oz),<p>Flex Panther Flower</p>,Flower / Ounce / Top Shelf,,,,,,,,9.77,150,,,Various,,,1,Default Tax,
-,,FLFLEXPAOZ,BASE – BASE – Flex Panther (1/8),FL-FLEX,8,Flex Panther (1 oz),,,,,,,,,,,,,,,,,,,
-,base-fresh-powder,FL-FRES,,,,BASE – BASE – Fresh Powder (1/8),<p>Fresh Powder Flower</p>,Flower / Eighth / In-House,,,,,,,,7.81,20,,,Various,,,1,Default Tax,
-,fresh-powder,FLFRESHPE,,,,Fresh Powder (1/8 oz),<p>Fresh Powder Flower</p>,Flower / Eighth / In-House,,,,,,,coa_ref_0_file=Fresh%20Powder%20COA.pdf;coa_ref_0_url=/coas/flower/Fresh%20Powder%20COA.pdf;coa_ref_0_thc=31.68;usecoa=1;sellable_composite=1;netwt=3.5g;promo_eighth_inhouse,7.81,20,,,Various,,,1,Default Tax,
-,,FLFRESHPE,BASE – BASE – Fresh Powder (1/8),FL-FRES,1,Fresh Powder (1/8 oz),,,,,,,,,,,,,,,,,,,
-,fresh-powder-quarter,FLFRESHPQ,,,,Fresh Powder (1/4 oz),<p>Fresh Powder Flower</p>,Flower / Quarter / In-House,,,,,,,promo_quarter_inhouse,7.81,35,,,Various,,,1,Default Tax,
-,,FLFRESHPQ,BASE – BASE – Fresh Powder (1/8),FL-FRES,2,Fresh Powder (1/4 oz),,,,,,,,,,,,,,,,,,,
-,fresh-powder-ounce,FLFRESHPOZ,,,,Fresh Powder (1 oz),<p>Fresh Powder Flower</p>,Flower / Ounce / In-House,,,,,,,,7.81,130,,,Various,,,1,Default Tax,
-,,FLFRESHPOZ,BASE – BASE – Fresh Powder (1/8),FL-FRES,8,Fresh Powder (1 oz),,,,,,,,,,,,,,,,,,,
-,base-pablos-revenge,FL-PABL,,,,BASE – BASE – Pablo's Revenge (1/8),<p>Pablo's Revenge Flower</p>,Flower / Eighth / Top Shelf,,,,,,,,9.77,25,,,Various,,,1,Default Tax,
-,pablos-revenge,FLPABLOSE,,,,Pablo's Revenge (1/8 oz),<p>Pablo's Revenge Flower</p>,Flower / Eighth / Top Shelf,,,,,,,coa_ref_0_file=Pablo's%20Revenge%20COA.pdf;coa_ref_0_url=/coas/flower/Pablo's%20Revenge%20COA.pdf;coa_ref_0_thc=33.00;usecoa=1;sellable_composite=1;netwt=3.5g;promo_eighth_topshelf,9.77,25,,,Various,,,1,Default Tax,
-,,FLPABLOSE,BASE – BASE – Pablo's Revenge (1/8),FL-PABL,1,Pablo's Revenge (1/8 oz),,,,,,,,,,,,,,,,,,,
-,pablos-revenge-quarter,FLPABLOSQ,,,,Pablo's Revenge (1/4 oz),<p>Pablo's Revenge Flower</p>,Flower / Quarter / Top Shelf,,,,,,,promo_quarter_topshelf,9.77,45,,,Various,,,1,Default Tax,
-,,FLPABLOSQ,BASE – BASE – Pablo's Revenge (1/8),FL-PABL,2,Pablo's Revenge (1/4 oz),,,,,,,,,,,,,,,,,,,
-,pablos-revenge-ounce,FLPABLOSOZ,,,,Pablo's Revenge (1 oz),<p>Pablo's Revenge Flower</p>,Flower / Ounce / Top Shelf,,,,,,,,9.77,150,,,Various,,,1,Default Tax,
-,,FLPABLOSOZ,BASE – BASE – Pablo's Revenge (1/8),FL-PABL,8,Pablo's Revenge (1 oz),,,,,,,,,,,,,,,,,,,
+,base-cheetah-piss,FL-CHEE,,,,BASE – BASE – Cheetah Piss (1/8),<p>Cheetah Piss Flower</p>,Flower / Eighth / Budget,,,,,,,,4.69,14.95,,,Various,,,1,Default Tax,
+,cheetah-piss,FLCHEETAE,,,,Cheetah Piss (1/8 oz),<p>Cheetah Piss Flower</p>,Flower / Eighth / Budget,,,,,,,coa_ref_0_file=Cheetah%20Piss%203.18.26%20COA.pdf;coa_ref_0_url=/coas/flower/Cheetah%20Piss%203.18.26%20COA.pdf;coa_ref_0_thc=32.4;usecoa=1;sellable_composite=1;netwt=3.5g;coa_ref_0_lot=74060310-15;promo_eighth_budget,4.69,14.95,,,Various,,,1,Default Tax,
+,,FLCHEETAE,BASE – BASE – Cheetah Piss (1/8),FL-CHEE,1,Cheetah Piss (1/8 oz),,,,,,,,,,,,,,,,,,,
+,cheetah-piss-quarter,FLCHEETAQ,,,,Cheetah Piss (1/4 oz),<p>Cheetah Piss Flower</p>,Flower / Quarter / Budget,,,,,,,promo_quarter_budget,4.69,25,,,Various,,,1,Default Tax,
+,,FLCHEETAQ,BASE – BASE – Cheetah Piss (1/8),FL-CHEE,2,Cheetah Piss (1/4 oz),,,,,,,,,,,,,,,,,,,
+,cheetah-piss-ounce,FLCHEETAOZ,,,,Cheetah Piss (1 oz),<p>Cheetah Piss Flower</p>,Flower / Ounce / Budget,,,,,,,,4.69,90,,,Various,,,1,Default Tax,
+,,FLCHEETAOZ,BASE – BASE – Cheetah Piss (1/8),FL-CHEE,8,Cheetah Piss (1 oz),,,,,,,,,,,,,,,,,,,
+,base-satsuma,FL-SATS,,,,BASE – BASE – Satsuma (1/8),<p>Satsuma Flower</p>,Flower / Eighth / Budget,,,,,,,,4.69,14.95,,,Various,,,1,Default Tax,
+,satsuma,FLSATSUME,,,,Satsuma (1/8 oz),<p>Satsuma Flower</p>,Flower / Eighth / Budget,,,,,,,coa_ref_0_file=Satsuma%209.5.25%20COA.pdf;coa_ref_0_url=/coas/flower/Satsuma%209.5.25%20COA.pdf;coa_ref_0_thc=37.35;usecoa=1;sellable_composite=1;netwt=3.5g;coa_ref_0_lot=25022427-54053667;promo_eighth_budget,4.69,14.95,,,Various,,,1,Default Tax,
+,,FLSATSUME,BASE – BASE – Satsuma (1/8),FL-SATS,1,Satsuma (1/8 oz),,,,,,,,,,,,,,,,,,,
+,satsuma-quarter,FLSATSUMQ,,,,Satsuma (1/4 oz),<p>Satsuma Flower</p>,Flower / Quarter / Budget,,,,,,,promo_quarter_budget,4.69,25,,,Various,,,1,Default Tax,
+,,FLSATSUMQ,BASE – BASE – Satsuma (1/8),FL-SATS,2,Satsuma (1/4 oz),,,,,,,,,,,,,,,,,,,
+,satsuma-ounce,FLSATSUMOZ,,,,Satsuma (1 oz),<p>Satsuma Flower</p>,Flower / Ounce / Budget,,,,,,,,4.69,90,,,Various,,,1,Default Tax,
+,,FLSATSUMOZ,BASE – BASE – Satsuma (1/8),FL-SATS,8,Satsuma (1 oz),,,,,,,,,,,,,,,,,,,
+,base-lsd,FL-LSDX,,,,BASE – BASE – LSD (1/8),<p>LSD Flower</p>,Flower / Eighth / Budget,,,,,,,,4.69,14.95,,,Various,,,1,Default Tax,
+,lsd,FLLSDXXXE,,,,LSD (1/8 oz),<p>LSD Flower</p>,Flower / Eighth / Budget,,,,,,,coa_ref_0_file=LSD%202.10.26%20COA.pdf;coa_ref_0_url=/coas/flower/LSD%202.10.26%20COA.pdf;coa_ref_0_thc=30.69;usecoa=1;sellable_composite=1;netwt=3.5g;coa_ref_0_lot=74060203-22;promo_eighth_budget,4.69,14.95,,,Various,,,1,Default Tax,
+,,FLLSDXXXE,BASE – BASE – LSD (1/8),FL-LSDX,1,LSD (1/8 oz),,,,,,,,,,,,,,,,,,,
+,lsd-quarter,FLLSDXXXQ,,,,LSD (1/4 oz),<p>LSD Flower</p>,Flower / Quarter / Budget,,,,,,,promo_quarter_budget,4.69,25,,,Various,,,1,Default Tax,
+,,FLLSDXXXQ,BASE – BASE – LSD (1/8),FL-LSDX,2,LSD (1/4 oz),,,,,,,,,,,,,,,,,,,
+,lsd-ounce,FLLSDXXXOZ,,,,LSD (1 oz),<p>LSD Flower</p>,Flower / Ounce / Budget,,,,,,,,4.69,90,,,Various,,,1,Default Tax,
+,,FLLSDXXXOZ,BASE – BASE – LSD (1/8),FL-LSDX,8,LSD (1 oz),,,,,,,,,,,,,,,,,,,
