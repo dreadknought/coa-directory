@@ -353,6 +353,26 @@
         ]
       },
       {
+        "product": "Hidden Hills Diamond Boyz Blood Orange Gummies",
+        "sku": "721750493620",
+        "lots": [
+          {
+            "lotNumber": "2508ENC9606_9008",
+            "sku": "721750493620",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2508ENC9606_9008-Gummy-Dojo-2-Hidden-Hill-Blood-orange-None-1.pdf",
+                "url": "/coas/edibles/2508ENC9606_9008-Gummy-Dojo-2-Hidden-Hill-Blood-orange-None-1.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Diamond Boyz Lychee Coconut Gummies",
         "sku": "721750153180",
         "lots": [
@@ -2984,6 +3004,26 @@
         ]
       },
       {
+        "product": "Hidden Hills Pink Green Krack 2g Vape",
+        "sku": "643781995792",
+        "lots": [
+          {
+            "lotNumber": "SA-250804-66451",
+            "sku": "643781995792",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G-HEADY-BLEND-DISPOSABLES-THE-BUBBA-MAN-1-CT.pdf",
+                "url": "/coas/vapes/2G-HEADY-BLEND-DISPOSABLES-THE-BUBBA-MAN-1-CT.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Pink Haze SeshKit",
         "sku": "721750427199",
         "lots": [
@@ -3024,6 +3064,26 @@
         ]
       },
       {
+        "product": "Hidden Hills Poundtown OG 2g Vape",
+        "sku": "643781837351",
+        "lots": [
+          {
+            "lotNumber": "SA-240906-48121",
+            "sku": "643781837351",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G-DISPO-FRESH-FROZEN-HEAVY-BLEND-POUNDTOWN-OG.pdf",
+                "url": "/coas/vapes/2G-DISPO-FRESH-FROZEN-HEAVY-BLEND-POUNDTOWN-OG.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Purplato Zyrup 2g Vape",
         "sku": "685457595691",
         "lots": [
@@ -3044,7 +3104,7 @@
         ]
       },
       {
-        "product": "Hidden Hills Purple Cherry Gelato",
+        "product": "Hidden Hills Purple Cherry Gelato Seshkit",
         "sku": "721750492715",
         "lots": [
           {
