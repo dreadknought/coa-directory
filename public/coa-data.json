@@ -718,26 +718,6 @@
         ]
       },
       {
-        "product": "BASE – BASE – Gorilla Glue (1/8)",
-        "sku": "FL-GORI",
-        "lots": [
-          {
-            "lotNumber": "2607CCH1123.6246",
-            "sku": "FL-GORI",
-            "thc": 31.131,
-            "netWeight": "",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "2607CCH1123.6246 - Vulcan LLC - Gorilla Glue #4.pdf",
-                "url": "/coas/flower/2607CCH1123.6246%20-%20Vulcan%20LLC%20-%20Gorilla%20Glue%20#4.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "product": "Biscotti",
         "sku": "FLBISCOTE",
         "lots": [
@@ -1184,7 +1164,7 @@
           {
             "lotNumber": "2508CCH0656.4261",
             "sku": "FLGORIE",
-            "thc": 41.492,
+            "thc": 31.131,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
@@ -1192,6 +1172,20 @@
               {
                 "name": "gorilla-glue.pdf",
                 "url": "/coas/flower/gorilla-glue.pdf"
+              }
+            ]
+          },
+          {
+            "lotNumber": "2607CCH1123.6246",
+            "sku": "FLGORIE",
+            "thc": 31.131,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2607CCH1123.6246 - Vulcan LLC - Gorilla Glue #4.pdf",
+                "url": "/coas/flower/2607CCH1123.6246%20-%20Vulcan%20LLC%20-%20Gorilla%20Glue%20#4.pdf"
               }
             ]
           }
