@@ -718,6 +718,26 @@
         ]
       },
       {
+        "product": "BASE – BASE – Gorilla Glue (1/8)",
+        "sku": "FL-GORI",
+        "lots": [
+          {
+            "lotNumber": "2607CCH1123.6246",
+            "sku": "FL-GORI",
+            "thc": 31.131,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2607CCH1123.6246 - Vulcan LLC - Gorilla Glue #4.pdf",
+                "url": "/coas/flower/2607CCH1123.6246%20-%20Vulcan%20LLC%20-%20Gorilla%20Glue%20#4.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Biscotti",
         "sku": "FLBISCOTE",
         "lots": [
@@ -1732,6 +1752,26 @@
         ]
       },
       {
+        "product": "Nuclear Slurpee",
+        "sku": "FLNUCLEAE",
+        "lots": [
+          {
+            "lotNumber": "2607CCH1123.6244",
+            "sku": "FLNUCLEAE",
+            "thc": 20.968,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2607CCH1123.6244 - Vulcan LLC - Nuclear Slurpee.pdf",
+                "url": "/coas/flower/2607CCH1123.6244%20-%20Vulcan%20LLC%20-%20Nuclear%20Slurpee.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Oakland Lemon Cherry Gelato",
         "sku": "FLOAKLANE",
         "lots": [
@@ -2080,6 +2120,26 @@
               {
                 "name": "2603CCH0347.1733 - Vulcan LLC - Purple Porcelain.pdf",
                 "url": "/coas/flower/2603CCH0347.1733%20-%20Vulcan%20LLC%20-%20Purple%20Porcelain.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Ron Burgundy",
+        "sku": "FLRONBURE",
+        "lots": [
+          {
+            "lotNumber": "2607CCH1123.6245",
+            "sku": "FLRONBURE",
+            "thc": 30.452,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2607CCH1123.6245 - Vulcan LLC - Ron Burgundy.pdf",
+                "url": "/coas/flower/2607CCH1123.6245%20-%20Vulcan%20LLC%20-%20Ron%20Burgundy.pdf"
               }
             ]
           }
