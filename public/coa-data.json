@@ -999,11 +999,11 @@
       },
       {
         "product": "Dante's Inferno B-Buds",
-        "sku": "BB-DANT-HO",
+        "sku": "BB-DANT-LB",
         "lots": [
           {
             "lotNumber": "2503PHS0562.2562",
-            "sku": "BB-DANT-HO",
+            "sku": "BB-DANT-LB",
             "thc": 23.623,
             "netWeight": "14g",
             "coa": "",
@@ -1613,11 +1613,11 @@
       },
       {
         "product": "King Louie B-Buds",
-        "sku": "BB-KING-HO",
+        "sku": "BB-KING-LB",
         "lots": [
           {
             "lotNumber": "2603CCH0347.1732",
-            "sku": "BB-KING-HO",
+            "sku": "BB-KING-LB",
             "thc": 24.678,
             "netWeight": "14g",
             "coa": "",
@@ -2021,11 +2021,11 @@
       },
       {
         "product": "Oreo Blizzard B-Buds",
-        "sku": "BB-OREO-HO",
+        "sku": "BB-OREO-LB",
         "lots": [
           {
             "lotNumber": "28022131-56013078",
-            "sku": "BB-OREO-HO",
+            "sku": "BB-OREO-LB",
             "thc": 34.39,
             "netWeight": "14g",
             "coa": "",
@@ -2434,6 +2434,26 @@
               {
                 "name": "Trapzilla COA.pdf",
                 "url": "/coas/flower/Trapzilla%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Tree Flip",
+        "sku": "FLTREEFLE",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1728",
+            "sku": "FLTREEFLE",
+            "thc": 17.807,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1728 - Vulcan LLC - Tree Flip (1).pdf",
+                "url": "/coas/flower/2603CCH0347.1728%20-%20Vulcan%20LLC%20-%20Tree%20Flip%20%281%29.pdf"
               }
             ]
           }
