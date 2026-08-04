@@ -493,6 +493,70 @@
         ]
       },
       {
+        "product": "High Honey  Mint Chocolate",
+        "sku": "860010283363",
+        "lots": [
+          {
+            "lotNumber": "23346",
+            "sku": "860010283363",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "High_Honey_LOT23346.pdf",
+                "url": "/coas/edibles/High_Honey_LOT23346.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "High Honey Original",
+        "sku": "860010283349",
+        "lots": [
+          {
+            "lotNumber": "24103",
+            "sku": "860010283349",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "High_Honey_LOT24103.pdf",
+                "url": "/coas/edibles/High_Honey_LOT24103.pdf"
+              },
+              {
+                "name": "COA.pdf",
+                "url": "/coas/edibles/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "High Honey Razzberry",
+        "sku": "860010283387",
+        "lots": [
+          {
+            "lotNumber": "25141",
+            "sku": "860010283387",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "High_Honey_Razz_LOT25141.pdf",
+                "url": "/coas/edibles/High_Honey_Razz_LOT25141.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Lifted Lollies Cherry",
         "sku": "678822160778",
         "lots": [
