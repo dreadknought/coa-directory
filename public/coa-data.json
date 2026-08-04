@@ -798,6 +798,26 @@
         ]
       },
       {
+        "product": "Blue Andeze",
+        "sku": "FLBLUEANE",
+        "lots": [
+          {
+            "lotNumber": "25009958-55024906",
+            "sku": "FLBLUEANE",
+            "thc": 35.495,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Blue-Andeze-THCA-Flower-Indoor-exotic-20250514-COA.pdf",
+                "url": "/coas/flower/Blue-Andeze-THCA-Flower-Indoor-exotic-20250514-COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Blueberry Muffin",
         "sku": "FLBLUEBEE",
         "lots": [
@@ -978,6 +998,26 @@
         ]
       },
       {
+        "product": "Dante's Inferno B-Buds",
+        "sku": "BB-DANT-HO",
+        "lots": [
+          {
+            "lotNumber": "2503PHS0562.2562",
+            "sku": "BB-DANT-HO",
+            "thc": 23.623,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2503PHS0562.2562 - Go North Hemp - Dante's Inferno.pdf",
+                "url": "/coas/flower/2503PHS0562.2562%20-%20Go%20North%20Hemp%20-%20Dante%27s%20Inferno.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Doll Face",
         "sku": "FLDOLLE",
         "lots": [
@@ -1052,6 +1092,46 @@
               {
                 "name": "2603CCH0347.1731 - Vulcan LLC - Donkey Kong.pdf",
                 "url": "/coas/flower/2603CCH0347.1731%20-%20Vulcan%20LLC%20-%20Donkey%20Kong.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "E85",
+        "sku": "FLE85XXXE",
+        "lots": [
+          {
+            "lotNumber": "74060203-22",
+            "sku": "FLE85XXXE",
+            "thc": 30.69,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "E85 COA.pdf",
+                "url": "/coas/flower/E85%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Electric Nerds",
+        "sku": "FLELECTRE",
+        "lots": [
+          {
+            "lotNumber": "SD260401-066 (136279)",
+            "sku": "FLELECTRE",
+            "thc": 29.07,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Electric Nerdz COA.pdf",
+                "url": "/coas/flower/Electric%20Nerdz%20COA.pdf"
               }
             ]
           }
@@ -1332,6 +1412,26 @@
         ]
       },
       {
+        "product": "Honey Runtz",
+        "sku": "FLHONEYRE",
+        "lots": [
+          {
+            "lotNumber": "2607CCH1123.6249",
+            "sku": "FLHONEYRE",
+            "thc": 22.728,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2607CCH1123.6249 - Vulcan LLC - Honey Runtz.pdf",
+                "url": "/coas/flower/2607CCH1123.6249%20-%20Vulcan%20LLC%20-%20Honey%20Runtz.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hooch",
         "sku": "FLHOOCE",
         "lots": [
@@ -1500,6 +1600,26 @@
             "sku": "FLKINGLOE",
             "thc": 24.678,
             "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1732 - Vulcan LLC - King Louie.pdf",
+                "url": "/coas/flower/2603CCH0347.1732%20-%20Vulcan%20LLC%20-%20King%20Louie.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "King Louie B-Buds",
+        "sku": "BB-KING-HO",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1732",
+            "sku": "BB-KING-HO",
+            "thc": 24.678,
+            "netWeight": "14g",
             "coa": "",
             "notes": "",
             "files": [
@@ -1900,6 +2020,26 @@
         ]
       },
       {
+        "product": "Oreo Blizzard B-Buds",
+        "sku": "BB-OREO-HO",
+        "lots": [
+          {
+            "lotNumber": "28022131-56013078",
+            "sku": "BB-OREO-HO",
+            "thc": 34.39,
+            "netWeight": "14g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Oreo Blizzard 3.23.pdf",
+                "url": "/coas/flower/Oreo%20Blizzard%203.23.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Oreoz",
         "sku": "FLOREOE",
         "lots": [
@@ -2000,6 +2140,26 @@
         ]
       },
       {
+        "product": "Permzilla",
+        "sku": "FLPERMZIE",
+        "lots": [
+          {
+            "lotNumber": "25016977-55002262",
+            "sku": "FLPERMZIE",
+            "thc": 36.15,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Permzilla COA.pdf",
+                "url": "/coas/flower/Permzilla%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Pink Runtz",
         "sku": "FLPINKRUE",
         "lots": [
@@ -2034,6 +2194,26 @@
               {
                 "name": "Platinum LCG 2.20.pdf",
                 "url": "/coas/flower/Platinum%20LCG%202.20.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Presidential Runtz",
+        "sku": "FLPRESIDE",
+        "lots": [
+          {
+            "lotNumber": "25128442-55043524",
+            "sku": "FLPRESIDE",
+            "thc": 29.637,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Presidential-Runtz-COA-2.pdf",
+                "url": "/coas/flower/Presidential-Runtz-COA-2.pdf"
               }
             ]
           }
