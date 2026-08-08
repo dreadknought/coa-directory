@@ -14,7 +14,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-from urllib.parse import unquote, urljoin
+from urllib.parse import quote, unquote, urljoin
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
@@ -166,6 +166,14 @@ def _decode_file_name(value: str) -> str:
     return unquote((value or '').strip())
 
 
+def _normalize_coa_url(value: str) -> str:
+    """Encode unsafe URL characters while preserving path separators."""
+    raw_url = (value or '').strip()
+    if not raw_url:
+        return ''
+    return quote(unquote(raw_url), safe='/')
+
+
 def _collect_indexed_coa_refs(tags_dict: dict[str, Any]) -> list[CoaRef]:
     grouped: dict[int, dict[str, str]] = {}
     pattern = re.compile(r'^coa_ref_(\d+)_(lot|file|url)$')
@@ -183,7 +191,7 @@ def _collect_indexed_coa_refs(tags_dict: dict[str, Any]) -> list[CoaRef]:
         item = grouped[idx]
         lot = item.get('lot', '').strip()
         file_name = _decode_file_name(item.get('file', ''))
-        url = item.get('url', '').strip()
+        url = _normalize_coa_url(item.get('url', ''))
         if not lot and not file_name and not url:
             continue
         refs.append(CoaRef(lot=lot, file=file_name, url=url))
@@ -208,7 +216,7 @@ def parse_coa_refs(tags_dict: dict[str, Any], raw_tags: str = '') -> list[CoaRef
                     continue
                 lot = str(item.get('lot', '')).strip()
                 file_name = _decode_file_name(str(item.get('file', '')))
-                url = str(item.get('url', '')).strip()
+                url = _normalize_coa_url(str(item.get('url', '')))
                 if lot or file_name or url:
                     coa_refs.append(CoaRef(lot=lot, file=file_name, url=url))
         if coa_refs:
@@ -216,7 +224,7 @@ def parse_coa_refs(tags_dict: dict[str, Any], raw_tags: str = '') -> list[CoaRef
 
     lot = str(tags_dict.get('lot', '')).strip()
     file_name = _decode_file_name(str(tags_dict.get('file', '')))
-    url = str(tags_dict.get('url', '')).strip()
+    url = _normalize_coa_url(str(tags_dict.get('url', '')))
     if lot or file_name or url:
         return [CoaRef(lot=lot, file=file_name, url=url)]
 
@@ -228,7 +236,7 @@ def parse_coa_refs(tags_dict: dict[str, Any], raw_tags: str = '') -> list[CoaRef
     for idx in range(n):
         lot = lots[idx].strip() if idx < len(lots) else ''
         file_name = files[idx].strip() if idx < len(files) else ''
-        url = urls[idx].strip() if idx < len(urls) else ''
+        url = _normalize_coa_url(urls[idx]) if idx < len(urls) else ''
 
         if 'file=' in lot and not file_name:
             lot, file_name = lot.split('file=', 1)
