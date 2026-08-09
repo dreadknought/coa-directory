@@ -103,6 +103,26 @@
         ]
       },
       {
+        "product": "Orange Splash Electric Lemonade",
+        "sku": "603369022104",
+        "lots": [
+          {
+            "lotNumber": "5578",
+            "sku": "603369022104",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "AAHS304_5578_06232026_6a3ad8f63780b_EN_1_1.pdf",
+                "url": "/coas/beverages/AAHS304_5578_06232026_6a3ad8f63780b_EN_1_1.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Original Lemonade Electric Lemonade",
         "sku": "735380622404",
         "lots": [
@@ -493,7 +513,7 @@
         ]
       },
       {
-        "product": "High Honey  Mint Chocolate",
+        "product": "High Honey Mint Chocolate",
         "sku": "860010283363",
         "lots": [
           {
