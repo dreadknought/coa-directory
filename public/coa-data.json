@@ -1322,6 +1322,26 @@
         ]
       },
       {
+        "product": "Glitter Bomb",
+        "sku": "FLGLITTEE",
+        "lots": [
+          {
+            "lotNumber": "TX - 25635",
+            "sku": "FLGLITTEE",
+            "thc": 20.97,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "glitter-bomb.pdf",
+                "url": "/coas/flower/glitter-bomb.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Gorilla Glue",
         "sku": "FLGORIE",
         "lots": [
@@ -1682,6 +1702,26 @@
           {
             "lotNumber": "2603CCH0347.1732",
             "sku": "FLKINGLOE",
+            "thc": 24.678,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1732 - Vulcan LLC - King Louie.pdf",
+                "url": "/coas/flower/2603CCH0347.1732%20-%20Vulcan%20LLC%20-%20King%20Louie.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "King Louie B's",
+        "sku": "FLKINGLOE2",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1732",
+            "sku": "FLKINGLOE2",
             "thc": 24.678,
             "netWeight": "3.5g",
             "coa": "",
