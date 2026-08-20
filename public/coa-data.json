@@ -1258,6 +1258,26 @@
         ]
       },
       {
+        "product": "Fruity Pebbles",
+        "sku": "FLFRUITYE",
+        "lots": [
+          {
+            "lotNumber": "260520N013",
+            "sku": "FLFRUITYE",
+            "thc": 25.28,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Fruity Pebbles COA.pdf",
+                "url": "/coas/flower/Fruity%20Pebbles%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Galaxy Pop",
         "sku": "FLGALAXYE",
         "lots": [
@@ -2384,9 +2404,23 @@
         "sku": "FLPURPLEE",
         "lots": [
           {
+            "lotNumber": "2603CCH0347.1733",
+            "sku": "FLPURPLEE",
+            "thc": 23.776,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1733 - Vulcan LLC - Purple Porcelain (1).pdf",
+                "url": "/coas/flower/2603CCH0347.1733%20-%20Vulcan%20LLC%20-%20Purple%20Porcelain%20%281%29.pdf"
+              }
+            ]
+          },
+          {
             "lotNumber": "2603CH0579.2644",
             "sku": "FLPURPLEE",
-            "thc": 32.56,
+            "thc": 23.776,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
@@ -2480,6 +2514,26 @@
         ]
       },
       {
+        "product": "Slaughterhouse Five",
+        "sku": "FLSLAUGHE",
+        "lots": [
+          {
+            "lotNumber": "UNSPECIFIED",
+            "sku": "FLSLAUGHE",
+            "thc": 30.29,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Slaughterhouse 5 COA.pdf",
+                "url": "/coas/flower/Slaughterhouse%205%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Sunset Sherbert",
         "sku": "FLSUNSE",
         "lots": [
@@ -2506,7 +2560,7 @@
           {
             "lotNumber": "2503PHS0626.2976",
             "sku": "FLSUPEE",
-            "thc": 24.839,
+            "thc": 20.7,
             "netWeight": "3.5g",
             "coa": "",
             "notes": "",
@@ -2514,6 +2568,20 @@
               {
                 "name": "super-boof.pdf",
                 "url": "/coas/flower/super-boof.pdf"
+              }
+            ]
+          },
+          {
+            "lotNumber": "260319Q068",
+            "sku": "FLSUPEE",
+            "thc": 20.7,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Super Boof Full Panel.pdf",
+                "url": "/coas/flower/Super%20Boof%20Full%20Panel.pdf"
               }
             ]
           }

@@ -1,12 +1,12 @@
 {
-  "buildNumber": "20260812022012",
-  "builtAtUtc": "2026-08-12T02:20:14Z",
+  "buildNumber": "20260820223143",
+  "builtAtUtc": "2026-08-20T22:31:46Z",
   "branch": "main",
-  "sourceCommit": "716db35",
-  "rowCount": 1176,
-  "rowsWithCoaRefs": 217,
+  "sourceCommit": "b9db199",
+  "rowCount": 1214,
+  "rowsWithCoaRefs": 219,
   "categoryCount": 6,
-  "productCount": 175,
-  "lotCount": 180,
-  "fileCount": 180
+  "productCount": 177,
+  "lotCount": 184,
+  "fileCount": 184
 }
