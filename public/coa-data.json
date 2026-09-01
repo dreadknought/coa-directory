@@ -673,6 +673,46 @@
         ]
       },
       {
+        "product": "Indacloud Mango Tangerine Gummies",
+        "sku": "649226722374",
+        "lots": [
+          {
+            "lotNumber": "(4378-5DE260225)",
+            "sku": "649226722374",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Indacloud SO 4378 5mg HDI9 Daytime Energy Blend Gummies COA.pdf",
+                "url": "/coas/edibles/Indacloud%20SO%204378%205mg%20HDI9%20Daytime%20Energy%20Blend%20Gummies%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Indacloud Midnight Raspberry Gummies",
+        "sku": "649226722350",
+        "lots": [
+          {
+            "lotNumber": "SD250311-037 (100600)",
+            "sku": "649226722350",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Bliss-Gumies-2025-March.pdf",
+                "url": "/coas/edibles/Bliss-Gumies-2025-March.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Indacloud Orange Dreamsicle Gummies",
         "sku": "649226723838",
         "lots": [
