@@ -1078,6 +1078,26 @@
         ]
       },
       {
+        "product": "Black Lavender L",
+        "sku": "FLBLACKLE2",
+        "lots": [
+          {
+            "lotNumber": "26005065-56013077",
+            "sku": "FLBLACKLE2",
+            "thc": 27.599,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Black%20Lavender%202.20.pdf",
+                "url": "/coas/flower/Black%2520Lavender%25202.20.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Black Runtz",
         "sku": "FLBLACKRE",
         "lots": [
@@ -1172,6 +1192,26 @@
               {
                 "name": "2603CCH0347.1726 - Vulcan LLC - Cake Mera.pdf",
                 "url": "/coas/flower/2603CCH0347.1726%20-%20Vulcan%20LLC%20-%20Cake%20Mera.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Cake Mera L",
+        "sku": "FLCAKEMEE",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1726",
+            "sku": "FLCAKEMEE",
+            "thc": 21.243,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1726 - Vulcan LLC - Cake Mera (1).pdf",
+                "url": "/coas/flower/2603CCH0347.1726%20-%20Vulcan%20LLC%20-%20Cake%20Mera%20%281%29.pdf"
               }
             ]
           }
@@ -1298,6 +1338,26 @@
         ]
       },
       {
+        "product": "Cookie Mintz L",
+        "sku": "FLCOOKIEE",
+        "lots": [
+          {
+            "lotNumber": "25016304-55041077",
+            "sku": "FLCOOKIEE",
+            "thc": 30.907,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Cookie Mintz.pdf",
+                "url": "/coas/flower/Cookie%20Mintz.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Dante's Inferno",
         "sku": "FLDANTE",
         "lots": [
@@ -1412,6 +1472,26 @@
               {
                 "name": "2603CCH0347.1731 - Vulcan LLC - Donkey Kong.pdf",
                 "url": "/coas/flower/2603CCH0347.1731%20-%20Vulcan%20LLC%20-%20Donkey%20Kong.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Donkey Kong L",
+        "sku": "FLDONKEYE",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1731",
+            "sku": "FLDONKEYE",
+            "thc": 22.43,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1731 - Vulcan LLC - Donkey Kong (1).pdf",
+                "url": "/coas/flower/2603CCH0347.1731%20-%20Vulcan%20LLC%20-%20Donkey%20Kong%20%281%29.pdf"
               }
             ]
           }
@@ -2006,6 +2086,26 @@
               {
                 "name": "2603CCH0347.1732 - Vulcan LLC - King Louie.pdf",
                 "url": "/coas/flower/2603CCH0347.1732%20-%20Vulcan%20LLC%20-%20King%20Louie.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Kobra Kai",
+        "sku": "FLKOBRAKE",
+        "lots": [
+          {
+            "lotNumber": "2603CH0579.2638",
+            "sku": "FLKOBRAKE",
+            "thc": 24.94,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CH0579.2638 - High Tops Inc. - Cobra Cai (1).pdf",
+                "url": "/coas/flower/2603CH0579.2638%20-%20High%20Tops%20Inc.%20-%20Cobra%20Cai%20%281%29.pdf"
               }
             ]
           }
@@ -2640,6 +2740,26 @@
         ]
       },
       {
+        "product": "Punch Breath L",
+        "sku": "FLPUNCHBE",
+        "lots": [
+          {
+            "lotNumber": "2-56001305",
+            "sku": "FLPUNCHBE",
+            "thc": 26.234,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Punch Breath COA.pdf",
+                "url": "/coas/flower/Punch%20Breath%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Purple Churro",
         "sku": "FLPURPLEE2",
         "lots": [
@@ -3008,6 +3128,26 @@
         ]
       },
       {
+        "product": "White Chocolate Chip L",
+        "sku": "FLWHITECE2",
+        "lots": [
+          {
+            "lotNumber": "25008294-55020624",
+            "sku": "FLWHITECE2",
+            "thc": 34.957,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "White%20Chocolate%20Chip%20COA.pdf",
+                "url": "/coas/flower/White%2520Chocolate%2520Chip%2520COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "White Runtz",
         "sku": "FLWHITE",
         "lots": [
@@ -3036,6 +3176,26 @@
               {
                 "name": "White Runtz 10.13.pdf",
                 "url": "/coas/flower/White%20Runtz%2010.13.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "White Widow x AK47",
+        "sku": "FLWHITEWE",
+        "lots": [
+          {
+            "lotNumber": "2607CCH1123.6242",
+            "sku": "FLWHITEWE",
+            "thc": 22.6,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2607CCH1123.6242 - Vulcan LLC - White Widow x AK47.pdf",
+                "url": "/coas/flower/2607CCH1123.6242%20-%20Vulcan%20LLC%20-%20White%20Widow%20x%20AK47.pdf"
               }
             ]
           }
