@@ -1,8 +1,8 @@
 {
-  "buildNumber": "20260918222244",
-  "builtAtUtc": "2026-09-18T22:22:52Z",
+  "buildNumber": "20260918222459",
+  "builtAtUtc": "2026-09-18T22:25:02Z",
   "branch": "main",
-  "sourceCommit": "0444ce4",
+  "sourceCommit": "23f02f8",
   "rowCount": 1327,
   "rowsWithCoaRefs": 240,
   "categoryCount": 6,
