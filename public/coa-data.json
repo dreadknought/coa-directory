@@ -1090,8 +1090,8 @@
             "notes": "",
             "files": [
               {
-                "name": "Black Lavender 2.20.pdf",
-                "url": "/coas/flower/Black%20Lavender%202.20.pdf"
+                "name": "Black%20Lavender%202.20.pdf",
+                "url": "/coas/flower/Black%2520Lavender%25202.20.pdf"
               }
             ]
           }
@@ -1152,6 +1152,26 @@
               {
                 "name": "Blue-Andeze-THCA-Flower-Indoor-exotic-20250514-COA.pdf",
                 "url": "/coas/flower/Blue-Andeze-THCA-Flower-Indoor-exotic-20250514-COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Blue Lobster",
+        "sku": "FLBLUELOE",
+        "lots": [
+          {
+            "lotNumber": "61658032-2",
+            "sku": "FLBLUELOE",
+            "thc": 35.76,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Blue Lobster 7.28 COA.pdf",
+                "url": "/coas/flower/Blue%20Lobster%207.28%20COA.pdf"
               }
             ]
           }
@@ -1292,6 +1312,26 @@
               {
                 "name": "Cheetah Piss 3.18.26 COA.pdf",
                 "url": "/coas/flower/Cheetah%20Piss%203.18.26%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Cherry Fumes",
+        "sku": "FLCHERRYE2",
+        "lots": [
+          {
+            "lotNumber": "61657902-1",
+            "sku": "FLCHERRYE2",
+            "thc": 34.12,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Cherry Fumes_COA.pdf",
+                "url": "/coas/flower/Cherry%20Fumes_COA.pdf"
               }
             ]
           }
@@ -1518,6 +1558,26 @@
         ]
       },
       {
+        "product": "E85 L",
+        "sku": "FLE85LXXE",
+        "lots": [
+          {
+            "lotNumber": "74060203-22",
+            "sku": "FLE85LXXE",
+            "thc": 30.69,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "E85 COA (1).pdf",
+                "url": "/coas/flower/E85%20COA%20%281%29.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Electric Nerdz",
         "sku": "FLELECTRE",
         "lots": [
@@ -1658,6 +1718,26 @@
         ]
       },
       {
+        "product": "Gelato #41 M",
+        "sku": "FLGELATOE2",
+        "lots": [
+          {
+            "lotNumber": "2607CCH1123.6252",
+            "sku": "FLGELATOE2",
+            "thc": 31.942,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2607CCH1123.6252 - Vulcan LLC - Gelato #41.pdf",
+                "url": "/coas/flower/2607CCH1123.6252%20-%20Vulcan%20LLC%20-%20Gelato%20%2341.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Glitter Bomb",
         "sku": "FLGLITTEE",
         "lots": [
@@ -1752,6 +1832,26 @@
         ]
       },
       {
+        "product": "Grape Juice",
+        "sku": "FLGRAPEJE",
+        "lots": [
+          {
+            "lotNumber": "74060310-7",
+            "sku": "FLGRAPEJE",
+            "thc": 30.07,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Grape Juice_COA.pdf",
+                "url": "/coas/flower/Grape%20Juice_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Gush Mintz",
         "sku": "FLGUSHMIE",
         "lots": [
@@ -1826,6 +1926,26 @@
               {
                 "name": "2603CCH0347.1725 - Vulcan LLC - Hashburger.pdf",
                 "url": "/coas/flower/2603CCH0347.1725%20-%20Vulcan%20LLC%20-%20Hashburger.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Headband",
+        "sku": "FLHEADBAE",
+        "lots": [
+          {
+            "lotNumber": "6750522-1",
+            "sku": "FLHEADBAE",
+            "thc": 32.92,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Headband_COA.pdf",
+                "url": "/coas/flower/Headband_COA.pdf"
               }
             ]
           }
@@ -1992,6 +2112,26 @@
         ]
       },
       {
+        "product": "Iced Coffee Cake",
+        "sku": "FLICEDCOE",
+        "lots": [
+          {
+            "lotNumber": "6750203-2",
+            "sku": "FLICEDCOE",
+            "thc": 32.91,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Iced Coffee Cake_COA.pdf",
+                "url": "/coas/flower/Iced%20Coffee%20Cake_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Interstellar",
         "sku": "FLINTERSE",
         "lots": [
@@ -2106,6 +2246,26 @@
               {
                 "name": "2603CH0579.2638 - High Tops Inc. - Cobra Cai (1).pdf",
                 "url": "/coas/flower/2603CH0579.2638%20-%20High%20Tops%20Inc.%20-%20Cobra%20Cai%20%281%29.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Kobra Kai M",
+        "sku": "FLKOBRAKE2",
+        "lots": [
+          {
+            "lotNumber": "2603CH0579.2638",
+            "sku": "FLKOBRAKE2",
+            "thc": 30.44,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CH0579.2638 - High Tops Inc. - Cobra Cai.pdf",
+                "url": "/coas/flower/2603CH0579.2638%20-%20High%20Tops%20Inc.%20-%20Cobra%20Cai.pdf"
               }
             ]
           }
@@ -2246,6 +2406,26 @@
         ]
       },
       {
+        "product": "Madd Fruit",
+        "sku": "FLMADDFRE",
+        "lots": [
+          {
+            "lotNumber": "25022427-54053667",
+            "sku": "FLMADDFRE",
+            "thc": 37.35,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Madd Fruit_COA.pdf",
+                "url": "/coas/flower/Madd%20Fruit_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Menage",
         "sku": "FLMENAE",
         "lots": [
@@ -2280,6 +2460,26 @@
               {
                 "name": "2603CCH0347.1727 - Vulcan LLC - Menage.pdf",
                 "url": "/coas/flower/2603CCH0347.1727%20-%20Vulcan%20LLC%20-%20Menage.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Moonbow",
+        "sku": "FLMOONBOE",
+        "lots": [
+          {
+            "lotNumber": "74060702-17",
+            "sku": "FLMOONBOE",
+            "thc": 33.97,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Moonbow_COA.pdf",
+                "url": "/coas/flower/Moonbow_COA.pdf"
               }
             ]
           }
@@ -2360,6 +2560,26 @@
               {
                 "name": "2607CCH1123.6244 - Vulcan LLC - Nuclear Slurpee.pdf",
                 "url": "/coas/flower/2607CCH1123.6244%20-%20Vulcan%20LLC%20-%20Nuclear%20Slurpee.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Nuclear Slurpee L",
+        "sku": "FLNUCLEAE2",
+        "lots": [
+          {
+            "lotNumber": "2607CCH1123.6244",
+            "sku": "FLNUCLEAE2",
+            "thc": 20.968,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2607CCH1123.6244 - Vulcan LLC - Nuclear Slurpee (1).pdf",
+                "url": "/coas/flower/2607CCH1123.6244%20-%20Vulcan%20LLC%20-%20Nuclear%20Slurpee%20%281%29.pdf"
               }
             ]
           }
@@ -2580,6 +2800,26 @@
         ]
       },
       {
+        "product": "Peanut butter Souffle",
+        "sku": "FLPEANUTE",
+        "lots": [
+          {
+            "lotNumber": "2604PHS0480.2047",
+            "sku": "FLPEANUTE",
+            "thc": 24.873,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Peanut Butter Souffle coa.pdf",
+                "url": "/coas/flower/Peanut%20Butter%20Souffle%20coa.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Permanent Chimera",
         "sku": "FLPERME",
         "lots": [
@@ -2660,6 +2900,26 @@
         ]
       },
       {
+        "product": "Pinyatti",
+        "sku": "FLPINYATE",
+        "lots": [
+          {
+            "lotNumber": "74060203-22",
+            "sku": "FLPINYATE",
+            "thc": 30.69,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Pinyatti 2.10 COA.pdf",
+                "url": "/coas/flower/Pinyatti%202.10%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Platinum LCG",
         "sku": "FLPLATINE",
         "lots": [
@@ -2686,6 +2946,46 @@
           {
             "lotNumber": "25128442-55043524",
             "sku": "FLPRESIDE",
+            "thc": 29.637,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Presidential-Runtz-COA-2.pdf",
+                "url": "/coas/flower/Presidential-Runtz-COA-2.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Presidential Runtz L",
+        "sku": "FLPRESIDE3",
+        "lots": [
+          {
+            "lotNumber": "25128442-22043524",
+            "sku": "FLPRESIDE3",
+            "thc": 29.637,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Presidential-Runtz-COA-2 (1).pdf",
+                "url": "/coas/flower/Presidential-Runtz-COA-2%20%281%29.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Presidential Runtz T",
+        "sku": "FLPRESIDE2",
+        "lots": [
+          {
+            "lotNumber": "25128442-55043524",
+            "sku": "FLPRESIDE2",
             "thc": 29.637,
             "netWeight": "3.5g",
             "coa": "",
@@ -2854,6 +3154,26 @@
         ]
       },
       {
+        "product": "Runtz",
+        "sku": "FLRUNTZXE",
+        "lots": [
+          {
+            "lotNumber": "25003718-55009041",
+            "sku": "FLRUNTZXE",
+            "thc": 27.29,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "thca-flower-runtz-coa.pdf",
+                "url": "/coas/flower/thca-flower-runtz-coa.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Satsuma",
         "sku": "FLSATSUME",
         "lots": [
@@ -2868,6 +3188,26 @@
               {
                 "name": "Satsuma 9.5.25 COA.pdf",
                 "url": "/coas/flower/Satsuma%209.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Scented Marker",
+        "sku": "FLSCENTEE",
+        "lots": [
+          {
+            "lotNumber": "74051007-3",
+            "sku": "FLSCENTEE",
+            "thc": 32.45,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Scented Marker_COA.pdf",
+                "url": "/coas/flower/Scented%20Marker_COA.pdf"
               }
             ]
           }
@@ -3048,6 +3388,26 @@
         ]
       },
       {
+        "product": "Trinidad OG",
+        "sku": "FLTRINIDE",
+        "lots": [
+          {
+            "lotNumber": "74051008-2",
+            "sku": "FLTRINIDE",
+            "thc": 32.8,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Trinidad OG COA.pdf",
+                "url": "/coas/flower/Trinidad%20OG%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Truth be Toad",
         "sku": "FLTOADE",
         "lots": [
@@ -3140,8 +3500,8 @@
             "notes": "",
             "files": [
               {
-                "name": "White Chocolate Chip COA.pdf",
-                "url": "/coas/flower/White%20Chocolate%20Chip%20COA.pdf"
+                "name": "White%20Chocolate%20Chip%20COA.pdf",
+                "url": "/coas/flower/White%2520Chocolate%2520Chip%2520COA.pdf"
               }
             ]
           }
@@ -3202,6 +3562,26 @@
         ]
       },
       {
+        "product": "Zombie Kush",
+        "sku": "FLZOMBIEE",
+        "lots": [
+          {
+            "lotNumber": "6750624-13",
+            "sku": "FLZOMBIEE",
+            "thc": 33.48,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Zombie Kush_COA.pdf",
+                "url": "/coas/flower/Zombie%20Kush_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Zushi",
         "sku": "FLZUSHE",
         "lots": [
@@ -3230,6 +3610,26 @@
               {
                 "name": "Lemon_Cherry_Sherbet 11.5.25 COA.pdf",
                 "url": "/coas/flower/Lemon_Cherry_Sherbet%2011.5.25%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Zy Scraper",
+        "sku": "FLZYSCRAE",
+        "lots": [
+          {
+            "lotNumber": "74060206-16",
+            "sku": "FLZYSCRAE",
+            "thc": 33.53,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Zy_Scraper_COA.pdf",
+                "url": "/coas/flower/Zy_Scraper_COA.pdf"
               }
             ]
           }
@@ -3335,6 +3735,26 @@
               {
                 "name": "C-637-Jonny-Dang-Gelato-Crush-F2558.pdf",
                 "url": "/coas/prerolls/C-637-Jonny-Dang-Gelato-Crush-F2558.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Girl Scout Cookies Hash Hole",
+        "sku": "721750436498",
+        "lots": [
+          {
+            "lotNumber": "SD250930-050 (123848)",
+            "sku": "721750436498",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "hidden-hills-2g-thca-nc-hh-girl-scout-cookies-COA.pdf",
+                "url": "/coas/prerolls/hidden-hills-2g-thca-nc-hh-girl-scout-cookies-COA.pdf"
               }
             ]
           }
@@ -3580,6 +4000,606 @@
               {
                 "name": "2510CCH0885.5885 - Big Box Hemp Co - CBN_THC Liquid.pdf",
                 "url": "/coas/vapes/2510CCH0885.5885%20-%20Big%20Box%20Hemp%20Co%20-%20CBN_THC%20Liquid.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Animal Cookies 2g Vape",
+        "sku": "ACSTZ20251101",
+        "lots": [
+          {
+            "lotNumber": "T6C0176-01",
+            "sku": "ACSTZ20251101",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "ANIMAL_COOKIES_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/ANIMAL_COOKIES_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Banana Candy 2g Vape",
+        "sku": "BCFRE20251116",
+        "lots": [
+          {
+            "lotNumber": "T6C0156-01",
+            "sku": "BCFRE20251116",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "BANANA_CANDY_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/BANANA_CANDY_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Berry Gelato 2g Vape",
+        "sku": "BGSTZ20251102",
+        "lots": [
+          {
+            "lotNumber": "T6C0183-01",
+            "sku": "BGSTZ20251102",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "BERRY_GELATO_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/BERRY_GELATO_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Biscotti 2g Vape",
+        "sku": "BISSTZ20251103",
+        "lots": [
+          {
+            "lotNumber": "T6C0177-01",
+            "sku": "BISSTZ20251103",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "BISCOTTI_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/BISCOTTI_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Blue Dream 2g Vape",
+        "sku": "BDSTZ20251104",
+        "lots": [
+          {
+            "lotNumber": "T6C0172-01",
+            "sku": "BDSTZ20251104",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "BLUE_DREAM_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/BLUE_DREAM_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Blueberry Burst 2g Vape",
+        "sku": "BBFRE20251117",
+        "lots": [
+          {
+            "lotNumber": "T6C0160-01",
+            "sku": "BBFRE20251117",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "BLUEBERRY_BURST_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/BLUEBERRY_BURST_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Boysenberry Jam 2g Vape",
+        "sku": "BJFRE20251118",
+        "lots": [
+          {
+            "lotNumber": "T6C0166-01",
+            "sku": "BJFRE20251118",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "BOYESENBERRY_JAM_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/BOYESENBERRY_JAM_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Fierce Green Apple 2g Vape",
+        "sku": "FGAFRE20251119",
+        "lots": [
+          {
+            "lotNumber": "T6C0165-01",
+            "sku": "FGAFRE20251119",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "GREEN_APPLE_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/GREEN_APPLE_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Gorilla Glue #4 2g Vape",
+        "sku": "GG4STZ20251105",
+        "lots": [
+          {
+            "lotNumber": "T6C0184-01",
+            "sku": "GG4STZ20251105",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "GORILLA_GLUE_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/GORILLA_GLUE_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Grape Ape 2g Vape",
+        "sku": "GASTZ20251106",
+        "lots": [
+          {
+            "lotNumber": "T6C0178-01",
+            "sku": "GASTZ20251106",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "GRAPE_APE_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/GRAPE_APE_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Grape Galaxy 2g Vape",
+        "sku": "GGFRE20251120",
+        "lots": [
+          {
+            "lotNumber": "T6C0161-01",
+            "sku": "GGFRE20251120",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "GRAPE_GALAXY_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/GRAPE_GALAXY_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Ice Cream Cake 2g Vape",
+        "sku": "ICCSTZ20251107",
+        "lots": [
+          {
+            "lotNumber": "T6C0180-01",
+            "sku": "ICCSTZ20251107",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "ICE_CREAM_CAKE_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/ICE_CREAM_CAKE_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Killer Kiwi 2g Vape",
+        "sku": "KKFRE20251121",
+        "lots": [
+          {
+            "lotNumber": "T6C0167-01",
+            "sku": "KKFRE20251121",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "KILLER_KIWI_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/KILLER_KIWI_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Lemon Slushie",
+        "sku": "LSSTZ20251108",
+        "lots": [
+          {
+            "lotNumber": "T6C0185-01",
+            "sku": "LSSTZ20251108",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "LEMON_SLUSHIE_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/LEMON_SLUSHIE_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Mango Tango 2g Vape",
+        "sku": "MTFRE20251122",
+        "lots": [
+          {
+            "lotNumber": "T6C0162-01",
+            "sku": "MTFRE20251122",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "MANGO_TANGO_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/MANGO_TANGO_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Maui Wowie Fruit Punch 2g Vape",
+        "sku": "MWFPFRE20251123",
+        "lots": [
+          {
+            "lotNumber": "T6C0157-01",
+            "sku": "MWFPFRE20251123",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "MAUI_WOWIE_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/MAUI_WOWIE_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Mimosa 2g Vape",
+        "sku": "MIMSTZ20251109",
+        "lots": [
+          {
+            "lotNumber": "T6C0181-01",
+            "sku": "MIMSTZ20251109",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "MIMOSA_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/MIMOSA_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Orange Dreamsicle 2g Vape",
+        "sku": "ODFRE20251124",
+        "lots": [
+          {
+            "lotNumber": "T6C0168-01",
+            "sku": "ODFRE20251124",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "ORANGE_DREAMSICLE_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/ORANGE_DREAMSICLE_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Orange Soda 2g Vape",
+        "sku": "OCSTZ20251110",
+        "lots": [
+          {
+            "lotNumber": "T6C0175-01",
+            "sku": "OCSTZ20251110",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "ORAGNE_SODA_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/ORAGNE_SODA_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Peach Rings 2g Vape",
+        "sku": "PKFRE20251125",
+        "lots": [
+          {
+            "lotNumber": "T6C0163-01",
+            "sku": "PKFRE20251125",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "PEACH_RINGS_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/PEACH_RINGS_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy pineapple Express 2g Vape",
+        "sku": "PESTZ20251111",
+        "lots": [
+          {
+            "lotNumber": "T6C0173-01",
+            "sku": "PESTZ20251111",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "PINEAPPLE_EXPRESS_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/PINEAPPLE_EXPRESS_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Raspberry Lemonade 2g Vape",
+        "sku": "RLFRE20251126",
+        "lots": [
+          {
+            "lotNumber": "T6C0158-01",
+            "sku": "RLFRE20251126",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "RASPBERRY_LEMONADE_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/RASPBERRY_LEMONADE_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Shirley Temple 2g Vape",
+        "sku": "STFRE20251127",
+        "lots": [
+          {
+            "lotNumber": "T6C0170-01",
+            "sku": "STFRE20251127",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SHIRLEY_TEMPLE_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/SHIRLEY_TEMPLE_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Strawberry Cough 2g Vape",
+        "sku": "SCSTZ20251112",
+        "lots": [
+          {
+            "lotNumber": "T6C0171-01",
+            "sku": "SCSTZ20251112",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "STRAWBERRY_COUGH_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/STRAWBERRY_COUGH_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Strawberry Fields 2g Vape",
+        "sku": "SF4EFRE20251128",
+        "lots": [
+          {
+            "lotNumber": "T6C0169-01",
+            "sku": "SF4EFRE20251128",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "STRAWBERRY_FIELDS_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/STRAWBERRY_FIELDS_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Strawberry Sour Diesel",
+        "sku": "SSDSTZ20251113",
+        "lots": [
+          {
+            "lotNumber": "T6C0182-01",
+            "sku": "SSDSTZ20251113",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "STRAWBERRY_SOUR_DIESEL_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/STRAWBERRY_SOUR_DIESEL_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Super Lemon Haze 2g Vape",
+        "sku": "SLHSTZ20251114",
+        "lots": [
+          {
+            "lotNumber": "T6C0174-01",
+            "sku": "SLHSTZ20251114",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "SUPER_LEMON_HAZE_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/SUPER_LEMON_HAZE_STRAINZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Tigers Blood 2g Vape",
+        "sku": "TBFRE20251129",
+        "lots": [
+          {
+            "lotNumber": "T6C0164-01",
+            "sku": "TBFRE20251129",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "TIGERS_BLOOD_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/TIGERS_BLOOD_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Watermelon Splash 2g Vape",
+        "sku": "WSFRE20251130",
+        "lots": [
+          {
+            "lotNumber": "T6C0159-01",
+            "sku": "WSFRE20251130",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "WATERMELON_SPLASH_FLAVORZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/WATERMELON_SPLASH_FLAVORZ_NEW_MAY2026.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Freshy Wedding Cake 2g Vape",
+        "sku": "WCSTZ20251115",
+        "lots": [
+          {
+            "lotNumber": "T6C0179-01",
+            "sku": "WCSTZ20251115",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "WEDDING_CAKE_STRAINZ_NEW_MAY2026.pdf",
+                "url": "/coas/vapes/WEDDING_CAKE_STRAINZ_NEW_MAY2026.pdf"
               }
             ]
           }
