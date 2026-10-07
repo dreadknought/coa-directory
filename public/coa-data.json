@@ -2466,6 +2466,26 @@
         ]
       },
       {
+        "product": "Menage M",
+        "sku": "FLMENAGEE",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1727",
+            "sku": "FLMENAGEE",
+            "thc": 19.936,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1727 - Vulcan LLC - Menage.pdf",
+                "url": "/coas/flower/2603CCH0347.1727%20-%20Vulcan%20LLC%20-%20Menage.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Moonbow",
         "sku": "FLMOONBOE",
         "lots": [
