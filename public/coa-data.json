@@ -2426,6 +2426,26 @@
         ]
       },
       {
+        "product": "Madd Fruit L",
+        "sku": "FLMADDFRE2",
+        "lots": [
+          {
+            "lotNumber": "25022427-54053667",
+            "sku": "FLMADDFRE2",
+            "thc": 37.35,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Madd Fruit_COA.pdf",
+                "url": "/coas/flower/Madd%20Fruit_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Menage",
         "sku": "FLMENAE",
         "lots": [
