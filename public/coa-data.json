@@ -1912,6 +1912,26 @@
         ]
       },
       {
+        "product": "Halle Berry L",
+        "sku": "FLHALLEBE",
+        "lots": [
+          {
+            "lotNumber": "2503PHS0562.2563",
+            "sku": "FLHALLEBE",
+            "thc": 31.845,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Halle Berry.pdf",
+                "url": "/coas/flower/Halle%20Berry.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hashburger B-Buds",
         "sku": "BB-HASH-LB",
         "lots": [
@@ -1938,6 +1958,26 @@
           {
             "lotNumber": "6750522-1",
             "sku": "FLHEADBAE",
+            "thc": 32.92,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Headband_COA.pdf",
+                "url": "/coas/flower/Headband_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Headband L",
+        "sku": "FLHEADBAE2",
+        "lots": [
+          {
+            "lotNumber": "6750522-1",
+            "sku": "FLHEADBAE2",
             "thc": 32.92,
             "netWeight": "3.5g",
             "coa": "",
@@ -3422,6 +3462,26 @@
               {
                 "name": "Trap Fuel 3.22 COA.pdf",
                 "url": "/coas/flower/Trap%20Fuel%203.22%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Tree Flip L",
+        "sku": "FLTREEFLE2",
+        "lots": [
+          {
+            "lotNumber": "2603CCH0347.1728",
+            "sku": "FLTREEFLE2",
+            "thc": 17.807,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2603CCH0347.1728 - Vulcan LLC - Tree Flip (1).pdf",
+                "url": "/coas/flower/2603CCH0347.1728%20-%20Vulcan%20LLC%20-%20Tree%20Flip%20%281%29.pdf"
               }
             ]
           }
