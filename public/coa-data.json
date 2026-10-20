@@ -1038,6 +1038,46 @@
         ]
       },
       {
+        "product": "BASE – BASE – Biscotti (1/8)",
+        "sku": "FL-BISC2",
+        "lots": [
+          {
+            "lotNumber": "25013947-55035051",
+            "sku": "FL-BISC2",
+            "thc": 24.677,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "BISCOTTI CLASSIC THCA.pdf",
+                "url": "/coas/flower/BISCOTTI%20CLASSIC%20THCA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "BASE – BASE – Presidential Runtz L (1/8)",
+        "sku": "FL-PRES3",
+        "lots": [
+          {
+            "lotNumber": "61658995-2",
+            "sku": "FL-PRES3",
+            "thc": 36.42,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Presidential Runtz COA.pdf",
+                "url": "/coas/flower/Presidential%20Runtz%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Biscotti",
         "sku": "FLBISCOTE",
         "lots": [
@@ -1052,6 +1092,26 @@
               {
                 "name": "Biscotti_THCA_Flower_COA.pdf",
                 "url": "/coas/flower/Biscotti_THCA_Flower_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Black Dolphin",
+        "sku": "FLBLACKDE",
+        "lots": [
+          {
+            "lotNumber": "74060310-7",
+            "sku": "FLBLACKDE",
+            "thc": 30.07,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Black Dolphin_COA.pdf",
+                "url": "/coas/flower/Black%20Dolphin_COA.pdf"
               }
             ]
           }
@@ -1152,6 +1212,26 @@
               {
                 "name": "Blue-Andeze-THCA-Flower-Indoor-exotic-20250514-COA.pdf",
                 "url": "/coas/flower/Blue-Andeze-THCA-Flower-Indoor-exotic-20250514-COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Blue Andeze L",
+        "sku": "FLBLUEANE2",
+        "lots": [
+          {
+            "lotNumber": "25009958-55024906",
+            "sku": "FLBLUEANE2",
+            "thc": 35.495,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Blue Andeze COA.pdf",
+                "url": "/coas/flower/Blue%20Andeze%20COA.pdf"
               }
             ]
           }
@@ -1738,6 +1818,26 @@
         ]
       },
       {
+        "product": "Gelato X",
+        "sku": "FLGELATOE3",
+        "lots": [
+          {
+            "lotNumber": "2604PHS0480.2035",
+            "sku": "FLGELATOE3",
+            "thc": 21.252,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Gelato X coa.pdf",
+                "url": "/coas/flower/Gelato%20X%20coa.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Glitter Bomb",
         "sku": "FLGLITTEE",
         "lots": [
@@ -1786,6 +1886,26 @@
               {
                 "name": "2607CCH1123.6246 - Vulcan LLC - Gorilla Glue #4.pdf",
                 "url": "/coas/flower/2607CCH1123.6246%20-%20Vulcan%20LLC%20-%20Gorilla%20Glue%20%234.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Gorilla Glue L",
+        "sku": "FLGORILLE",
+        "lots": [
+          {
+            "lotNumber": "2604PHS0873.4127",
+            "sku": "FLGORILLE",
+            "thc": 21.717,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "GG4 coa.pdf",
+                "url": "/coas/flower/GG4%20coa.pdf"
               }
             ]
           }
@@ -2166,6 +2286,26 @@
               {
                 "name": "Iced Coffee Cake_COA.pdf",
                 "url": "/coas/flower/Iced%20Coffee%20Cake_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Illuminati",
+        "sku": "FLILLUMIE",
+        "lots": [
+          {
+            "lotNumber": "2604PHS0562.2555",
+            "sku": "FLILLUMIE",
+            "thc": 22.506,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Illuminati coa.pdf",
+                "url": "/coas/flower/Illuminati%20coa.pdf"
               }
             ]
           }
@@ -3214,6 +3354,46 @@
         ]
       },
       {
+        "product": "Purple Punch",
+        "sku": "FLPURPLEE3",
+        "lots": [
+          {
+            "lotNumber": "SD260415-012 (137216)",
+            "sku": "FLPURPLEE3",
+            "thc": 29.01,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "137216-purple-punch.pdf",
+                "url": "/coas/flower/137216-purple-punch.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Ron Burgandy L",
+        "sku": "FLRONBURE2",
+        "lots": [
+          {
+            "lotNumber": "74060310-7",
+            "sku": "FLRONBURE2",
+            "thc": 30.07,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Ron Burgundy COA.pdf",
+                "url": "/coas/flower/Ron%20Burgundy%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Ron Burgundy",
         "sku": "FLRONBURE",
         "lots": [
@@ -3328,6 +3508,26 @@
               {
                 "name": "Slaughterhouse 5 COA.pdf",
                 "url": "/coas/flower/Slaughterhouse%205%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Stunner OG",
+        "sku": "FLSTUNNEE",
+        "lots": [
+          {
+            "lotNumber": "74060310-7",
+            "sku": "FLSTUNNEE",
+            "thc": 30.07,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Stunner OG.pdf",
+                "url": "/coas/flower/Stunner%20OG.pdf"
               }
             ]
           }
@@ -3542,6 +3742,26 @@
               {
                 "name": "Unicorn Poop 2.13 COA.pdf",
                 "url": "/coas/flower/Unicorn%20Poop%202.13%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Velvet Siesta",
+        "sku": "FLVELVETE",
+        "lots": [
+          {
+            "lotNumber": "74060702-12",
+            "sku": "FLVELVETE",
+            "thc": 32.74,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Velvet Siesta_COA.pdf",
+                "url": "/coas/flower/Velvet%20Siesta_COA.pdf"
               }
             ]
           }
