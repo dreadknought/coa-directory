@@ -3,6 +3,26 @@
     "category": "Beverages",
     "products": [
       {
+        "product": "Electric Rocket Pop",
+        "sku": "603369105340",
+        "lots": [
+          {
+            "lotNumber": "AAHZ239",
+            "sku": "603369105340",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "BlueCOA250.pdf",
+                "url": "/coas/beverages/BlueCOA250.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Haze Half & Half",
         "sku": "613527386313",
         "lots": [
