@@ -4034,26 +4034,6 @@
             ]
           }
         ]
-      },
-      {
-        "product": "ZZ TEST One Step 20261026",
-        "sku": "ZZTEST1026E",
-        "lots": [
-          {
-            "lotNumber": "TEST-20261026",
-            "sku": "ZZTEST1026E",
-            "thc": 0.0,
-            "netWeight": "3.5g",
-            "coa": "",
-            "notes": "",
-            "files": [
-              {
-                "name": "TEST-NOT-A-REAL-COA.pdf",
-                "url": "/coas/flower/TEST-NOT-A-REAL-COA.pdf"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
