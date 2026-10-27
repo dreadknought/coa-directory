@@ -308,6 +308,46 @@
         ]
       },
       {
+        "product": "Hidden Hills Lemon Glue Zatics",
+        "sku": "643781624005",
+        "lots": [
+          {
+            "lotNumber": "2501HKH0068.0193",
+            "sku": "643781624005",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2501HKH0068.0193_-_Hidden_Hills_Club_-_Hidden_Hlils_-_Lemon_Glue_-_THCa_Diamonds_-_3g_1c73022d-28fe-4527-95ee-64651d84274e.pdf",
+                "url": "/coas/concentrates/2501HKH0068.0193_-_Hidden_Hills_Club_-_Hidden_Hlils_-_Lemon_Glue_-_THCa_Diamonds_-_3g_1c73022d-28fe-4527-95ee-64651d84274e.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Peach Crescendo Zatics",
+        "sku": "643781595480",
+        "lots": [
+          {
+            "lotNumber": "2501HKH0068.0191",
+            "sku": "643781595480",
+            "thc": 0.0,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "1_4922634920444036474_cd52c7bd-8d4f-4fc3-8bf2-7d7c0d600a33.pdf",
+                "url": "/coas/concentrates/1_4922634920444036474_cd52c7bd-8d4f-4fc3-8bf2-7d7c0d600a33.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Hidden Hills Zatics Diamonds Apples & Bananas",
         "sku": "10329",
         "lots": [
@@ -1966,6 +2006,26 @@
               {
                 "name": "Grape Cream Cake COA.pdf",
                 "url": "/coas/flower/Grape%20Cream%20Cake%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Grape Gas",
+        "sku": "FLGRAPEGE",
+        "lots": [
+          {
+            "lotNumber": "FL - 883221",
+            "sku": "FLGRAPEGE",
+            "thc": 18.19,
+            "netWeight": "",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Grape Gas Full Panel.pdf",
+                "url": "/coas/flower/Grape%20Gas%20Full%20Panel.pdf"
               }
             ]
           }
@@ -3974,6 +4034,26 @@
             ]
           }
         ]
+      },
+      {
+        "product": "ZZ TEST One Step 20261026",
+        "sku": "ZZTEST1026E",
+        "lots": [
+          {
+            "lotNumber": "TEST-20261026",
+            "sku": "ZZTEST1026E",
+            "thc": 0.0,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "TEST-NOT-A-REAL-COA.pdf",
+                "url": "/coas/flower/TEST-NOT-A-REAL-COA.pdf"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5380,6 +5460,166 @@
               {
                 "name": "HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_RS_11.pdf",
                 "url": "/coas/vapes/HIDDEN_HILLS-2G-AIO-THCA-SESH_KIT-_RS_11.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Star Dust Cherry Limeade 2g Cart",
+        "sku": "721750188144",
+        "lots": [
+          {
+            "lotNumber": "120325-HHC-STR-C-2.0G-CLD",
+            "sku": "721750188144",
+            "thc": 0.0,
+            "netWeight": "2g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G_Stardust_THCA_Cart_-_Cherry_Limeade_-_SA-251204-73680_Full_Panel.pdf",
+                "url": "/coas/vapes/2G_Stardust_THCA_Cart_-_Cherry_Limeade_-_SA-251204-73680_Full_Panel.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Star Dust Dragon Fuel 2g Cart",
+        "sku": "721750247452",
+        "lots": [
+          {
+            "lotNumber": "120325-HHC-STR-C-2.0G-DGF",
+            "sku": "721750247452",
+            "thc": 0.0,
+            "netWeight": "2g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G_Stardust_THCA_Cart_-_Dragon_Fuel_-_SA-251204-73678_Full_Panel.pdf",
+                "url": "/coas/vapes/2G_Stardust_THCA_Cart_-_Dragon_Fuel_-_SA-251204-73678_Full_Panel.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Star Dust Jokers 2g Vape",
+        "sku": "721750160461",
+        "lots": [
+          {
+            "lotNumber": "120325-HHC-STR-D-2.0G-JOK",
+            "sku": "721750160461",
+            "thc": 0.0,
+            "netWeight": "2g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G_Stardust_THCA_Dispo_-_Jokers_-_SA-251204-73674_Full_Panel.pdf",
+                "url": "/coas/vapes/2G_Stardust_THCA_Dispo_-_Jokers_-_SA-251204-73674_Full_Panel.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Star Dust Jungle Drip 2g Cart",
+        "sku": "721750255990",
+        "lots": [
+          {
+            "lotNumber": "120325-HHC-STR-C-2.0G-JDP",
+            "sku": "721750255990",
+            "thc": 0.0,
+            "netWeight": "2g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G_Stardust_THCA_Cart_-_Jungle_Drip_-_SA-251204-73679_Full_Panel.pdf",
+                "url": "/coas/vapes/2G_Stardust_THCA_Cart_-_Jungle_Drip_-_SA-251204-73679_Full_Panel.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Star Dust Lemon Voltage 2g Vape",
+        "sku": "721750064677",
+        "lots": [
+          {
+            "lotNumber": "120325-HHC-STR-D-2.0G-LVT",
+            "sku": "721750064677",
+            "thc": 0.0,
+            "netWeight": "2g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G_Stardust_THCA_Dispo_-_Lemon_Voltage_-_SA-251204-73668_Full_Panel.pdf",
+                "url": "/coas/vapes/2G_Stardust_THCA_Dispo_-_Lemon_Voltage_-_SA-251204-73668_Full_Panel.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Star Dust Midnight Guava 2g Vape",
+        "sku": "721750340054",
+        "lots": [
+          {
+            "lotNumber": "120325-HHC-STR-D-2.0G-MID",
+            "sku": "721750340054",
+            "thc": 0.0,
+            "netWeight": "2g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G_Stardust_THCA_Dispo_-_Midnight_Guava_-_SA-251204-73675_Full_Panel.pdf",
+                "url": "/coas/vapes/2G_Stardust_THCA_Dispo_-_Midnight_Guava_-_SA-251204-73675_Full_Panel.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Star Dust Sour Dream 2g Vape",
+        "sku": "721750285232",
+        "lots": [
+          {
+            "lotNumber": "120325-HHC-STR-D-2.0G-SDM",
+            "sku": "721750285232",
+            "thc": 0.0,
+            "netWeight": "2g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G_Stardust_THCA_Dispo_-_Sour_Dream_-_SA-251204-73672_Full_Panel.pdf",
+                "url": "/coas/vapes/2G_Stardust_THCA_Dispo_-_Sour_Dream_-_SA-251204-73672_Full_Panel.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Hidden Hills Star Dust Sweet Skunk 2g Cart",
+        "sku": "721750475725",
+        "lots": [
+          {
+            "lotNumber": "120325-HHC-STR-C-2.0G-SWS",
+            "sku": "721750475725",
+            "thc": 0.0,
+            "netWeight": "2g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "2G_Stardust_THCA_Cart_-_Sweet_Skunk_-_SA-251204-73676_Full_Panel.pdf",
+                "url": "/coas/vapes/2G_Stardust_THCA_Cart_-_Sweet_Skunk_-_SA-251204-73676_Full_Panel.pdf"
               }
             ]
           }
