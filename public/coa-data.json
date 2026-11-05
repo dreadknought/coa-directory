@@ -1158,6 +1158,26 @@
         ]
       },
       {
+        "product": "Black Amber",
+        "sku": "FLBLACKAE",
+        "lots": [
+          {
+            "lotNumber": "26017053-56043638",
+            "sku": "FLBLACKAE",
+            "thc": 27.199,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Black-Amber-THCA-Flower-Indoor-20260805-COA.pdf",
+                "url": "/coas/flower/Black-Amber-THCA-Flower-Indoor-20260805-COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Black Dolphin",
         "sku": "FLBLACKDE",
         "lots": [
@@ -1572,6 +1592,26 @@
               {
                 "name": "2503PHS0562.2562 - Go North Hemp - Dante's Inferno.pdf",
                 "url": "/coas/flower/2503PHS0562.2562%20-%20Go%20North%20Hemp%20-%20Dante%27s%20Inferno.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Dogwalker",
+        "sku": "FLDOGWALE",
+        "lots": [
+          {
+            "lotNumber": "61659331-1",
+            "sku": "FLDOGWALE",
+            "thc": 36.38,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Dogwalker COA.pdf",
+                "url": "/coas/flower/Dogwalker%20COA.pdf"
               }
             ]
           }
@@ -2532,6 +2572,26 @@
         ]
       },
       {
+        "product": "LA Rosa",
+        "sku": "FLLAROSAE",
+        "lots": [
+          {
+            "lotNumber": "61655162-1",
+            "sku": "FLLAROSAE",
+            "thc": 35.58,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "La Rosa COA.pdf",
+                "url": "/coas/flower/La%20Rosa%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "LA Runtz",
         "sku": "FLLARUNTE",
         "lots": [
@@ -3174,6 +3234,26 @@
               {
                 "name": "Permzilla COA.pdf",
                 "url": "/coas/flower/Permzilla%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Pink Panther",
+        "sku": "FLPINKPAE",
+        "lots": [
+          {
+            "lotNumber": "74060106-19",
+            "sku": "FLPINKPAE",
+            "thc": 31.59,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Pink_Panther COA.pdf",
+                "url": "/coas/flower/Pink_Panther%20COA.pdf"
               }
             ]
           }
