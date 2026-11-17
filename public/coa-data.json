@@ -1318,6 +1318,26 @@
         ]
       },
       {
+        "product": "Blue Dream",
+        "sku": "FLBLUEDRE",
+        "lots": [
+          {
+            "lotNumber": "59250521-1",
+            "sku": "FLBLUEDRE",
+            "thc": 32.38,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Blue_Dream_THCA_Flower_COA.pdf",
+                "url": "/coas/flower/Blue_Dream_THCA_Flower_COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Blue Lobster",
         "sku": "FLBLUELOE",
         "lots": [
@@ -1612,6 +1632,26 @@
               {
                 "name": "Dogwalker COA.pdf",
                 "url": "/coas/flower/Dogwalker%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Dogwalker L",
+        "sku": "FLDOGWALE2",
+        "lots": [
+          {
+            "lotNumber": "61659331-1",
+            "sku": "FLDOGWALE2",
+            "thc": 36.38,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Dogwalker COA (1).pdf",
+                "url": "/coas/flower/Dogwalker%20COA%20%281%29.pdf"
               }
             ]
           }
@@ -3654,6 +3694,26 @@
         ]
       },
       {
+        "product": "Slaughterhouse 5 L",
+        "sku": "FLSLAUGHE2",
+        "lots": [
+          {
+            "lotNumber": "25002474-55005701",
+            "sku": "FLSLAUGHE2",
+            "thc": 30.29,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Slaughterhouse 5 COA (1).pdf",
+                "url": "/coas/flower/Slaughterhouse%205%20COA%20%281%29.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Slaughterhouse Five",
         "sku": "FLSLAUGHE",
         "lots": [
@@ -3742,6 +3802,26 @@
               {
                 "name": "Super Boof Full Panel.pdf",
                 "url": "/coas/flower/Super%20Boof%20Full%20Panel.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Superboof L",
+        "sku": "FLSUPERBE",
+        "lots": [
+          {
+            "lotNumber": "2503PHS0626.2976",
+            "sku": "FLSUPERBE",
+            "thc": 24.839,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Super Boof COA.pdf",
+                "url": "/coas/flower/Super%20Boof%20COA.pdf"
               }
             ]
           }
