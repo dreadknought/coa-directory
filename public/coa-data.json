@@ -1158,6 +1158,26 @@
         ]
       },
       {
+        "product": "Biscotti Sherbert Exotic",
+        "sku": "FLBISCOTE2",
+        "lots": [
+          {
+            "lotNumber": "2604PHS0480.2040",
+            "sku": "FLBISCOTE2",
+            "thc": 32.76,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Biscotti Sherb coa.pdf",
+                "url": "/coas/flower/Biscotti%20Sherb%20coa.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Black Amber",
         "sku": "FLBLACKAE",
         "lots": [
@@ -1612,6 +1632,26 @@
               {
                 "name": "2503PHS0562.2562 - Go North Hemp - Dante's Inferno.pdf",
                 "url": "/coas/flower/2503PHS0562.2562%20-%20Go%20North%20Hemp%20-%20Dante%27s%20Inferno.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Dante's Wrath",
+        "sku": "FLDANTESE",
+        "lots": [
+          {
+            "lotNumber": "74060513-17",
+            "sku": "FLDANTESE",
+            "thc": 27.83,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Dante's Wrath COA.pdf",
+                "url": "/coas/flower/Dante%27s%20Wrath%20COA.pdf"
               }
             ]
           }
@@ -2712,6 +2752,26 @@
         ]
       },
       {
+        "product": "Lizard Bones",
+        "sku": "FLLIZARDE",
+        "lots": [
+          {
+            "lotNumber": "74060310-21",
+            "sku": "FLLIZARDE",
+            "thc": 31.82,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Lizard Bones COA.pdf",
+                "url": "/coas/flower/Lizard%20Bones%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "product": "Lizard Burger",
         "sku": "FLLIZAE",
         "lots": [
@@ -2760,6 +2820,26 @@
               {
                 "name": "LSD 2.10.26 COA.pdf",
                 "url": "/coas/flower/LSD%202.10.26%20COA.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Lunch Money",
+        "sku": "FLLUNCHME",
+        "lots": [
+          {
+            "lotNumber": "74060513-1",
+            "sku": "FLLUNCHME",
+            "thc": 31.98,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Lunch_Money_THCA_Flower_COA.pdf",
+                "url": "/coas/flower/Lunch_Money_THCA_Flower_COA.pdf"
               }
             ]
           }
@@ -3748,6 +3828,26 @@
               {
                 "name": "Stunner OG.pdf",
                 "url": "/coas/flower/Stunner%20OG.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Subzero",
+        "sku": "FLSUBZERE",
+        "lots": [
+          {
+            "lotNumber": "61650592-1",
+            "sku": "FLSUBZERE",
+            "thc": 39.15,
+            "netWeight": "3.5g",
+            "coa": "",
+            "notes": "",
+            "files": [
+              {
+                "name": "Subzero_COA.pdf",
+                "url": "/coas/flower/Subzero_COA.pdf"
               }
             ]
           }
